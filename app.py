@@ -18,7 +18,14 @@ def titles_dropdown(df, artists):
 def reference_number_dropdown(df):
     reference_numbers = df["Reference Number"].unique()
     reference_numbers.sort()
-    return st.sidebar.multiselect("Reference Number", options=reference_numbers, default=[])
+    return st.sidebar.multiselect(
+        "Reference Number", options=reference_numbers, default=[]
+    )
+
+
+@st.cache_data
+def read_file(file):
+    return pd.read_csv(file)
 
 
 def main():
@@ -29,10 +36,10 @@ def main():
         f"""
             <style>
                    .st-emotion-cache-z5fcl4 {{
-                        padding-top: 2rem;
+                        padding-top: 2.5rem;
                     }}
                    .st-emotion-cache-9tg1hl {{
-                        padding-top: 2rem;
+                        padding-top: 2.5rem;
                     }}
                    .st-emotion-cache-18ni7ap {{
                         height: 0rem;
@@ -42,8 +49,9 @@ def main():
         unsafe_allow_html=True,
     )
 
-    discs_df = pd.read_csv("tino_discs.csv")
-    titles_df = pd.read_csv("tino_titles.csv")
+    discs_df = read_file("tino_discs.csv")
+    titles_df = read_file("tino_titles.csv")
+    owned_discs_df = read_file("owned_discs.csv")
 
     df = pd.merge(discs_df, titles_df, on="Reference Number")
 
@@ -68,15 +76,28 @@ def main():
         df["Year"].astype(int).astype(str) + "-01-01"
     )
 
-    column_order = ["Reference Number", "Date", "Year", "Artist", "Title"]
+    column_order = ["Reference Number", "Year", "Artist", "Title", "Owned"]
 
     column_config = {"Year": st.column_config.NumberColumn(format="%f")}
+
+    df["Owned"] = df["Reference Number"].apply(
+        lambda x: any(
+            x.startswith(owned_ref) for owned_ref in owned_discs_df["Reference Number"]
+        )
+    )
+
+    if st.sidebar.checkbox("Owned"):
+        df = df[df["Owned"] == True]
 
     artists = artists_dropdown(df)
     titles = titles_dropdown(df, artists)
     ref_number = reference_number_dropdown(df)
 
-    ref_condition = df["Reference Number"].isin(ref_number) if ref_number else pd.Series([True] * len(df), index=df.index)
+    ref_condition = (
+        df["Reference Number"].isin(ref_number)
+        if ref_number
+        else pd.Series([True] * len(df), index=df.index)
+    )
     artist_condition = (
         df["Artist"].isin(artists)
         if artists
@@ -87,9 +108,8 @@ def main():
         if titles
         else pd.Series([True] * len(df), index=df.index)
     )
-    # filtered_df = df[artist_condition & title_condition]
     filtered_df = df[ref_condition & artist_condition & title_condition]
-    st.data_editor(
+    st.dataframe(
         filtered_df,
         hide_index=True,
         use_container_width=True,
