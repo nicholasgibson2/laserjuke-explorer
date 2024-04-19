@@ -15,6 +15,12 @@ def titles_dropdown(df, artists):
     return st.sidebar.multiselect("Title", options=titles)
 
 
+def reference_number_dropdown(df):
+    reference_numbers = df["Reference Number"].unique()
+    reference_numbers.sort()
+    return st.sidebar.selectbox("Reference Number", options=reference_numbers)
+
+
 def main():
     st.set_page_config(page_title="Laser Juke Explorer", layout="wide")
     st.image("laserjuke.png")
@@ -68,7 +74,9 @@ def main():
 
     artists = artists_dropdown(df)
     titles = titles_dropdown(df, artists)
+    ref_number = reference_number_dropdown(df)
 
+    ref_condition = (df["Reference Number"] == ref_number) if ref_number else pd.Series([True] * len(df), index=df.index)
     artist_condition = (
         df["Artist"].isin(artists)
         if artists
@@ -79,8 +87,8 @@ def main():
         if titles
         else pd.Series([True] * len(df), index=df.index)
     )
-    filtered_df = df[artist_condition & title_condition]
-
+    # filtered_df = df[artist_condition & title_condition]
+    filtered_df = df[ref_condition & artist_condition & title_condition]
     st.data_editor(
         filtered_df,
         hide_index=True,
