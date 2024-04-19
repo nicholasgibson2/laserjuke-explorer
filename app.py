@@ -18,7 +18,7 @@ def titles_dropdown(df, artists):
 def reference_number_dropdown(df):
     reference_numbers = df["Reference Number"].unique()
     reference_numbers.sort()
-    return st.sidebar.selectbox("Reference Number", options=reference_numbers)
+    return st.sidebar.multiselect("Reference Number", options=reference_numbers, default=[])
 
 
 def main():
@@ -76,7 +76,7 @@ def main():
     titles = titles_dropdown(df, artists)
     ref_number = reference_number_dropdown(df)
 
-    ref_condition = (df["Reference Number"] == ref_number) if ref_number else pd.Series([True] * len(df), index=df.index)
+    ref_condition = df["Reference Number"].isin(ref_number) if ref_number else pd.Series([True] * len(df), index=df.index)
     artist_condition = (
         df["Artist"].isin(artists)
         if artists
