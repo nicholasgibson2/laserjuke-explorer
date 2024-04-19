@@ -23,10 +23,10 @@ def main():
         f"""
             <style>
                    .st-emotion-cache-z5fcl4 {{
-                        padding-top: 1rem;
+                        padding-top: 2rem;
                     }}
                    .st-emotion-cache-9tg1hl {{
-                        padding-top: 1rem;
+                        padding-top: 2rem;
                     }}
                    .st-emotion-cache-18ni7ap {{
                         height: 0rem;
