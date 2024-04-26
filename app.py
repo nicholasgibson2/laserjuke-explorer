@@ -2,24 +2,70 @@ import streamlit as st
 import pandas as pd
 
 
+def persist_vals(cur_key, prev_key):
+    st.session_state[prev_key] = st.session_state[cur_key]
+
+
 def artists_dropdown(df):
     artists = df["Artist"].unique()
     artists.sort()
-    return st.sidebar.multiselect("Artist", options=artists)
+
+    prev_artists = st.session_state.get("prev_artists", [])
+    return st.sidebar.multiselect(
+        "Artist",
+        options=artists,
+        default=prev_artists,
+        on_change=persist_vals,
+        args=("cur_artists", "prev_artists"),
+        key="cur_artists",
+    )
 
 
 def titles_dropdown(df, artists):
     filtered_df = df[df["Artist"].isin(artists)] if artists else df
     titles = filtered_df["Title"].unique()
     titles.sort()
-    return st.sidebar.multiselect("Title", options=titles)
 
+    prev_titles = st.session_state.get("prev_titles", [])
+    prev_titles = [title for title in prev_titles if title in titles]
+    st.session_state.prev_titles = prev_titles
 
-def reference_number_dropdown(df):
-    reference_numbers = df["Reference Number"].unique()
-    reference_numbers.sort()
     return st.sidebar.multiselect(
-        "Reference Number", options=reference_numbers, default=[]
+        "Title",
+        options=titles,
+        default=prev_titles,
+        on_change=persist_vals,
+        args=("cur_titles", "prev_titles"),
+        key="cur_titles",
+    )
+
+
+def reference_number_dropdown(df, artists, titles):
+    if artists and not titles:
+        filtered_df = df[df["Artist"].isin(artists)]
+    elif titles:
+        filtered_df = (
+            df[(df["Artist"].isin(artists)) & (df["Title"].isin(titles))]
+            if artists
+            else df[df["Title"].isin(titles)]
+        )
+    else:
+        filtered_df = df
+
+    refs = filtered_df["Reference Number"].unique()
+    refs.sort()
+
+    prev_refs = st.session_state.get("prev_refs", [])
+    prev_refs = [ref for ref in prev_refs if ref in refs]
+    st.session_state.prev_refs = prev_refs
+
+    return st.sidebar.multiselect(
+        "Reference Number",
+        options=refs,
+        default=prev_refs,
+        on_change=persist_vals,
+        args=("cur_refs", "prev_refs"),
+        key="cur_refs",
     )
 
 
@@ -91,7 +137,7 @@ def main():
 
     artists = artists_dropdown(df)
     titles = titles_dropdown(df, artists)
-    ref_number = reference_number_dropdown(df)
+    ref_number = reference_number_dropdown(df, artists, titles)
 
     ref_condition = (
         df["Reference Number"].isin(ref_number)
