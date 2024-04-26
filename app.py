@@ -11,6 +11,9 @@ def artists_dropdown(df):
     artists.sort()
 
     prev_artists = st.session_state.get("prev_artists", [])
+    prev_artists = [artist for artist in prev_artists if artist in artists]
+    st.session_state.prev_artists = prev_artists
+
     return st.sidebar.multiselect(
         "Artist",
         options=artists,
