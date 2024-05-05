@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 
 
 def persist_vals(cur_key, prev_key):
@@ -18,7 +19,7 @@ def dynamic_dropdown(df, column, dependencies):
 
     st.session_state[f"prev_{column}"] = prev_selections
 
-    selected = st.sidebar.multiselect(
+    selected = st.multiselect(
         label=column,
         options=options,
         default=prev_selections,
@@ -39,7 +40,7 @@ def filter_condition(df, column_name, filter_list):
 
 
 @st.cache_data
-def read_file(file):
+def read_csv_file(file):
     return pd.read_csv(file)
 
 
@@ -49,36 +50,71 @@ def load_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
+@st.cache_data
+def custom_list_files(directory):
+    return [file.name for file in Path(directory).iterdir() if file.is_file()]
+
+
+def custom_list_name_format(filename):
+    return Path(filename).stem.replace("_", " ").title()
+
+
+def custom_list():
+    custom_list_dir = "./custom_lists"
+    files = custom_list_files(custom_list_dir)
+
+    selected = st.sidebar.selectbox(
+        "List",
+        files,
+        format_func=custom_list_name_format,
+        index=files.index("juke_night.csv"),
+    )
+
+    selected_str = custom_list_name_format(selected)
+    selected_df = read_csv_file(f"{custom_list_dir}/{selected}")
+    return selected_str, selected_df
+
+
 def main():
     st.set_page_config(page_title="Laser Juke Explorer", layout="wide")
     st.image("laserjuke.png")
     load_css("style.css")
 
-    discs_df = read_file("tino_discs.csv")
-    titles_df = read_file("tino_titles.csv")
-    owned_discs_df = read_file("owned_discs.csv")
+    discs_df = read_csv_file("tino_discs.csv")
+    titles_df = read_csv_file("tino_titles.csv")
+    owned_df = read_csv_file("owned_discs.csv")
 
     df = pd.merge(discs_df, titles_df, on="Reference Number")
 
-    column_order = ["Reference Number", "Year", "Artist", "Title", "Owned"]
-    column_config = {"Year": st.column_config.NumberColumn(format="%f")}
-
-    df["Owned"] = df["Reference Number"].isin(owned_discs_df["Reference Number"])
-
-    if st.sidebar.checkbox("Owned"):
+    st_sidebar = st.sidebar.container()
+    df["Owned"] = df["Reference Number"].isin(owned_df["Reference Number"])
+    if st_sidebar.checkbox("Owned"):
         df = df[df["Owned"]]
 
-    artists = dynamic_dropdown(df, "Artist", {})
-    titles = dynamic_dropdown(df, "Title", {"Artist": artists})
-    refs = dynamic_dropdown(
-        df, "Reference Number", {"Artist": artists, "Title": titles}
-    )
+    custom_name, custom_df = custom_list()
+    df[custom_name] = df["Reference Number"].isin(custom_df["Reference Number"])
+
+    if st.sidebar.checkbox("Filter"):
+        df = df[df[custom_name]]
+
+    with st_sidebar:
+        artists = dynamic_dropdown(df, "Artist", {})
+        titles = dynamic_dropdown(df, "Title", {"Artist": artists})
+        refs = dynamic_dropdown(
+            df, "Reference Number", {"Artist": artists, "Title": titles}
+        )
+    st_sidebar.divider()
 
     artist_condition = filter_condition(df, "Artist", artists)
     title_condition = filter_condition(df, "Title", titles)
     ref_condition = filter_condition(df, "Reference Number", refs)
 
-    filtered_df = df[ref_condition & artist_condition & title_condition]
+    filtered_df = df[ref_condition & artist_condition & title_condition].sort_values(
+        by=["Year", "Reference Number"], ascending=False
+    )
+
+    column_order = ["Reference Number", "Year", "Artist", "Title", "Owned", custom_name]
+    column_config = {"Year": st.column_config.NumberColumn(format="%f")}
 
     st.dataframe(
         filtered_df,
