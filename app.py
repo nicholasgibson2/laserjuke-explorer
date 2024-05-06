@@ -47,7 +47,6 @@ def filter_condition(df, column_name, filter_list):
     )
 
 
-# @st.cache_data
 def read_csv_file(file):
     return pd.read_csv(file)
 
