@@ -1,9 +1,12 @@
 import streamlit as st
 import pandas as pd
+import re
 from pathlib import Path
+from print_pdf import create_pdf
+from normalize import normalize_reference
 
 
-custom_list_columns = ["Reference Number", "Artist", "Title"]
+custom_list_columns = ["Reference Number"]
 
 
 def reset_last_change():
@@ -47,6 +50,7 @@ def filter_condition(df, column_name, filter_list):
     )
 
 
+@st.cache_data
 def read_csv_file(file):
     return pd.read_csv(file)
 
@@ -73,30 +77,37 @@ def save_custom_lists():
         )
 
 
-def custom_list():
+def custom_list(discs_df):
     custom_list_dir = "./custom_lists"
     files = custom_list_files(custom_list_dir)
 
     if "custom_lists" not in st.session_state:
         custom_lists = {}
         for file in files:
+            if file == ".DS_Store":
+                continue
             pretty_name = custom_list_name_format(file)
             df = read_csv_file(f"{custom_list_dir}/{file}")
             custom_lists[pretty_name] = {"filename": file, "df": df}
+
+        df = pd.DataFrame([], columns=["Reference Number"])
+        df["Reference Number"] = df["Reference Number"].apply(
+            lambda ref_num: normalize_reference(discs_df, ref_num)
+        )
+
+        custom_lists["Uploaded"] = {"filename": "uploaded.csv", "df": df}
         st.session_state.custom_lists = custom_lists
 
+    lists = list(st.session_state.custom_lists.keys())
     selected = st.sidebar.selectbox(
         "List",
-        files,
-        format_func=custom_list_name_format,
-        index=files.index("juke_night.csv"),
+        lists,
+        index=lists.index("Juke Night"),
         on_change=reset_last_change,
     )
 
-    selected_str = custom_list_name_format(selected)
-    selected_df = st.session_state.custom_lists[selected_str]["df"]
-
-    return selected_str, selected_df
+    selected_df = st.session_state.custom_lists[selected]["df"]
+    return selected, selected_df
 
 
 def update_custom_val():
@@ -128,6 +139,22 @@ def update_custom_val():
     st.session_state.last_diffs = cur_diffs
 
 
+def paste_custom_list(discs_df):
+    reference_numbers = set()
+    list_text = st.session_state.custom_list_text
+    for reference in list_text.split("\n"):
+        if reference.strip() == "":
+            continue
+        normalized = normalize_reference(discs_df, reference)
+        if normalized:
+            reference_numbers.add(normalized)
+        else:
+            st.error(f"no match for {reference}")
+
+    df = pd.DataFrame(reference_numbers, columns=["Reference Number"])
+    st.session_state.custom_lists["Uploaded"] = {"filename": "uploaded.csv", "df": df}
+
+
 def main():
     st.set_page_config(page_title="Laser Juke Explorer", layout="wide")
     st.image("laserjuke.png")
@@ -144,7 +171,7 @@ def main():
     if st_sidebar.checkbox("Owned", on_change=reset_last_change):
         df = df[df["Owned"]]
 
-    custom_name, custom_df = custom_list()
+    custom_name, custom_df = custom_list(discs_df)
 
     common_columns = custom_list_columns
     df = df.merge(custom_df, on=common_columns, how="left", indicator=True)
@@ -153,7 +180,13 @@ def main():
 
     if st.sidebar.checkbox("Filter", on_change=reset_last_change):
         df = df[df[custom_name]]
-    st.sidebar.button("Save", on_click=save_custom_lists)
+
+    st.sidebar.text_area(
+        "Custom List",
+        on_change=paste_custom_list,
+        key="custom_list_text",
+        args=(discs_df,),
+    )
 
     with st_sidebar:
         artists = dynamic_dropdown(df, "Artist", {})
@@ -171,7 +204,19 @@ def main():
         by=["Year", "Reference Number"], ascending=False
     )
 
-    column_order = ["Reference Number", "Year", "Artist", "Title", "Owned", custom_name]
+    print_labels = st.sidebar.button("Print Labels")
+    if print_labels:
+        create_pdf(filtered_df, "output.pdf")
+
+    column_order = [
+        "Reference Number",
+        "Year",
+        "Position",
+        "Artist",
+        "Title",
+        "Owned",
+        custom_name,
+    ]
     column_config = {"Year": st.column_config.NumberColumn(format="%f")}
 
     st.session_state.diffs_df = st.data_editor(
