@@ -176,12 +176,23 @@ def main():
         df[custom_name] = df["_merge"] == "both"
         df.drop(columns=["_merge"], inplace=True)
 
-    if st.sidebar.checkbox("Filter", on_change=reset_last_change) and custom_lists:
-        combined_df = pd.concat(
-            [list_df for list_df in custom_lists.values()], ignore_index=True
-        ).drop_duplicates()
-        df = df[df["Reference Number"].isin(combined_df["Reference Number"])]
+    # Add a multiselect to allow the user to select specific dataframes
+    selected_lists = st.sidebar.multiselect(
+        "filter on", 
+        list(custom_lists.keys()), 
+        default=list(custom_lists.keys())
+    )
 
+    # Proceed with the filter only if there are selected lists
+    if st.sidebar.checkbox("Filter", on_change=reset_last_change) and selected_lists:
+        # Concatenate only the selected dataframes
+        combined_df = pd.concat(
+            [custom_lists[list_name] for list_name in selected_lists], ignore_index=True
+        ).drop_duplicates()
+
+        # Filter your main df based on the combined selected dataframe's 'Reference Number'
+        df = df[df["Reference Number"].isin(combined_df["Reference Number"])]
+    
     st.sidebar.text_area(
         "Custom List",
         on_change=paste_custom_list,
