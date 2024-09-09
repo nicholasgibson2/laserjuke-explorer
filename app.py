@@ -1,9 +1,12 @@
 import streamlit as st
 import pandas as pd
+import re
 from pathlib import Path
+from print_pdf import create_pdf
+from normalize import normalize_reference
 
 
-custom_list_columns = ["Reference Number", "Artist", "Title"]
+custom_list_columns = ["Reference Number"]
 
 
 def reset_last_change():
@@ -40,13 +43,13 @@ def dynamic_dropdown(df, column, dependencies):
 
 
 def filter_condition(df, column_name, filter_list):
-    return (
-        df[column_name].isin(filter_list)
-        if filter_list
-        else pd.Series([True] * len(df), index=df.index)
-    )
+    if filter_list:
+        return df[column_name].isin(filter_list)
+    else:
+        return pd.Series([True] * len(df), index=df.index)
 
 
+@st.cache_data
 def read_csv_file(file):
     return pd.read_csv(file)
 
@@ -73,30 +76,40 @@ def save_custom_lists():
         )
 
 
-def custom_list():
+def load_custom_lists(discs_df):
     custom_list_dir = "./custom_lists"
     files = custom_list_files(custom_list_dir)
 
     if "custom_lists" not in st.session_state:
         custom_lists = {}
         for file in files:
+            if file == ".DS_Store":
+                continue
             pretty_name = custom_list_name_format(file)
             df = read_csv_file(f"{custom_list_dir}/{file}")
             custom_lists[pretty_name] = {"filename": file, "df": df}
+
+        df = pd.DataFrame([], columns=["Reference Number"])
+        df["Reference Number"] = df["Reference Number"].apply(
+            lambda ref_num: normalize_reference(discs_df, ref_num)
+        )
+
+        custom_lists["Uploaded"] = {"filename": "uploaded.csv", "df": df}
         st.session_state.custom_lists = custom_lists
 
-    selected = st.sidebar.selectbox(
-        "List",
-        files,
-        format_func=custom_list_name_format,
-        index=files.index("juke_night.csv"),
+    lists = list(st.session_state.custom_lists.keys())
+
+    selected_lists = st.sidebar.multiselect(
+        "Select Custom Lists",
+        lists,
+        default=["Owned"],
         on_change=reset_last_change,
     )
+    selected_dict = {}
+    for selected in selected_lists:
+        selected_dict[selected] = st.session_state.custom_lists[selected]["df"]
 
-    selected_str = custom_list_name_format(selected)
-    selected_df = st.session_state.custom_lists[selected_str]["df"]
-
-    return selected_str, selected_df
+    return selected_dict
 
 
 def update_custom_val():
@@ -128,6 +141,22 @@ def update_custom_val():
     st.session_state.last_diffs = cur_diffs
 
 
+def paste_custom_list(discs_df):
+    reference_numbers = set()
+    list_text = st.session_state.custom_list_text
+    for reference in list_text.split("\n"):
+        if reference.strip() == "":
+            continue
+        normalized = normalize_reference(discs_df, reference)
+        if normalized:
+            reference_numbers.add(normalized)
+        else:
+            st.error(f"no match for {reference}")
+
+    df = pd.DataFrame(reference_numbers, columns=["Reference Number"])
+    st.session_state.custom_lists["Uploaded"] = {"filename": "uploaded.csv", "df": df}
+
+
 def main():
     st.set_page_config(page_title="Laser Juke Explorer", layout="wide")
     st.image("laserjuke.png")
@@ -135,25 +164,30 @@ def main():
 
     discs_df = read_csv_file("tino_discs.csv")
     titles_df = read_csv_file("tino_titles.csv")
-    owned_df = read_csv_file("owned_discs.csv")
 
     df = pd.merge(discs_df, titles_df, on="Reference Number")
 
     st_sidebar = st.sidebar.container()
-    df["Owned"] = df["Reference Number"].isin(owned_df["Reference Number"])
-    if st_sidebar.checkbox("Owned", on_change=reset_last_change):
-        df = df[df["Owned"]]
 
-    custom_name, custom_df = custom_list()
+    custom_lists = load_custom_lists(discs_df)
 
-    common_columns = custom_list_columns
-    df = df.merge(custom_df, on=common_columns, how="left", indicator=True)
-    df[custom_name] = df["_merge"] == "both"
-    df.drop(columns=["_merge"], inplace=True)
+    for custom_name, custom_df in custom_lists.items():
+        df = df.merge(custom_df, on=custom_list_columns, how="left", indicator=True)
+        df[custom_name] = df["_merge"] == "both"
+        df.drop(columns=["_merge"], inplace=True)
 
-    if st.sidebar.checkbox("Filter", on_change=reset_last_change):
-        df = df[df[custom_name]]
-    st.sidebar.button("Save", on_click=save_custom_lists)
+    if st.sidebar.checkbox("Filter", on_change=reset_last_change) and custom_lists:
+        combined_df = pd.concat(
+            [list_df for list_df in custom_lists.values()], ignore_index=True
+        ).drop_duplicates()
+        df = df[df["Reference Number"].isin(combined_df["Reference Number"])]
+
+    st.sidebar.text_area(
+        "Custom List",
+        on_change=paste_custom_list,
+        key="custom_list_text",
+        args=(discs_df,),
+    )
 
     with st_sidebar:
         artists = dynamic_dropdown(df, "Artist", {})
@@ -171,12 +205,23 @@ def main():
         by=["Year", "Reference Number"], ascending=False
     )
 
-    column_order = ["Reference Number", "Year", "Artist", "Title", "Owned", custom_name]
+    print_labels = st.sidebar.button("Print Labels")
+    if print_labels:
+        create_pdf(filtered_df, "output.pdf")
+
+    column_order = [
+        "Reference Number",
+        "Year",
+        "Position",
+        "Artist",
+        "Title",
+    ] + list(custom_lists.keys())
     column_config = {"Year": st.column_config.NumberColumn(format="%f")}
 
     st.session_state.diffs_df = st.data_editor(
         filtered_df,
-        disabled=column_order[:-1],
+        # disabled=column_order[:-1],
+        disabled=column_order,
         hide_index=True,
         use_container_width=True,
         column_order=column_order,
