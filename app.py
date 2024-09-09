@@ -43,11 +43,10 @@ def dynamic_dropdown(df, column, dependencies):
 
 
 def filter_condition(df, column_name, filter_list):
-    return (
-        df[column_name].isin(filter_list)
-        if filter_list
-        else pd.Series([True] * len(df), index=df.index)
-    )
+    if filter_list:
+        return df[column_name].isin(filter_list)
+    else:
+        return pd.Series([True] * len(df), index=df.index)
 
 
 @st.cache_data
@@ -77,7 +76,7 @@ def save_custom_lists():
         )
 
 
-def custom_list(discs_df):
+def load_custom_lists(discs_df):
     custom_list_dir = "./custom_lists"
     files = custom_list_files(custom_list_dir)
 
@@ -99,15 +98,18 @@ def custom_list(discs_df):
         st.session_state.custom_lists = custom_lists
 
     lists = list(st.session_state.custom_lists.keys())
-    selected = st.sidebar.selectbox(
-        "List",
+
+    selected_lists = st.sidebar.multiselect(
+        "Select Custom Lists",
         lists,
-        index=lists.index("Juke Night"),
+        default=["Owned"],
         on_change=reset_last_change,
     )
+    selected_dict = {}
+    for selected in selected_lists:
+        selected_dict[selected] = st.session_state.custom_lists[selected]["df"]
 
-    selected_df = st.session_state.custom_lists[selected]["df"]
-    return selected, selected_df
+    return selected_dict
 
 
 def update_custom_val():
@@ -162,24 +164,23 @@ def main():
 
     discs_df = read_csv_file("tino_discs.csv")
     titles_df = read_csv_file("tino_titles.csv")
-    owned_df = read_csv_file("owned_discs.csv")
 
     df = pd.merge(discs_df, titles_df, on="Reference Number")
 
     st_sidebar = st.sidebar.container()
-    df["Owned"] = df["Reference Number"].isin(owned_df["Reference Number"])
-    if st_sidebar.checkbox("Owned", on_change=reset_last_change):
-        df = df[df["Owned"]]
 
-    custom_name, custom_df = custom_list(discs_df)
+    custom_lists = load_custom_lists(discs_df)
 
-    common_columns = custom_list_columns
-    df = df.merge(custom_df, on=common_columns, how="left", indicator=True)
-    df[custom_name] = df["_merge"] == "both"
-    df.drop(columns=["_merge"], inplace=True)
+    for custom_name, custom_df in custom_lists.items():
+        df = df.merge(custom_df, on=custom_list_columns, how="left", indicator=True)
+        df[custom_name] = df["_merge"] == "both"
+        df.drop(columns=["_merge"], inplace=True)
 
-    if st.sidebar.checkbox("Filter", on_change=reset_last_change):
-        df = df[df[custom_name]]
+    if st.sidebar.checkbox("Filter", on_change=reset_last_change) and custom_lists:
+        combined_df = pd.concat(
+            [list_df for list_df in custom_lists.values()], ignore_index=True
+        ).drop_duplicates()
+        df = df[df["Reference Number"].isin(combined_df["Reference Number"])]
 
     st.sidebar.text_area(
         "Custom List",
@@ -214,14 +215,13 @@ def main():
         "Position",
         "Artist",
         "Title",
-        "Owned",
-        custom_name,
-    ]
+    ] + list(custom_lists.keys())
     column_config = {"Year": st.column_config.NumberColumn(format="%f")}
 
     st.session_state.diffs_df = st.data_editor(
         filtered_df,
-        disabled=column_order[:-1],
+        # disabled=column_order[:-1],
+        disabled=column_order,
         hide_index=True,
         use_container_width=True,
         column_order=column_order,
