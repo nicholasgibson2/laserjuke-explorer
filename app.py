@@ -205,9 +205,9 @@ def main():
         by=["Year", "Reference Number"], ascending=False
     )
 
-    print_labels = st.sidebar.button("Print Labels")
-    if print_labels:
-        create_pdf(filtered_df, "output.pdf")
+    # print_labels = st.sidebar.button("Print Labels")
+    # if print_labels:
+    #     create_pdf(filtered_df, "output.pdf")
 
     column_order = [
         "Reference Number",
