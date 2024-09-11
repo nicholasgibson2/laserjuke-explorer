@@ -1,0 +1,943 @@
+SERIES,REFERENCE,MONTH,YEAR,COMPLETE,COMPANY,CENSORED,NAME
+Laser Juke,xx.xx.xx[placeholder15],,1993.0,True,Pioneer,True,xx.xx.xx[placeholder15]
+Laser Juke,10.04.03.EURO,,1988.0,True,Pioneer,True,10.04.03.EURO
+Laser Juke,10.16.04.EURO,,1990.0,True,Pioneer,True,10.16.04.EURO
+Laser Juke,10.17.07,,1990.0,True,Pioneer,True,10.17.07
+Laser Juke,10.18.10.EURO [UK11],,1990.0,True,Pioneer,True,10.18.10.EURO [UK11]
+Laser Juke,10.19.01.EURO [UK10],,1991.0,True,Pioneer,True,10.19.01.EURO [UK10]
+Laser Juke,10.21.07.EURO [UK11],,1991.0,True,Pioneer,True,10.21.07.EURO [UK11]
+Laser Juke,10.22.10.(UK10),,1991.0,True,Pioneer,True,10.22.10.(UK10)
+Laser Juke,10.23.01.EURO [UK 11],,1992.0,True,Pioneer,True,10.23.01.EURO [UK 11]
+Laser Juke,10.24.04.EURO [UK10],,1992.0,True,Pioneer,True,10.24.04.EURO [UK10]
+Laser Juke,10.25.07.EURO [UK11],,1992.0,True,Pioneer,True,10.25.07.EURO [UK11]
+Laser Juke,10.26.10.EURO [UK10],,1992.0,True,Pioneer,True,10.26.10.EURO [UK10]
+Laser Juke,10.27.01 EURO,,1993.0,True,Pioneer,True,10.27.01 EURO
+Laser Juke,10.28.04.EURO,,1993.0,True,Pioneer,True,10.28.04.EURO
+Laser Juke,10.29.07.EURO,,1993.0,True,Pioneer,True,10.29.07.EURO
+Laser Juke,10.30.11.EUR,,1993.0,True,Diamond Time,True,10.30.11.EUR
+Laser Juke,10.31.04.EURO,,1994.0,True,Pioneer,True,10.31.04.EURO
+Laser Juke,10.32.09 EURO,,1994.0,True,Pioneer,True,10.32.09 EURO
+Laser Juke,10.33.02.EURO,,1995.0,True,Pioneer,True,10.33.02.EURO
+Laser Juke,10.34.07 EURO,,1995.0,True,Diamond Time,True,10.34.07 EURO
+Laser Juke,10.35.12 EURO,,1995.0,True,Diamond Time,True,10.35.12 EURO
+Laser Juke,10.36.05.EURO,,1996.0,True,Diamond Time,True,10.36.05.EURO
+Laser Juke,10.37.10.EURO,,1996.0,True,Diamond Time,True,10.37.10.EURO
+Laser Juke,10.38.03.EURO,,1997.0,True,Diamond Time,True,10.38.03.EURO
+Laser Juke,10.39.08.EURO,,1997.0,True,Diamond Time,True,10.39.08.EURO
+Laser Juke,10.40.01.EURO,,1998.0,True,Diamond Time,True,10.40.01.EURO
+Laser Juke,10.41.06 EURO,,1998.0,True,Diamond Time,True,10.41.06 EURO
+Laser Juke,10.42.11.EURO,,1998.0,True,Diamond Time,True,10.42.11.EURO
+Laser Juke,10.43.04.EURO,,1999.0,True,Diamond Time,True,10.43.04.EURO
+Laser Juke,10.44.09.EURO,,1999.0,True,Diamond Time,True,10.44.09.EURO
+Laser Juke,10.45.02.EURO,,2000.0,True,Diamond Time,True,10.45.02.EURO
+Laser Juke,10.46.07.EURO 1,,2000.0,True,Diamond Time,True,10.46.07.EURO 1
+Laser Juke,10.47.12.EURO 1,,2000.0,True,Diamond Time,True,10.47.12.EURO 1
+Laser Juke,10.49.05.EURO 1,,2001.0,True,Diamond Time,True,10.49.05.EURO 1
+Laser Juke,10.50.10.EURO 1,,2001.0,True,Diamond Time,True,10.50.10.EURO 1
+Laser Juke,10.51.03.EURO 1,,2002.0,True,Diamond Time,True,10.51.03.EURO 1
+Laser Juke,11.04.03.EURO,,1988.0,True,Pioneer,True,11.04.03.EURO
+Laser Juke,11.09.01.EURO,,1989.0,True,Pioneer,True,11.09.01.EURO
+Laser Juke,11.18.10.EURO,,1990.0,True,Pioneer,True,11.18.10.EURO
+Laser Juke,11.19.01.EURO,,1991.0,True,Pioneer,True,11.19.01.EURO
+Laser Juke,11.20.04.EURO,,1991.0,True,Pioneer,True,11.20.04.EURO
+Laser Juke,11.21.07.EURO,,1991.0,True,Pioneer,True,11.21.07.EURO
+Laser Juke,11.22.10.EURO,,1991.0,True,Pioneer,True,11.22.10.EURO
+Laser Juke,11.23.01.EURO,,1992.0,True,Pioneer,True,11.23.01.EURO
+Laser Juke,11.24.04.EURO,,1992.0,True,Pioneer,True,11.24.04.EURO
+Laser Juke,11.25.07.EURO,,1992.0,True,Pioneer,True,11.25.07.EURO
+Laser Juke,11.26.10.EURO,,1992.0,True,Pioneer,True,11.26.10.EURO
+Laser Juke,11.27.01.EURO,,1993.0,True,Pioneer,True,11.27.01.EURO
+Laser Juke,11.28.04.EURO,,1993.0,True,Pioneer,True,11.28.04.EURO
+Laser Juke,11.29.07.EURO,,1993.0,True,Pioneer,True,11.29.07.EURO
+Laser Juke,11.30.12.EURO,,1993.0,True,Pioneer,True,11.30.12.EURO
+Laser Juke,11.31.05.EURO,,1994.0,True,Pioneer,True,11.31.05.EURO
+Laser Juke,11.32.10.EURO,,1994.0,True,Pioneer,True,11.32.10.EURO
+Laser Juke,11.33.03.EURO,,1995.0,True,Diamond Time,True,11.33.03.EURO
+Laser Juke,11.34.08.EURO,,1995.0,True,Diamond Time,True,11.34.08.EURO
+Laser Juke,11.35.01.EURO,,1996.0,True,Diamond Time,True,11.35.01.EURO
+Laser Juke,11.36.06.EURO,,1996.0,True,Diamond Time,True,11.36.06.EURO
+Laser Juke,11.37.11.EURO,,1996.0,True,Diamond Time,True,11.37.11.EURO
+Laser Juke,11.38.04.EURO,,1997.0,True,Diamond Time,True,11.38.04.EURO
+Laser Juke,11.39.09.EURO,,1997.0,True,Diamond Time,True,11.39.09.EURO
+Laser Juke,11.40.02.EURO,,1998.0,True,Diamond Time,True,11.40.02.EURO
+Laser Juke,11.41.07.EURO,,1998.0,True,Diamond Time,True,11.41.07.EURO
+Laser Juke,11.42.12.EURO,,1998.0,True,Diamond Time,True,11.42.12.EURO
+Laser Juke,11.43.05.EURO,,1999.0,True,Diamond Time,True,11.43.05.EURO
+Laser Juke,11.44.10.EURO,,1999.0,True,Diamond Time,True,11.44.10.EURO
+Laser Juke,11.45.03.EURO,,2000.0,True,Diamond Time,True,11.45.03.EURO
+Laser Juke,11.46.08.EURO 1,,2000.0,True,Diamond Time,True,11.46.08.EURO 1
+Laser Juke,11.47.01.EURO 1,,2001.0,True,Diamond Time,True,11.47.01.EURO 1
+Laser Juke,11.49.06.EURO 1,,2001.0,True,Diamond Time,True,11.49.06.EURO 1
+Laser Juke,11.50.11.EURO 1,,2001.0,True,Diamond Time,True,11.50.11.EURO 1
+Laser Juke,11.51.04.EURO 1,,2002.0,True,Diamond Time,True,11.51.04.EURO 1
+Laser Juke,12.14.10.EURO,,1989.0,True,Pioneer,True,12.14.10.EURO
+Laser Juke,12.17.05.EURO,,1990.0,True,Pioneer,True,12.17.05.EURO
+Laser Juke,12.19.11.EURO,,1990.0,True,Pioneer,True,12.19.11.EURO
+Laser Juke,12.20.02.EURO [UK11],,1991.0,True,Pioneer,True,12.20.02.EURO [UK11]
+Laser Juke,12.21.05.EURO [UK11],,1991.0,True,Pioneer,True,12.21.05.EURO [UK11]
+Laser Juke,12.22.08.EURO [UK10],,1991.0,True,Pioneer,True,12.22.08.EURO [UK10]
+Laser Juke,12.23.11.EURO [UK11],,1991.0,True,Pioneer,True,12.23.11.EURO [UK11]
+Laser Juke,12.24.02 EURO (UK10),,1992.0,True,Pioneer,True,12.24.02 EURO (UK10)
+Laser Juke,12.25.05.EURO,,1992.0,True,Pioneer,True,12.25.05.EURO
+Laser Juke,12.26.08.EURO [UK10],,1992.0,True,Pioneer,True,12.26.08.EURO [UK10]
+Laser Juke,12.27.11.EURO [UK11],,1992.0,True,Pioneer,True,12.27.11.EURO [UK11]
+Laser Juke,12.28.02.EURO,,1993.0,True,Pioneer,True,12.28.02.EURO
+Laser Juke,12.29.05.EURO,,1993.0,True,Pioneer,True,12.29.05.EURO
+Laser Juke,12.30.08.EURO,,1993.0,True,Pioneer,True,12.30.08.EURO
+Laser Juke,12.31.01.EURO,,1994.0,True,Pioneer,True,12.31.01.EURO
+Laser Juke,12.32.06.EURO,,1994.0,True,Pioneer,True,12.32.06.EURO
+Laser Juke,12.33.11.EURO,,1994.0,True,Pioneer,True,12.33.11.EURO
+Laser Juke,12.34.04.EURO,,1995.0,True,Diamond Time,True,12.34.04.EURO
+Laser Juke,12.35.09.EURO,,1995.0,True,Diamond Time,True,12.35.09.EURO
+Laser Juke,12.36.02.EURO,,1996.0,True,Diamond Time,True,12.36.02.EURO
+Laser Juke,12.37.07.EURO,,1996.0,True,Diamond Time,True,12.37.07.EURO
+Laser Juke,12.38.12.EURO,,1996.0,True,Diamond Time,True,12.38.12.EURO
+Laser Juke,12.39.05.EURO,,1997.0,True,Diamond Time,True,12.39.05.EURO
+Laser Juke,12.40.10.EURO,,1997.0,True,Diamond Time,True,12.40.10.EURO
+Laser Juke,12.41.03.EURO,,1998.0,True,Diamond Time,True,12.41.03.EURO
+Laser Juke,12.42.08.EURO,,1998.0,True,Diamond Time,True,12.42.08.EURO
+Laser Juke,12.43.01.EURO,,1999.0,True,Diamond Time,True,12.43.01.EURO
+Laser Juke,12.44.06.EURO,,1999.0,True,Diamond Time,True,12.44.06.EURO
+Laser Juke,12.44.11.EURO,,1999.0,True,Diamond Time,True,12.44.11.EURO
+Laser Juke,12.46.04.EURO,,2000.0,True,Diamond Time,True,12.46.04.EURO
+Laser Juke,12.47.09.EURO 1,,2000.0,True,Diamond Time,True,12.47.09.EURO 1
+Laser Juke,12.72.02.EURO 1,,2001.0,True,Diamond Time,True,12.72.02.EURO 1
+Laser Juke,12.73.07.EURO 1,,2001.0,True,Diamond Time,True,12.73.07.EURO 1
+Laser Juke,12.74.12.EURO 1,,2001.0,True,Diamond Time,True,12.74.12.EURO 1
+Laser Juke,12.75.05.EURO,,2002.0,True,Diamond Time,True,12.75.05.EURO
+Laser Juke,13.03.12.EURO,,1987.0,True,Pioneer,True,13.03.12.EURO
+Laser Juke,13.08.10.EURO,,1988.0,True,Pioneer,True,13.08.10.EURO
+Laser Juke,13.15.12.EURO,,1989.0,True,Pioneer,True,13.15.12.EURO
+Laser Juke,13.17.05.EURO,,1990.0,True,Pioneer,True,13.17.05.EURO
+Laser Juke,13.18.08.EURO,,1990.0,True,Pioneer,True,13.18.08.EURO
+Laser Juke,13.19.11.EURO,,1990.0,True,Pioneer,True,13.19.11.EURO
+Laser Juke,13.20.02.EURO,,1991.0,True,Pioneer,True,13.20.02.EURO
+Laser Juke,13.21.05.EURO,,1991.0,True,Pioneer,True,13.21.05.EURO
+Laser Juke,13.22.08.EURO,,1991.0,True,Pioneer,True,13.22.08.EURO
+Laser Juke,13.23.11.EURO,,1991.0,True,Pioneer,True,13.23.11.EURO
+Laser Juke,13.24.02.EURO,,1992.0,True,Pioneer,True,13.24.02.EURO
+Laser Juke,13.25.05.EURO,,1992.0,True,Pioneer,True,13.25.05.EURO
+Laser Juke,13.26.08.EURO,,1992.0,True,Pioneer,True,13.26.08.EURO
+Laser Juke,13.27.11.EURO,,1992.0,True,Pioneer,True,13.27.11.EURO
+Laser Juke,13.28.02.EURO,,1993.0,True,Pioneer,True,13.28.02.EURO
+Laser Juke,13.29.05.EURO,,1993.0,True,Pioneer,True,13.29.05.EURO
+Laser Juke,13.30.09.EURO,,1993.0,True,Pioneer,True,13.30.09.EURO
+Laser Juke,13.31.02.EURO,,1994.0,True,Pioneer,True,13.31.02.EURO
+Laser Juke,13.32.07.EURO,,1994.0,True,Pioneer,True,13.32.07.EURO
+Laser Juke,13.33.12.EURO,,1994.0,True,Pioneer,True,13.33.12.EURO
+Laser Juke,13.34.05.EURO,,1995.0,True,Diamond Time,True,13.34.05.EURO
+Laser Juke,13.35.10.EURO,,1995.0,True,Diamond Time,True,13.35.10.EURO
+Laser Juke,13.36.03.EURO,,1996.0,True,Diamond Time,True,13.36.03.EURO
+Laser Juke,13.37.08.EURO,,1996.0,True,Diamond Time,True,13.37.08.EURO
+Laser Juke,13.39.06.EURO,,1997.0,True,Diamond Time,True,13.39.06.EURO
+Laser Juke,13.40.11.EURO,,1997.0,True,Diamond Time,True,13.40.11.EURO
+Laser Juke,13.41.04.EURO,,1998.0,True,Diamond Time,True,13.41.04.EURO
+Laser Juke,13.42.09.EURO,,1998.0,True,Diamond Time,True,13.42.09.EURO
+Laser Juke,13.43.02.EURO,,1999.0,True,Diamond Time,True,13.43.02.EURO
+Laser Juke,13.44.07.EURO,,1999.0,True,Diamond Time,True,13.44.07.EURO
+Laser Juke,13.45.12.EURO,,1999.0,True,Diamond Time,True,13.45.12.EURO
+Laser Juke,13.46.05.EURO,,2000.0,True,Diamond Time,True,13.46.05.EURO
+Laser Juke,13.47.10.EURO 1,,2000.0,True,Diamond Time,True,13.47.10.EURO 1
+Laser Juke,13.48.03.EURO 1,,2001.0,True,Diamond Time,True,13.48.03.EURO 1
+Laser Juke,13.49.08.EURO 1,,2001.0,True,Diamond Time,True,13.49.08.EURO 1
+Laser Juke,13.50.01.EURO 1,,2002.0,True,Diamond Time,True,13.50.01.EURO 1
+Laser Juke,13.51.06.EURO 1,,2002.0,True,Diamond Time,True,13.51.06.EURO 1
+Laser Juke,14.07.04.ITAL,,1988.0,True,Pioneer,True,14.07.04.ITAL
+Laser Juke,14.08.05.ITAL,,1988.0,True,Pioneer,True,14.08.05.ITAL
+Laser Juke,14.40.03.EURO,,1990.0,True,Pioneer,True,14.40.03.EURO
+Laser Juke,14.42.09.EURO [UK10],,1990.0,True,Pioneer,True,14.42.09.EURO [UK10]
+Laser Juke,14.43.12.EURO,,1990.0,True,Pioneer,True,14.43.12.EURO
+Laser Juke,14.44.03.EURO [UK11],,1991.0,True,Pioneer,True,14.44.03.EURO [UK11]
+Laser Juke,14.45.06.EURO [UK10],,1991.0,True,Pioneer,True,14.45.06.EURO [UK10]
+Laser Juke,14.46.09 [UK11],,1991.0,True,Pioneer,True,14.46.09 [UK11]
+Laser Juke,14.47.12.EURO (UK10),,1991.0,True,Pioneer,True,14.47.12.EURO (UK10)
+Laser Juke,14.48.03.EURO [UK11],,1992.0,True,Pioneer,True,14.48.03.EURO [UK11]
+Laser Juke,14.48.04.EURO 1,,2001.0,True,Diamond Time,True,14.48.04.EURO 1
+Laser Juke,14.49.06.(UK10),,1992.0,True,Pioneer,True,14.49.06.(UK10)
+Laser Juke,14.49.09.EURO 1,,2001.0,True,Diamond Time,True,14.49.09.EURO 1
+Laser Juke,14.50.02.EURO 1,,2002.0,True,Diamond Time,True,14.50.02.EURO 1
+Laser Juke,14.50.09.EURO [UK11],,1992.0,True,Pioneer,True,14.50.09.EURO [UK11]
+Laser Juke,14.51.07.EURO 1,,2002.0,True,Diamond Time,True,14.51.07.EURO 1
+Laser Juke,14.51.12.EURO,,1992.0,True,Pioneer,True,14.51.12.EURO
+Laser Juke,14.52.03.EURO,,1993.0,True,Pioneer,True,14.52.03.EURO
+Laser Juke,14.53.06.EURO,,1993.0,True,Pioneer,True,14.53.06.EURO
+Laser Juke,14.54.10.EURO,,1993.0,True,Pioneer,True,14.54.10.EURO
+Laser Juke,14.55.03.EURO,,1994.0,True,Pioneer,True,14.55.03.EURO
+Laser Juke,14.56.08.EURO,,1994.0,True,Pioneer,True,14.56.08.EURO
+Laser Juke,14.57.01.EURO,,1995.0,True,Pioneer,True,14.57.01.EURO
+Laser Juke,14.58.06.EURO,,1995.0,True,Diamond Time,True,14.58.06.EURO
+Laser Juke,14.59.11.EURO,,1995.0,True,Diamond Time,True,14.59.11.EURO
+Laser Juke,14.60.04.EURO,,1996.0,True,Diamond Time,True,14.60.04.EURO
+Laser Juke,14.61.09.EURO,,1996.0,True,Diamond Time,True,14.61.09.EURO
+Laser Juke,14.62.02.EURO,,1997.0,True,Diamond Time,True,14.62.02.EURO
+Laser Juke,14.63.07.EURO,,1997.0,True,Diamond Time,True,14.63.07.EURO
+Laser Juke,14.64.12.EURO,,1997.0,True,Diamond Time,True,14.64.12.EURO
+Laser Juke,14.65.05.EURO,,1998.0,True,Diamond Time,True,14.65.05.EURO
+Laser Juke,14.66.10.EURO,,1998.0,True,Diamond Time,True,14.66.10.EURO
+Laser Juke,14.67.03.EURO,,1999.0,True,Diamond Time,True,14.67.03.EURO
+Laser Juke,14.68.08.EURO,,1999.0,True,Diamond Time,True,14.68.08.EURO
+Laser Juke,14.69.01.EURO,,2000.0,True,Diamond Time,True,14.69.01.EURO
+Laser Juke,14.70.06.EURO 1,,2000.0,True,Diamond Time,True,14.70.06.EURO 1
+Laser Juke,14.71.11.EURO 1,,2000.0,True,Diamond Time,True,14.71.11.EURO 1
+Laser Juke,15.00.12.SPAN 1,,1998.0,True,Diamond Time,True,15.00.12.SPAN 1
+Laser Juke,15.01.01 FREN 1,,1999.0,True,Diamond Time,True,15.01.01 FREN 1
+Laser Juke,15.02.02.GER 1,,1999.0,True,Diamond Time,True,15.02.02.GER 1
+Laser Juke,15.03.04.ITAL 1,,1999.0,True,Diamond Time,True,15.03.04.ITAL 1
+Laser Juke,15.04.05.SPAN 1,,1999.0,True,Diamond Time,True,15.04.05.SPAN 1
+Laser Juke,15.05.11.EURO 1,,1999.0,True,Diamond Time,True,15.05.11.EURO 1
+Laser Juke,15.06.07.GER 1,,1999.0,True,Diamond Time,True,15.06.07.GER 1
+Laser Juke,15.07.09.ITAL 1,,1999.0,True,Diamond Time,True,15.07.09.ITAL 1
+Laser Juke,15.08.10.SPAN 1,,1999.0,True,Diamond Time,True,15.08.10.SPAN 1
+Laser Juke,15.10.03.ITAL,,1989.0,True,Pioneer,True,15.10.03.ITAL
+Laser Juke,15.10.12.GER 1,,1999.0,True,Diamond Time,True,15.10.12.GER 1
+Laser Juke,15.12.03.SPAN 1,,2000.0,True,Diamond Time,True,15.12.03.SPAN 1
+Laser Juke,15.13.04 FREN 1,,2000.0,True,Diamond Time,True,15.13.04 FREN 1
+Laser Juke,15.13.05.ITAL,,1990.0,True,Pioneer,True,15.13.05.ITAL
+Laser Juke,15.14.05.EURO 2,,2000.0,True,Diamond Time,True,15.14.05.EURO 2
+Laser Juke,15.16.08.SPAN 1,,2000.0,True,Diamond Time,True,15.16.08.SPAN 1
+Laser Juke,15.19.10.EURO 2,,2000.0,True,Diamond Time,True,15.19.10.EURO 2
+Laser Juke,15.21.02 1  FREN,,2001.0,True,Diamond Time,True,15.21.02 1  FREN
+Laser Juke,15.23.03.EURO 2,,2001.0,True,Diamond Time,True,15.23.03.EURO 2
+Laser Juke,15.24.01.SPAN 1,,2002.0,True,Diamond Time,True,15.24.01.SPAN 1
+Laser Juke,15.27.08.EURO 2,,2001.0,True,Diamond Time,True,15.27.08.EURO 2
+Laser Juke,15.30.02.ITAL,,1990.0,True,Pioneer,True,15.30.02.ITAL
+Laser Juke,15.31.01.EURO 2,,2002.0,True,Diamond Time,True,15.31.01.EURO 2
+Laser Juke,15.40.04.ITAL 1,,2000.0,True,Diamond Time,True,15.40.04.ITAL 1
+Laser Juke,15.41.06.EURO,,1990.0,True,Pioneer,True,15.41.06.EURO
+Laser Juke,15.42.01.ITAL 2,,2002.0,True,Diamond Time,True,15.42.01.ITAL 2
+Laser Juke,15.42.09.EURO,,1990.0,True,Pioneer,True,15.42.09.EURO
+Laser Juke,15.43.12.EURO,,1990.0,True,Pioneer,True,15.43.12.EURO
+Laser Juke,15.44.03.EURO,,1991.0,True,Pioneer,True,15.44.03.EURO
+Laser Juke,15.44.09.ITAL 1,,2000.0,True,Diamond Time,True,15.44.09.ITAL 1
+Laser Juke,15.45.06.EURO,,1991.0,True,Pioneer,True,15.45.06.EURO
+Laser Juke,15.46.09.EURO,,1991.0,True,Pioneer,True,15.46.09.EURO
+Laser Juke,15.47.12.EURO,,1991.0,True,Pioneer,True,15.47.12.EURO
+Laser Juke,15.48.03.EURO,,1992.0,True,Pioneer,True,15.48.03.EURO
+Laser Juke,15.49.06 EURO,,1992.0,True,Pioneer,True,15.49.06 EURO
+Laser Juke,15.50.09.EURO,,1992.0,True,Pioneer,True,15.50.09.EURO
+Laser Juke,15.51.12.EURO,,1992.0,True,Pioneer,True,15.51.12.EURO
+Laser Juke,15.52.03.EURO,,1993.0,True,Pioneer,True,15.52.03.EURO
+Laser Juke,15.52.07.ITAL 2,,2002.0,True,Diamond Time,True,15.52.07.ITAL 2
+Laser Juke,15.53.06.EURO,,1993.0,True,Pioneer,True,15.53.06.EURO
+Laser Juke,15.54.08.FREN,,1993.0,True,Pioneer,True,15.54.08.FREN
+Laser Juke,15.55.09.SPAN,,1993.0,True,Pioneer,True,15.55.09.SPAN
+Laser Juke,15.56.09.EURO,,1993.0,True,Pioneer,True,15.56.09.EURO
+Laser Juke,15.56.12.ITAL 1,,2001.0,True,Diamond Time,True,15.56.12.ITAL 1
+Laser Juke,15.57.01.FREN,,1994.0,True,Pioneer,True,15.57.01.FREN
+Laser Juke,15.58.02.GER,,1994.0,True,Pioneer,True,15.58.02.GER
+Laser Juke,15.59.02.SPAN,,1994.0,True,Pioneer,True,15.59.02.SPAN
+Laser Juke,15.60.06.FREN,,1994.0,True,Pioneer,True,15.60.06.FREN
+Laser Juke,15.61.07.GER,,1994.0,True,Pioneer,True,15.61.07.GER
+Laser Juke,15.62.08.SPAN,,1994.0,True,Pioneer,True,15.62.08.SPAN
+Laser Juke,15.63.11 FREN,,1994.0,True,Pioneer,True,15.63.11 FREN
+Laser Juke,15.64.12.GER,,1994.0,True,Pioneer,True,15.64.12.GER
+Laser Juke,15.65.03.SPAN,,1994.0,True,Diamond Time,True,15.65.03.SPAN
+Laser Juke,15.66.04.FREN,,1995.0,True,Diamond Time,True,15.66.04.FREN
+Laser Juke,15.67.05.GER,,1995.0,True,Diamond Time,True,15.67.05.GER
+Laser Juke,15.68.08.SPAN,,1995.0,True,Diamond Time,True,15.68.08.SPAN
+Laser Juke,15.69.09.FREN,,1995.0,True,Diamond Time,True,15.69.09.FREN
+Laser Juke,15.70.10.GER,,1995.0,True,Diamond Time,True,15.70.10.GER
+Laser Juke,15.71.11 ITAL,,,True,Diamond Time,True,15.71.11 ITAL
+Laser Juke,15.72.01.SPAN,,1996.0,True,Diamond Time,True,15.72.01.SPAN
+Laser Juke,15.74.03.GER,,1996.0,True,Diamond Time,True,15.74.03.GER
+Laser Juke,15.75.04.ITAL,,1996.0,True,Diamond Time,True,15.75.04.ITAL
+Laser Juke,15.76.06.SPAN,,1996.0,True,Diamond Time,True,15.76.06.SPAN
+Laser Juke,15.77.07.FREN,,1996.0,True,Diamond Time,True,15.77.07.FREN
+Laser Juke,15.78.08.GER,,1996.0,True,Diamond Time,True,15.78.08.GER
+Laser Juke,15.79.09.ITAL,,1996.0,True,Diamond Time,True,15.79.09.ITAL
+Laser Juke,15.80.11 SPAN,,1996.0,True,Diamond Time,True,15.80.11 SPAN
+Laser Juke,15.81.12 FREN,,1996.0,True,Diamond Time,True,15.81.12 FREN
+Laser Juke,15.82.01.GER,,1997.0,True,Diamond Time,True,15.82.01.GER
+Laser Juke,15.83.02.ITAL,,1997.0,True,Diamond Time,True,15.83.02.ITAL
+Laser Juke,15.84.04.SPAN,,1997.0,True,Diamond Time,True,15.84.04.SPAN
+Laser Juke,15.86.06.GER,,1997.0,True,Diamond Time,True,15.86.06.GER
+Laser Juke,15.87.08.ITAL,,1997.0,True,Diamond Time,True,15.87.08.ITAL
+Laser Juke,15.88.09.SPAN,,1997.0,True,Diamond Time,True,15.88.09.SPAN
+Laser Juke,15.89.10 FREN,,1997.0,True,Diamond Time,True,15.89.10 FREN
+Laser Juke,15.90.11.GER,,1997.0,True,Diamond Time,True,15.90.11.GER
+Laser Juke,15.91.01.ITAL,,1998.0,True,Diamond Time,True,15.91.01.ITAL
+Laser Juke,15.93.03.FREN,,1998.0,True,Diamond Time,True,15.93.03.FREN
+Laser Juke,15.94.04.GER,,1998.0,True,Diamond Time,True,15.94.04.GER
+Laser Juke,15.95.06.ITAL,,1998.0,True,Diamond Time,True,15.95.06.ITAL
+Laser Juke,15.96.07.SPAN,,1998.0,True,Diamond Time,True,15.96.07.SPAN
+Laser Juke,15.98.09.GER,,1998.0,True,Diamond Time,True,15.98.09.GER
+Laser Juke,15.99.11.ITAL,,1998.0,True,Diamond Time,True,15.99.11.ITAL
+Laser Juke,16.00.06.GER 1,,1995.0,True,Diamond Time,True,16.00.06.GER 1
+Laser Juke,16.02.09.SPAN 1,,1995.0,True,Diamond Time,True,16.02.09.SPAN 1
+Laser Juke,16.03.10.EURO 1,,1995.0,True,Diamond Time,True,16.03.10.EURO 1
+Laser Juke,16.04.11.GER 1,,1995.0,True,Diamond Time,True,16.04.11.GER 1
+Laser Juke,16.05.12.ITAL 1,,1995.0,True,Diamond Time,True,16.05.12.ITAL 1
+Laser Juke,16.06.02.SPAN 1,,1996.0,True,Pioneer,True,16.06.02.SPAN 1
+Laser Juke,16.08.04.GER 1,,1996.0,True,Diamond Time,True,16.08.04.GER 1
+Laser Juke,16.09.04.SPAN,,1989.0,True,Pioneer,True,16.09.04.SPAN
+Laser Juke,16.09.05.ITAL 1,,1996.0,True,Diamond Time,True,16.09.05.ITAL 1
+Laser Juke,16.10.07.SPAN 1,,1996.0,True,Diamond Time,True,16.10.07.SPAN 1
+Laser Juke,16.11.08.FREN 1,,1996.0,True,Diamond Time,True,16.11.08.FREN 1
+Laser Juke,16.12.09.GER 1,,1996.0,True,Diamond Time,True,16.12.09.GER 1
+Laser Juke,16.13.10.ITAL 1,,1996.0,True,Diamond Time,True,16.13.10.ITAL 1
+Laser Juke,16.14.12.SPAN 1,,1996.0,True,Diamond Time,True,16.14.12.SPAN 1
+Laser Juke,16.16.02.GER 1,,1997.0,True,Diamond Time,True,16.16.02.GER 1
+Laser Juke,16.17.03.ITAL 1,,1997.0,True,Diamond Time,True,16.17.03.ITAL 1
+Laser Juke,16.18.05.SPAN 1,,1997.0,True,Diamond Time,True,16.18.05.SPAN 1
+Laser Juke,16.20.07.GER 1,,1997.0,True,Diamond Time,True,16.20.07.GER 1
+Laser Juke,16.21.09.ITAL 1,,1997.0,True,Diamond Time,True,16.21.09.ITAL 1
+Laser Juke,16.22.10 SPAN,,1997.0,True,Diamond Time,True,16.22.10 SPAN
+Laser Juke,16.23.04.ITAL,,1990.0,True,Pioneer,True,16.23.04.ITAL
+Laser Juke,16.24.12.GER 1,,1997.0,True,Diamond Time,True,16.24.12.GER 1
+Laser Juke,16.25.02.ITAL 1,,1998.0,True,Diamond Time,True,16.25.02.ITAL 1
+Laser Juke,16.26.03.SPAN 1,,1998.0,True,Diamond Time,True,16.26.03.SPAN 1
+Laser Juke,16.26.04.EURO,,1990.0,True,Pioneer,True,16.26.04.EURO
+Laser Juke,16.26.05.ITAL 1,,2000.0,True,Diamond Time,True,16.26.05.ITAL 1
+Laser Juke,16.28.05.GER 1,,1998.0,True,Diamond Time,True,16.28.05.GER 1
+Laser Juke,16.30.09 FREN,,1998.0,True,Diamond Time,True,16.30.09 FREN
+Laser Juke,16.30.10.ITAL 1,,2000.0,True,Diamond Time,True,16.30.10.ITAL 1
+Laser Juke,16.31.10.GER 1,,1998.0,True,Diamond Time,True,16.31.10.GER 1
+Laser Juke,16.32.12.ITAL 1,,1998.0,True,Diamond Time,True,16.32.12.ITAL 1
+Laser Juke,16.33.01.SPAN 1,,1999.0,True,Diamond Time,True,16.33.01.SPAN 1
+Laser Juke,16.33.10.EURO,,1990.0,True,Pioneer,True,16.33.10.EURO
+Laser Juke,16.34.03.ITAL 1,,2001.0,True,Diamond Time,True,16.34.03.ITAL 1
+Laser Juke,16.34.11.ITAL,,1990.0,True,Pioneer,True,16.34.11.ITAL
+Laser Juke,16.35.03.GER 1,,1999.0,True,Diamond Time,True,16.35.03.GER 1
+Laser Juke,16.36.05.ITAL 1,,2001.0,True,Diamond Time,True,16.36.05.ITAL 1
+Laser Juke,16.37.01.EURO,,1991.0,True,Pioneer,True,16.37.01.EURO
+Laser Juke,16.37.06.SPAN 1,,1999.0,True,Diamond Time,True,16.37.06.SPAN 1
+Laser Juke,16.38.08.ITAL 1,,2001.0,True,Diamond Time,True,16.38.08.ITAL 1
+Laser Juke,16.39.08.GER 1,,1999.0,True,Diamond Time,True,16.39.08.GER 1
+Laser Juke,16.40.10.EURO 1,,1999.0,True,Diamond Time,True,16.40.10.EURO 1
+Laser Juke,16.41.04.GER,,1991.0,True,Pioneer,True,16.41.04.GER
+Laser Juke,16.41.11.SPAN 1,,1999.0,True,Diamond Time,True,16.41.11.SPAN 1
+Laser Juke,16.42.04.FREN,,1991.0,True,Pioneer,True,16.42.04.FREN
+Laser Juke,16.42.12 FREN,,1999.0,True,Diamond Time,True,16.42.12 FREN
+Laser Juke,16.43.01.GER 1,,2000.0,True,Diamond Time,True,16.43.01.GER 1
+Laser Juke,16.43.05.EURO [UK 16],,1991.0,True,Pioneer,True,16.43.05.EURO [UK 16]
+Laser Juke,16.44.05.ITAL,,1991.0,True,Pioneer,True,16.44.05.ITAL
+Laser Juke,16.45.04.SPAN 1,,2000.0,True,Diamond Time,True,16.45.04.SPAN 1
+Laser Juke,16.46.07.EURO [UK 16],,1991.0,True,Pioneer,True,16.46.07.EURO [UK 16]
+Laser Juke,16.47.06.EURO 2,,2000.0,True,Diamond Time,True,16.47.06.EURO 2
+Laser Juke,16.48.08.FREN,,1991.0,True,Pioneer,True,16.48.08.FREN
+Laser Juke,16.49.09.SPAN 1,,2000.0,True,Diamond Time,True,16.49.09.SPAN 1
+Laser Juke,16.50.10 FREN 1,,2000.0,True,Diamond Time,True,16.50.10 FREN 1
+Laser Juke,16.51.09.EURO,,1991.0,True,Pioneer,True,16.51.09.EURO
+Laser Juke,16.51.11.EURO,,1991.0,True,Pioneer,True,16.51.11.EURO
+Laser Juke,16.51.11_2.EURO 2,,2000.0,True,Diamond Time,True,16.51.11_2.EURO 2
+Laser Juke,16.52.10.GER,,1991.0,True,Pioneer,True,16.52.10.GER
+Laser Juke,16.53.02.SPAN 1,,2001.0,True,Diamond Time,True,16.53.02.SPAN 1
+Laser Juke,16.53.11.EURO,,1991.0,True,Pioneer,True,16.53.11.EURO
+Laser Juke,16.54.12.FREN,,1991.0,True,Pioneer,True,16.54.12.FREN
+Laser Juke,16.55.04.EURO 2,,2001.0,True,Diamond Time,True,16.55.04.EURO 2
+Laser Juke,16.56.01.EURO,,1992.0,True,Pioneer,True,16.56.01.EURO
+Laser Juke,16.57.01.SPAN,,1992.0,True,Pioneer,True,16.57.01.SPAN
+Laser Juke,16.57.07.SPAN 1,,2001.0,True,Diamond Time,True,16.57.07.SPAN 1
+Laser Juke,16.58.08 FREN 1,,2001.0,True,Diamond Time,True,16.58.08 FREN 1
+Laser Juke,16.59.04.ITAL,,1992.0,True,Pioneer,True,16.59.04.ITAL
+Laser Juke,16.59.09.EURO 2,,2001.0,True,Diamond Time,True,16.59.09.EURO 2
+Laser Juke,16.60.05.ITAL 2,,2002.0,True,Diamond Time,True,16.60.05.ITAL 2
+Laser Juke,16.61.04.EURO,,1992.0,True,Pioneer,True,16.61.04.EURO
+Laser Juke,16.61.12.SPAN 1,,2001.0,True,Diamond Time,True,16.61.12.SPAN 1
+Laser Juke,16.62.04.FREN,,1992.0,True,Pioneer,True,16.62.04.FREN
+Laser Juke,16.63.02.EURO 2,,2002.0,True,Diamond Time,True,16.63.02.EURO 2
+Laser Juke,16.64.05.SPAN 1,,2002.0,True,Diamond Time,True,16.64.05.SPAN 1
+Laser Juke,16.65.07.GER,,1992.0,True,Pioneer,True,16.65.07.GER
+Laser Juke,16.67.08.SPAN,,1992.0,True,Pioneer,True,16.67.08.SPAN
+Laser Juke,16.69.09.ITAL,,1992.0,True,Pioneer,True,16.69.09.ITAL
+Laser Juke,16.71.10.EURO,,1992.0,True,Pioneer,True,16.71.10.EURO
+Laser Juke,16.73.12.FREN,,1992.0,True,Pioneer,True,16.73.12.FREN
+Laser Juke,16.75.01.EURO,,1993.0,True,Pioneer,True,16.75.01.EURO
+Laser Juke,16.76.02.SPAN,,1993.0,True,Pioneer,True,16.76.02.SPAN
+Laser Juke,16.77.04.FREN,,1993.0,True,Pioneer,True,16.77.04.FREN
+Laser Juke,16.78.04.EURO,,1993.0,True,Pioneer,True,16.78.04.EURO
+Laser Juke,16.79.05.SPAN,,1993.0,True,Pioneer,True,16.79.05.SPAN
+Laser Juke,16.80.05 ITAL,,1993.0,True,Pioneer,True,16.80.05 ITAL
+Laser Juke,16.81.07.GER,,1993.0,True,Pioneer,True,16.81.07.GER
+Laser Juke,16.82.09.FREN,,1993.0,True,Pioneer,True,16.82.09.FREN
+Laser Juke,16.83.10.SPAN,,1993.0,True,Pioneer,True,16.83.10.SPAN
+Laser Juke,16.84.10.GER,,1993.0,True,Pioneer,True,16.84.10.GER
+Laser Juke,16.85.10.ITAL,,1993.0,True,Pioneer,True,16.85.10.ITAL
+Laser Juke,16.86.02.FREN,,1994.0,True,Pioneer,True,16.86.02.FREN
+Laser Juke,16.87.02.ITAL,,1994.0,True,Pioneer,True,16.87.02.ITAL
+Laser Juke,16.88.03.SPAN,,1994.0,True,Pioneer,True,16.88.03.SPAN
+Laser Juke,16.89.03.GER,,1994.0,True,Pioneer,True,16.89.03.GER
+Laser Juke,16.90.06.ITAL,,1994.0,True,Pioneer,True,16.90.06.ITAL
+Laser Juke,16.91.07.FREN,,1994.0,True,Pioneer,True,16.91.07.FREN
+Laser Juke,16.92.08.GER,,1994.0,True,Pioneer,True,16.92.08.GER
+Laser Juke,16.93.10.SPAN,,1994.0,True,Pioneer,True,16.93.10.SPAN
+Laser Juke,16.94.11.ITAL,,1994.0,True,Pioneer,True,16.94.11.ITAL
+Laser Juke,16.95.12.FREN,,1994.0,True,Diamond Time,True,16.95.12.FREN
+Laser Juke,16.96.01.GER,,1995.0,True,Pioneer,True,16.96.01.GER
+Laser Juke,16.97.03 ITAL,,1995.0,True,Diamond Time,True,16.97.03 ITAL
+Laser Juke,16.98.04.SPAN,,1995.0,True,Diamond Time,True,16.98.04.SPAN
+Laser Juke,16.99.05.FREN,,1995.0,True,Diamond Time,True,16.99.05.FREN
+Laser Juke,17.00.01.ITAL 1,,1996.0,True,Diamond Time,True,17.00.01.ITAL 1
+Laser Juke,17.01.03.SPAN 1,,1996.0,True,Diamond Time,True,17.01.03.SPAN 1
+Laser Juke,17.02.06.ITAL 2,,2000.0,True,Diamond Time,True,17.02.06.ITAL 2
+Laser Juke,17.03.05.GER 1,,1996.0,True,Diamond Time,True,17.03.05.GER 1
+Laser Juke,17.04.06.ITAL 1,,1996.0,True,Diamond Time,True,17.04.06.ITAL 1
+Laser Juke,17.05.08.SPAN 1,,1996.0,True,Diamond Time,True,17.05.08.SPAN 1
+Laser Juke,17.06.11 ITAL 2,,2000.0,True,Diamond Time,True,17.06.11 ITAL 2
+Laser Juke,17.07.10.GER 1,,1996.0,True,Diamond Time,True,17.07.10.GER 1
+Laser Juke,17.08.11.ITAL 1,,1996.0,True,Diamond Time,True,17.08.11.ITAL 1
+Laser Juke,17.09.01.SPAN 1,,1997.0,True,Diamond Time,True,17.09.01.SPAN 1
+Laser Juke,17.10.04.ITAL 2,,2001.0,True,Diamond Time,True,17.10.04.ITAL 2
+Laser Juke,17.11.03.GER 1,,1997.0,True,Diamond Time,True,17.11.03.GER 1
+Laser Juke,17.12.04.ITAL 1,,1997.0,True,Diamond Time,True,17.12.04.ITAL 1
+Laser Juke,17.12.05.EURO,,1990.0,True,Pioneer,True,17.12.05.EURO
+Laser Juke,17.13.06.SPAN 1,,1997.0,True,Diamond Time,True,17.13.06.SPAN 1
+Laser Juke,17.14.07 FREN 1,,1997.0,True,Diamond Time,True,17.14.07 FREN 1
+Laser Juke,17.14.09.ITAL 2,,2001.0,True,Diamond Time,True,17.14.09.ITAL 2
+Laser Juke,17.15.03.EURO,,1990.0,True,Pioneer,True,17.15.03.EURO
+Laser Juke,17.15.08.GER 1,,1997.0,True,Diamond Time,True,17.15.08.GER 1
+Laser Juke,17.16.10.ITAL 1,,1997.0,True,Diamond Time,True,17.16.10.ITAL 1
+Laser Juke,17.17.11.SPAN 1,,1997.0,True,Diamond Time,True,17.17.11.SPAN 1
+Laser Juke,17.18.02.ITAL 2,,2002.0,True,Diamond Time,True,17.18.02.ITAL 2
+Laser Juke,17.19.01.GER 1,,1998.0,True,Diamond Time,True,17.19.01.GER 1
+Laser Juke,17.19.05.ITAL,,1990.0,True,Pioneer,True,17.19.05.ITAL
+Laser Juke,17.20.03.ITAL 1,,1998.0,True,Diamond Time,True,17.20.03.ITAL 1
+Laser Juke,17.20.07.EURO,,1990.0,True,Pioneer,True,17.20.07.EURO
+Laser Juke,17.21.04 SPAN 1,,1998.0,True,Diamond Time,True,17.21.04 SPAN 1
+Laser Juke,17.22.08.GER,,1990.0,True,Pioneer,True,17.22.08.GER
+Laser Juke,17.23.06.GER 1,,1998.0,True,Diamond Time,True,17.23.06.GER 1
+Laser Juke,17.23.09.EURO,,1990.0,True,Pioneer,True,17.23.09.EURO
+Laser Juke,17.24.08.ITAL 1,,1998.0,True,Diamond Time,True,17.24.08.ITAL 1
+Laser Juke,17.25.09.SPAN 1,,1998.0,True,Diamond Time,True,17.25.09.SPAN 1
+Laser Juke,17.26.10 FREN,,1998.0,True,Diamond Time,True,17.26.10 FREN
+Laser Juke,17.26.11.EURO,,1990.0,True,Pioneer,True,17.26.11.EURO
+Laser Juke,17.27.11.GER 1,,1998.0,True,Diamond Time,True,17.27.11.GER 1
+Laser Juke,17.28.01.ITAL 1,,1999.0,True,Diamond Time,True,17.28.01.ITAL 1
+Laser Juke,17.29.02.SPAN 1,,1999.0,True,Diamond Time,True,17.29.02.SPAN 1
+Laser Juke,17.30.03 FREN 1,,1999.0,True,Diamond Time,True,17.30.03 FREN 1
+Laser Juke,17.31.01.FREN,,1991.0,True,Pioneer,True,17.31.01.FREN
+Laser Juke,17.31.04.GER 1,,1999.0,True,Diamond Time,True,17.31.04.GER 1
+Laser Juke,17.32.02.GER,,1991.0,True,Pioneer,True,17.32.02.GER
+Laser Juke,17.32.06.ITAL 1,,1999.0,True,Diamond Time,True,17.32.06.ITAL 1
+Laser Juke,17.33.07.SPAN 1,,1999.0,True,Diamond Time,True,17.33.07.SPAN 1
+Laser Juke,17.35.09.GER 1,,1999.0,True,Diamond Time,True,17.35.09.GER 1
+Laser Juke,17.36.04.EURO,,1991.0,True,Pioneer,True,17.36.04.EURO
+Laser Juke,17.36.11.ITAL 1,,1999.0,True,Diamond Time,True,17.36.11.ITAL 1
+Laser Juke,17.37.12.SPAN 1,,1999.0,True,Diamond Time,True,17.37.12.SPAN 1
+Laser Juke,17.39.02.GER 1,,2000.0,True,Diamond Time,True,17.39.02.GER 1
+Laser Juke,17.39.06.EURO,,1991.0,True,Pioneer,True,17.39.06.EURO
+Laser Juke,17.41.05.SPAN 1,,2000.0,True,Diamond Time,True,17.41.05.SPAN 1
+Laser Juke,17.42.06 FREN 1,,2000.0,True,Diamond Time,True,17.42.06 FREN 1
+Laser Juke,17.42.08.EURO,,1991.0,True,Pioneer,True,17.42.08.EURO
+Laser Juke,17.43.07.EURO 2,,2000.0,True,Diamond Time,True,17.43.07.EURO 2
+Laser Juke,17.45.10.SPAN 1,,2000.0,True,Diamond Time,True,17.45.10.SPAN 1
+Laser Juke,17.46.10.ITAL,,1991.0,True,Pioneer,True,17.46.10.ITAL
+Laser Juke,17.47.12.EURO 2,,2000.0,True,Diamond Time,True,17.47.12.EURO 2
+Laser Juke,17.49.03 SPAN 1,,2001.0,True,Diamond Time,True,17.49.03 SPAN 1
+Laser Juke,17.49.12.EURO,,1991.0,True,Pioneer,True,17.49.12.EURO
+Laser Juke,17.50.04 FREN 1,,2001.0,True,Diamond Time,True,17.50.04 FREN 1
+Laser Juke,17.51.01.FREN,,1991.0,True,Pioneer,True,17.51.01.FREN
+Laser Juke,17.51.05.EURO 2,,2001.0,True,Diamond Time,True,17.51.05.EURO 2
+Laser Juke,17.52.02.EURO,,1992.0,True,Pioneer,True,17.52.02.EURO
+Laser Juke,17.54.03.SPAN,,1992.0,True,Pioneer,True,17.54.03.SPAN
+Laser Juke,17.55.05.EURO,,1992.0,True,Pioneer,True,17.55.05.EURO
+Laser Juke,17.55.10.EURO 2,,2001.0,True,Diamond Time,True,17.55.10.EURO 2
+Laser Juke,17.57.01.SPAN 1,,2002.0,True,Diamond Time,True,17.57.01.SPAN 1
+Laser Juke,17.59.03.EURO 2,,2002.0,True,Diamond Time,True,17.59.03.EURO 2
+Laser Juke,17.59.06.SPAN,,1992.0,True,Pioneer,True,17.59.06.SPAN
+Laser Juke,17.61.08.EURO,,1992.0,True,Pioneer,True,17.61.08.EURO
+Laser Juke,17.67.11.GER,,1992.0,True,Pioneer,True,17.67.11.GER
+Laser Juke,17.68.12.SPAN,,1992.0,True,Pioneer,True,17.68.12.SPAN
+Laser Juke,17.72.03.SPAN,,1993.0,True,Pioneer,True,17.72.03.SPAN
+Laser Juke,17.73.05.FREN,,1993.0,True,Pioneer,True,17.73.05.FREN
+Laser Juke,17.74.05.GER,,1993.0,True,Pioneer,True,17.74.05.GER
+Laser Juke,17.75.06.SPAN,,1993.0,True,Pioneer,True,17.75.06.SPAN
+Laser Juke,17.76.06.ITAL,,1993.0,True,Pioneer,True,17.76.06.ITAL
+Laser Juke,17.77.10.FREN,,1993.0,True,Pioneer,True,17.77.10.FREN
+Laser Juke,17.78.11.GER,,1993.0,True,Pioneer,True,17.78.11.GER
+Laser Juke,17.79.11.ITAL,,1993.0,True,Pioneer,True,17.79.11.ITAL
+Laser Juke,17.80.11.SPAN,,1993.0,True,Pioneer,True,17.80.11.SPAN
+Laser Juke,17.81.03.FREN,,1994.0,True,Pioneer,True,17.81.03.FREN
+Laser Juke,17.82.03.ITAL,,1994.0,True,Pioneer,True,17.82.03.ITAL
+Laser Juke,17.83.04.SPAN,,1994.0,True,Pioneer,True,17.83.04.SPAN
+Laser Juke,17.84.04.GER,,1994.0,True,Pioneer,True,17.84.04.GER
+Laser Juke,17.85.08.FREN,,1994.0,True,Pioneer,True,17.85.08.FREN
+Laser Juke,17.86.08.ITAL,,1994.0,True,Pioneer,True,17.86.08.ITAL
+Laser Juke,17.87.09.GER,,1994.0,True,Pioneer,True,17.87.09.GER
+Laser Juke,17.88.11.SPAN,,1994.0,True,Pioneer,True,17.88.11.SPAN
+Laser Juke,17.89.12.ITAL,,1994.0,True,Pioneer,True,17.89.12.ITAL
+Laser Juke,17.90.01.FREN,,1995.0,True,Pioneer,True,17.90.01.FREN
+Laser Juke,17.91.02.GER,,1995.0,True,Pioneer,True,17.91.02.GER
+Laser Juke,17.92.04 ITAL,,,True,Diamond Time,True,17.92.04 ITAL
+Laser Juke,17.93.05.SPAN,,1995.0,True,Diamond Time,True,17.93.05.SPAN
+Laser Juke,17.94.06.FREN,,1995.0,True,Diamond Time,True,17.94.06.FREN
+Laser Juke,17.95.07.GER,,1995.0,True,Diamond Time,True,17.95.07.GER
+Laser Juke,17.96.08.ITAL,,1995.0,True,Diamond Time,True,17.96.08.ITAL
+Laser Juke,17.97.10.SPAN,,1995.0,True,Diamond Time,True,17.97.10.SPAN
+Laser Juke,17.98.01 ITAL 1,,2000.0,True,Diamond Time,True,17.98.01 ITAL 1
+Laser Juke,17.98.11.FREN,,1995.0,True,Diamond Time,True,17.98.11.FREN
+Laser Juke,17.99.12.GER,,1995.0,True,Diamond Time,True,17.99.12.GER
+Laser Juke,18.01.09.GER 1,,1997.0,True,Diamond Time,True,18.01.09.GER 1
+Laser Juke,18.02.11.ITAL,,1997.0,True,Diamond Time,True,18.02.11.ITAL
+Laser Juke,18.03.12.SPAN,,1997.0,True,Diamond Time,True,18.03.12.SPAN
+Laser Juke,18.04.01 FREN 1,,1998.0,True,Diamond Time,True,18.04.01 FREN 1
+Laser Juke,18.05.02.GER,,1998.0,True,Diamond Time,True,18.05.02.GER
+Laser Juke,18.06.04.ITAL,,1998.0,True,Diamond Time,True,18.06.04.ITAL
+Laser Juke,18.07.05.SPAN,,1998.0,True,Diamond Time,True,18.07.05.SPAN
+Laser Juke,18.08.06 FREN 1,,1998.0,True,Diamond Time,True,18.08.06 FREN 1
+Laser Juke,18.09.07.GER 2,,1998.0,True,Diamond Time,True,18.09.07.GER 2
+Laser Juke,18.10.09.ITAL1,,1998.0,True,Diamond Time,True,18.10.09.ITAL1
+Laser Juke,18.11.02.ITAL 2,,2000.0,True,Diamond Time,True,18.11.02.ITAL 2
+Laser Juke,18.11.022.ITAL 2,,2000.0,True,Diamond Time,True,18.11.022.ITAL 2
+Laser Juke,18.11.10.SPAN,,1998.0,True,Diamond Time,True,18.11.10.SPAN
+Laser Juke,18.12.11 FREN 1,,1998.0,True,Diamond Time,True,18.12.11 FREN 1
+Laser Juke,18.13.06.GER,,1990.0,True,Pioneer,True,18.13.06.GER
+Laser Juke,18.13.12.GER 2,,1998.0,True,Diamond Time,True,18.13.12.GER 2
+Laser Juke,18.14.02.ITAL 1,,1999.0,True,Diamond Time,True,18.14.02.ITAL 1
+Laser Juke,18.15.03.SPAN 1,,1999.0,True,Diamond Time,True,18.15.03.SPAN 1
+Laser Juke,18.15.06.ITAL,,1990.0,True,Pioneer,True,18.15.06.ITAL
+Laser Juke,18.16.04 FREN,,1999.0,True,Diamond Time,True,18.16.04 FREN
+Laser Juke,18.17.05.GER 2,,1999.0,True,Diamond Time,True,18.17.05.GER 2
+Laser Juke,18.17.09.EURO,,1990.0,True,Pioneer,True,18.17.09.EURO
+Laser Juke,18.19.10.FREN 1,,2000.0,True,Diamond Time,True,18.19.10.FREN 1
+Laser Juke,18.19.12.ITAL 2,,2000.0,True,Diamond Time,True,18.19.12.ITAL 2
+Laser Juke,18.20.09 FREN 1,,1999.0,True,Diamond Time,True,18.20.09 FREN 1
+Laser Juke,18.21.10.GER 2,,1999.0,True,Diamond Time,True,18.21.10.GER 2
+Laser Juke,18.21.12.GER,,1990.0,True,Pioneer,True,18.21.12.GER
+Laser Juke,18.22.01.ITAL,,1991.0,True,Pioneer,True,18.22.01.ITAL
+Laser Juke,18.22.12.ITAL 1,,1999.0,True,Diamond Time,True,18.22.12.ITAL 1
+Laser Juke,18.23.01.SPAN 1,,2000.0,True,Diamond Time,True,18.23.01.SPAN 1
+Laser Juke,18.23.05 ITAL 2,,2001.0,True,Diamond Time,True,18.23.05 ITAL 2
+Laser Juke,18.24.02 FREN 1,,2001.0,True,Diamond Time,True,18.24.02 FREN 1
+Laser Juke,18.25.03.GER 2,,2000.0,True,Diamond Time,True,18.25.03.GER 2
+Laser Juke,18.27.04.ITAL,,1991.0,True,Pioneer,True,18.27.04.ITAL
+Laser Juke,18.27.06.SPAN 1,,2000.0,True,Diamond Time,True,18.27.06.SPAN 1
+Laser Juke,18.27.10.ITAL 2,,2001.0,True,Diamond Time,True,18.27.10.ITAL 2
+Laser Juke,18.29.06.EURO,,1991.0,True,Pioneer,True,18.29.06.EURO
+Laser Juke,18.29.08.EURO 2,,2000.0,True,Diamond Time,True,18.29.08.EURO 2
+Laser Juke,18.30.06.FREN,,1991.0,True,Pioneer,True,18.30.06.FREN
+Laser Juke,18.31.03.ITAL 2,,2002.0,True,Diamond Time,True,18.31.03.ITAL 2
+Laser Juke,18.31.11.SPAN 1,,2000.0,True,Diamond Time,True,18.31.11.SPAN 1
+Laser Juke,18.32.08.EURO,,1991.0,True,Pioneer,True,18.32.08.EURO
+Laser Juke,18.32.09.GER,,1991.0,True,Pioneer,True,18.32.09.GER
+Laser Juke,18.33.01.EUR0 2,,2001.0,True,Diamond Time,True,18.33.01.EUR0 2
+Laser Juke,18.33.10.FREN,,1991.0,True,Pioneer,True,18.33.10.FREN
+Laser Juke,18.35.04.SPAN 1,,2001.0,True,Diamond Time,True,18.35.04.SPAN 1
+Laser Juke,18.36.12.GER,,1991.0,True,Pioneer,True,18.36.12.GER
+Laser Juke,18.37.06.EUR0 2,,2001.0,True,Diamond Time,True,18.37.06.EUR0 2
+Laser Juke,18.38.01.EURO 1,,1997.0,True,Diamond Time,True,18.38.01.EURO 1
+Laser Juke,18.38.02 FREN,,1991.0,True,Pioneer,True,18.38.02 FREN
+Laser Juke,18.39.09.SPAN 1,,2001.0,True,Diamond Time,True,18.39.09.SPAN 1
+Laser Juke,18.40.03.GER,,1992.0,True,Pioneer,True,18.40.03.GER
+Laser Juke,18.41.11.EURO 2,,2001.0,True,Diamond Time,True,18.41.11.EURO 2
+Laser Juke,18.43.02.SPAN 1,,2002.0,True,Diamond Time,True,18.43.02.SPAN 1
+Laser Juke,18.43.06.GER,,1992.0,True,Pioneer,True,18.43.06.GER
+Laser Juke,18.45.04.EURO 2,,2002.0,True,Diamond Time,True,18.45.04.EURO 2
+Laser Juke,18.45.06.FREN,,1992.0,True,Pioneer,True,18.45.06.FREN
+Laser Juke,18.46.07.SPAN,,1992.0,True,Pioneer,True,18.46.07.SPAN
+Laser Juke,18.48.09.EURO,,1992.0,True,Pioneer,True,18.48.09.EURO
+Laser Juke,18.49.10.SPAN,,1992.0,True,Pioneer,True,18.49.10.SPAN
+Laser Juke,18.50.10.FREN,,1992.0,True,Pioneer,True,18.50.10.FREN
+Laser Juke,18.52.11.ITAL,,1991.0,True,Pioneer,True,18.52.11.ITAL
+Laser Juke,18.53.12.GER,,1992.0,True,Pioneer,True,18.53.12.GER
+Laser Juke,18.54.01.SPAN,,1993.0,True,Pioneer,True,18.54.01.SPAN
+Laser Juke,18.54.04.SPAN,,1993.0,True,Pioneer,True,18.54.04.SPAN
+Laser Juke,18.55.02 FREN,,1992.0,True,Pioneer,True,18.55.02 FREN
+Laser Juke,18.56.03.ITAL,,1993.0,True,Pioneer,True,18.56.03.ITAL
+Laser Juke,18.57.03.GER,,1993.0,True,Pioneer,True,18.57.03.GER
+Laser Juke,18.59.06.GER,,1993.0,True,Pioneer,True,18.59.06.GER
+Laser Juke,18.60.06.FREN,,1993.0,True,Pioneer,True,18.60.06.FREN
+Laser Juke,18.61.07.SPAN,,1993.0,True,Pioneer,True,18.61.07.SPAN
+Laser Juke,18.63.11.FREN,,1993.0,True,Pioneer,True,18.63.11.FREN
+Laser Juke,18.64.12.GER,,1993.0,True,Pioneer,True,18.64.12.GER
+Laser Juke,18.65.12.ITAL,,1993.0,True,Pioneer,True,18.65.12.ITAL
+Laser Juke,18.66.12.SPAN,,1993.0,True,Pioneer,True,18.66.12.SPAN
+Laser Juke,18.67.04 FREN,,1994.0,True,Pioneer,True,18.67.04 FREN
+Laser Juke,18.68.04.ITAL,,1994.0,True,Pioneer,True,18.68.04.ITAL
+Laser Juke,18.69.05.GER,,1994.0,True,Pioneer,True,18.69.05.GER
+Laser Juke,18.70.05.SPAN,,1994.0,True,Diamond Time,True,18.70.05.SPAN
+Laser Juke,18.71.09.FREN,,1994.0,True,Pioneer,True,18.71.09.FREN
+Laser Juke,18.72.09.ITAL,,1994.0,True,Pioneer,True,18.72.09.ITAL
+Laser Juke,18.73.10.GER,,1994.0,True,Pioneer,True,18.73.10.GER
+Laser Juke,18.74.12.SPAN,,1994.0,True,Diamond Time,True,18.74.12.SPAN
+Laser Juke,18.75.01.ITAL,,1995.0,True,Pioneer,True,18.75.01.ITAL
+Laser Juke,18.77.03.GER,,1995.0,True,Diamond Time,True,18.77.03.GER
+Laser Juke,18.78.05.ITAL,,1995.0,True,Diamond Time,True,18.78.05.ITAL
+Laser Juke,18.79.06.SPAN,,1995.0,True,Diamond Time,True,18.79.06.SPAN
+Laser Juke,18.80.07.FREN,,1995.0,True,Diamond Time,True,18.80.07.FREN
+Laser Juke,18.81.08.GER,,1995.0,True,Diamond Time,True,18.81.08.GER
+Laser Juke,18.82.05.ITAL 1,,1998.0,True,Diamond Time,True,18.82.05.ITAL 1
+Laser Juke,18.82.09 ITAL,,1995.0,True,Diamond Time,True,18.82.09 ITAL
+Laser Juke,18.83.11.SPAN,,1995.0,True,Diamond Time,True,18.83.11.SPAN
+Laser Juke,18.84.12 FREN,,1995.0,True,Diamond Time,True,18.84.12 FREN
+Laser Juke,18.85.01.GER,,1996.0,True,Diamond Time,True,18.85.01.GER
+Laser Juke,18.86.02.ITAL,,1996.0,True,Diamond Time,True,18.86.02.ITAL
+Laser Juke,18.87.04.SPAN,,1996.0,True,Diamond Time,True,18.87.04.SPAN
+Laser Juke,18.89.06 GER,,1996.0,True,Diamond Time,True,18.89.06 GER
+Laser Juke,18.91.09.SPAN,,1996.0,True,Diamond Time,True,18.91.09.SPAN
+Laser Juke,18.93.11.GER,,1996.0,True,Diamond Time,True,18.93.11.GER
+Laser Juke,18.94.12 ITAL,,1996.0,True,Diamond Time,True,18.94.12 ITAL
+Laser Juke,18.95.02.SPAN,,1997.0,True,Diamond Time,True,18.95.02.SPAN
+Laser Juke,18.97.04.GER,,1997.0,True,Diamond Time,True,18.97.04.GER
+Laser Juke,18.98.05.ITAL,,1997.0,True,Diamond Time,True,18.98.05.ITAL
+Laser Juke,18.99.07.SPAN,,1997.0,True,Diamond Time,True,18.99.07.SPAN
+Laser Juke,19.00.03 FREN 1,,2000.0,True,Diamond Time,True,19.00.03 FREN 1
+Laser Juke,19.01.04.GER 1,,2000.0,True,Diamond Time,True,19.01.04.GER 1
+Laser Juke,19.03.07.SPAN 2,,2000.0,True,Diamond Time,True,19.03.07.SPAN 2
+Laser Juke,19.05.04.EURO,,1989.0,True,Pioneer,True,19.05.04.EURO
+Laser Juke,19.05.09.EURO 2,,2000.0,True,Diamond Time,True,19.05.09.EURO 2
+Laser Juke,19.07.12.SPAN 2,,2000.0,True,Diamond Time,True,19.07.12.SPAN 2
+Laser Juke,19.10.03.FREN,,1990.0,True,Pioneer,True,19.10.03.FREN
+Laser Juke,19.11.05.SPAN 2,,2001.0,True,Diamond Time,True,19.11.05.SPAN 2
+Laser Juke,19.13.07.EURO 2,,2001.0,True,Diamond Time,True,19.13.07.EURO 2
+Laser Juke,19.15.10.SPAN 2,,2001.0,True,Diamond Time,True,19.15.10.SPAN 2
+Laser Juke,19.17.12.EURO 2,,2001.0,True,Diamond Time,True,19.17.12.EURO 2
+Laser Juke,19.19.07.FREN,,1991.0,True,Pioneer,True,19.19.07.FREN
+Laser Juke,19.21.05.EURO 2,,2002.0,True,Diamond Time,True,19.21.05.EURO 2
+Laser Juke,19.21.11.FREN,,1991.0,True,Pioneer,True,19.21.11.FREN
+Laser Juke,19.22.01 [UK19],,1992.0,True,Pioneer,True,19.22.01 [UK19]
+Laser Juke,19.24.03.FREN,,1992.0,True,Pioneer,True,19.24.03.FREN
+Laser Juke,19.31.11.FREN,,1992.0,True,Pioneer,True,19.31.11.FREN
+Laser Juke,19.33.03 FREN,,1993.0,True,Pioneer,True,19.33.03 FREN
+Laser Juke,19.34.04.ITAL,,1993.0,True,Pioneer,True,19.34.04.ITAL
+Laser Juke,19.35.07 FREN,,1993.0,True,Pioneer,True,19.35.07 FREN
+Laser Juke,19.36.08.SPAN,,1993.0,True,Pioneer,True,19.36.08.SPAN
+Laser Juke,19.38.09.ITAL,,1993.0,True,Pioneer,True,19.38.09.ITAL
+Laser Juke,19.39.12.FREN,,1993.0,True,Pioneer,True,19.39.12.FREN
+Laser Juke,19.40.01.GER,,1994.0,True,Pioneer,True,19.40.01.GER
+Laser Juke,19.41.01.ITAL,,1994.0,True,Pioneer,True,19.41.01.ITAL
+Laser Juke,19.42.01.SPAN,,1994.0,True,Pioneer,True,19.42.01.SPAN
+Laser Juke,19.43.05.FREN,,1994.0,True,Pioneer,True,19.43.05.FREN
+Laser Juke,19.44.03.ITAL 2,,2000.0,True,Diamond Time,True,19.44.03.ITAL 2
+Laser Juke,19.44.05.ITAL,,1994.0,True,Pioneer,True,19.44.05.ITAL
+Laser Juke,19.45.06.GER,,1994.0,True,Pioneer,True,19.45.06.GER
+Laser Juke,19.46.06.SPAN,,1994.0,True,Pioneer,True,19.46.06.SPAN
+Laser Juke,19.47.10.EURO,,1994.0,True,Pioneer,True,19.47.10.EURO
+Laser Juke,19.48.08.ITAL 2,,2000.0,True,Diamond Time,True,19.48.08.ITAL 2
+Laser Juke,19.48.10.ITAL,,1994.0,True,Pioneer,True,19.48.10.ITAL
+Laser Juke,19.49.11.GER,,1994.0,True,Pioneer,True,19.49.11.GER
+Laser Juke,19.50.02.SPAN,,1995.0,True,Pioneer,True,19.50.02.SPAN
+Laser Juke,19.51.02.ITAL,,1995.0,True,Pioneer,True,19.51.02.ITAL
+Laser Juke,19.52.01.ITAL 2,,2001.0,True,Diamond Time,True,19.52.01.ITAL 2
+Laser Juke,19.52.03.FREN,,1995.0,True,Diamond Time,True,19.52.03.FREN
+Laser Juke,19.53.04.GER,,1995.0,True,Diamond Time,True,19.53.04.GER
+Laser Juke,19.54.06.ITAL,,1995.0,True,Diamond Time,True,19.54.06.ITAL
+Laser Juke,19.55.07.SPAN,,1995.0,True,Pioneer,True,19.55.07.SPAN
+Laser Juke,19.56.06.ITAL 2,,2001.0,True,Diamond Time,True,19.56.06.ITAL 2
+Laser Juke,19.56.08.FREN,,1995.0,True,Diamond Time,True,19.56.08.FREN
+Laser Juke,19.57.09.GER,,1995.0,True,Diamond Time,True,19.57.09.GER
+Laser Juke,19.58.10.ITAL,,1995.0,True,Diamond Time,True,19.58.10.ITAL
+Laser Juke,19.59.12.SPAN,,1995.0,True,Diamond Time,True,19.59.12.SPAN
+Laser Juke,19.60.01.FREN,,1996.0,True,Diamond Time,True,19.60.01.FREN
+Laser Juke,19.60.11.ITAL 2,,2001.0,True,Diamond Time,True,19.60.11.ITAL 2
+Laser Juke,19.61.02.GER,,1996.0,True,Diamond Time,True,19.61.02.GER
+Laser Juke,19.62.02.ITAL,,1996.0,True,Diamond Time,True,19.62.02.ITAL
+Laser Juke,19.63.05 SPAN,,1996.0,True,Diamond Time,True,19.63.05 SPAN
+Laser Juke,19.64.04 ITAL 2,,2002.0,True,Diamond Time,True,19.64.04 ITAL 2
+Laser Juke,19.65.07.GER,,1996.0,True,Diamond Time,True,19.65.07.GER
+Laser Juke,19.66.08.ITAL,,1996.0,True,Diamond Time,True,19.66.08.ITAL
+Laser Juke,19.67.10.SPAN,,1996.0,True,Diamond Time,True,19.67.10.SPAN
+Laser Juke,19.68.11.FREN,,1996.0,True,Diamond Time,True,19.68.11.FREN
+Laser Juke,19.69.12.GER,,1996.0,True,Diamond Time,True,19.69.12.GER
+Laser Juke,19.70.01.ITAL,,1997.0,True,Diamond Time,True,19.70.01.ITAL
+Laser Juke,19.71.03.SPAN,,1997.0,True,Diamond Time,True,19.71.03.SPAN
+Laser Juke,19.73.05.GER,,1997.0,True,Diamond Time,True,19.73.05.GER
+Laser Juke,19.74.06.ITAL,,1997.0,True,Diamond Time,True,19.74.06.ITAL
+Laser Juke,19.76.09 FREN,,1997.0,True,Diamond Time,True,19.76.09 FREN
+Laser Juke,19.77.10.GER,,1997.0,True,Diamond Time,True,19.77.10.GER
+Laser Juke,19.78.12.ITAL,,1997.0,True,Diamond Time,True,19.78.12.ITAL
+Laser Juke,19.79.01.SPAN,,1998.0,True,Diamond Time,True,19.79.01.SPAN
+Laser Juke,19.80.02 FREN,,1998.0,True,Diamond Time,True,19.80.02 FREN
+Laser Juke,19.81.03.GER,,1998.0,True,Diamond Time,True,19.81.03.GER
+Laser Juke,19.83.06.SPAN,,1998.0,True,Diamond Time,True,19.83.06.SPAN
+Laser Juke,19.85.08.GER,,1998.0,True,Diamond Time,True,19.85.08.GER
+Laser Juke,19.86.10.ITAL,,1998.0,True,Diamond Time,True,19.86.10.ITAL
+Laser Juke,19.87.11.SPAN,,1998.0,True,Diamond Time,True,19.87.11.SPAN
+Laser Juke,19.88.12 FREN,,1998.0,True,Diamond Time,True,19.88.12 FREN
+Laser Juke,19.89.01.GER,,1999.0,True,Diamond Time,True,19.89.01.GER
+Laser Juke,19.90.03.ITAL,,1999.0,True,Diamond Time,True,19.90.03.ITAL
+Laser Juke,19.91.04.SPAN,,1999.0,True,Diamond Time,True,19.91.04.SPAN
+Laser Juke,19.92.02.EURO,,2001.0,True,Diamond Time,True,19.92.02.EURO
+Laser Juke,19.93.06.GER,,1999.0,True,Diamond Time,True,19.93.06.GER
+Laser Juke,19.94.08.ITAL,,1999.0,True,Diamond Time,True,19.94.08.ITAL
+Laser Juke,19.95.09.SPAN,,1999.0,True,Diamond Time,True,19.95.09.SPAN
+Laser Juke,19.96.10 FREN,,1999.0,True,Diamond Time,True,19.96.10 FREN
+Laser Juke,19.97.11.GER,,1999.0,True,Diamond Time,True,19.97.11.GER
+Laser Juke,19.98.02.SPAN,,2000.0,True,Diamond Time,True,19.98.02.SPAN
+Laser Juke,11.11.95  [UK11],,1995.0,True,Diamond Time,True,11.11.95  [UK11]
+Laser Juke,10.04.99  [UK10],,1999.0,True,Diamond Time,True,10.04.99  [UK10]
+Laser Juke,15.04.99 AU  [UK15],,1999.0,True,Diamond Time,True,15.04.99 AU  [UK15]
+Laser Juke,12.05.99 [UK12],,1999.0,True,Diamond Time,True,12.05.99 [UK12]
+Laser Juke,13.06.99  [UK13],,,True,Diamond Time,True,13.06.99  [UK13]
+Laser Juke,01.00.03 ( UK14 ),,,True,Pioneer,True,01.00.03 ( UK14 )
+Laser Juke,01.05.92.AU,,1992.0,True,Pioneer,True,01.05.92.AU
+Laser Juke,01.03.92.AU,,1992.0,True,Pioneer,True,01.03.92.AU
+Laser Juke,ET-001,,1987.0,True,Pioneer,True,ET-001
+Laser Juke,24.01.89,,1989.0,True,Pioneer,True,24.01.89
+Laser Juke,14.01.90 AU,,1990.0,True,Pioneer,True,14.01.90 AU
+Laser Juke,11.04.90 AU,,1990.0,True,Pioneer,True,11.04.90 AU
+Laser Juke,15.04.90 AU,,1990.0,True,Pioneer,True,15.04.90 AU
+Laser Juke,12.05.90 AU,,1990.0,True,Pioneer,True,12.05.90 AU
+Laser Juke,12.08.90 AU,,1990.0,True,Pioneer,True,12.08.90 AU
+Laser Juke,10.09.90 AU,,1990.0,True,Pioneer,True,10.09.90 AU
+Laser Juke,13.09.90 AU,,1990.0,True,Pioneer,True,13.09.90 AU
+Laser Juke,11.10.90 AU,,1990.0,True,Pioneer,True,11.10.90 AU
+Laser Juke,15.10.90 AU,,1990.0,True,Pioneer,True,15.10.90 AU
+Laser Juke,10.11.90 AU,,1990.0,True,Pioneer,True,10.11.90 AU
+Laser Juke,10.05.91 AU,,1991.0,True,Pioneer,True,10.05.91 AU
+Laser Juke,14.05.91 AU,,1991.0,True,Pioneer,True,14.05.91 AU
+Laser Juke,01.01.92.AU,,1992.0,True,Pioneer,True,01.01.92.AU
+Laser Juke,01.02.92.AU,,1992.0,True,Pioneer,True,01.02.92.AU
+Laser Juke,01.03.92.AU,,1992.0,True,Pioneer,True,01.03.92.AU
+Laser Juke,01.04.92.AU,,1992.0,True,Pioneer,True,01.04.92.AU
+Laser Juke,01.05.92.AU,,1992.0,True,Pioneer,True,01.05.92.AU
+Laser Juke,01.13.92.AU,,1992.0,True,Pioneer,True,01.13.92.AU
+Laser Juke,13.03.93.AU,,1993.0,True,Pioneer,True,13.03.93.AU
+Laser Juke,14.04.93 AU,,1993.0,True,Pioneer,True,14.04.93 AU
+Laser Juke,11.05.93 AU,,1993.0,True,Pioneer,True,11.05.93 AU
+Laser Juke,15.05.93.AU,,1993.0,True,Pioneer,True,15.05.93.AU
+Laser Juke,12.06.93.AU,,1993.0,True,Pioneer,True,12.06.93.AU
+Laser Juke,17.07.93 AU,,1993.0,True,Pioneer,True,17.07.93 AU
+Laser Juke,10.08.93 AU,,1993.0,True,Pioneer,True,10.08.93 AU
+Laser Juke,11.09.93.AU,,1993.0,True,Pioneer,True,11.09.93.AU
+Laser Juke,15.09.93.AU,,1993.0,True,Pioneer,True,15.09.93.AU
+Laser Juke,12.10.93.AU,,1993.0,True,Pioneer,True,12.10.93.AU
+Laser Juke,16.10.93.AU,,1993.0,True,Pioneer,True,16.10.93.AU
+Laser Juke,13.11.93 AU,,1993.0,True,Pioneer,True,13.11.93 AU
+Laser Juke,17.11.93.AU,,1993.0,True,Pioneer,True,17.11.93.AU
+Laser Juke,10.12.93.AU,,1993.0,True,Pioneer,True,10.12.93.AU
+Laser Juke,14.12.93.AU,,1993.0,True,Pioneer,True,14.12.93.AU
+Laser Juke,11.01.94.AU,,1994.0,True,Pioneer,True,11.01.94.AU
+Laser Juke,13.03.94 AU,,1994.0,True,Pioneer,True,13.03.94 AU
+Laser Juke,11.04.94.AU,,1994.0,True,Pioneer,True,11.04.94.AU
+Laser Juke,10.05.94.AU,,1994.0,True,Pioneer,True,10.05.94.AU
+Laser Juke,12.06.94.AU,,1994.0,True,Pioneer,True,12.06.94.AU
+Laser Juke,13.07.94.AU,,1994.0,True,Pioneer,True,13.07.94.AU
+Laser Juke,10.09.94.AU,,1994.0,True,Pioneer,True,10.09.94.AU
+Laser Juke,16.10.94.AU,,1994.0,True,Pioneer,True,16.10.94.AU
+Laser Juke,16.11.94.AU,,1994.0,True,Pioneer,True,16.11.94.AU
+Laser Juke,17.12.94.AU,,1994.0,True,Pioneer,True,17.12.94.AU
+Laser Juke,01.01.95.AU,,1995.0,True,Pioneer,True,01.01.95.AU
+Laser Juke,10.04.95.AU,,1995.0,True,Pioneer,True,10.04.95.AU
+Laser Juke,11.05.95.AU,,1995.0,True,Pioneer,True,11.05.95.AU
+Laser Juke,12.06.95.AU,,1995.0,True,Pioneer,True,12.06.95.AU
+Laser Juke,11.08.95.AU,,1995.0,True,Pioneer,True,11.08.95.AU
+Laser Juke,12.09.95.AUSTRALIA,,1995.0,True,Pioneer,True,12.09.95.AUSTRALIA
+Laser Juke,10.10.95.AU,,1995.0,True,Pioneer,True,10.10.95.AU
+Laser Juke,01.12.95.AU,,1995.0,True,Pioneer,True,01.12.95.AU
+Laser Juke,02.12.95.AU,,1995.0,True,Pioneer,True,02.12.95.AU
+Laser Juke,03.12.95.AU,,1995.0,True,Pioneer,True,03.12.95.AU
+Laser Juke,04.12.95.AU,,1995.0,True,Pioneer,True,04.12.95.AU
+Laser Juke,05.12.95.AU,,1995.0,True,Pioneer,True,05.12.95.AU
+Laser Juke,06.12.95.AU,,1995.0,True,Pioneer,True,06.12.95.AU
+Laser Juke,07.12.95.AU,,1995.0,True,Pioneer,True,07.12.95.AU
+Laser Juke,08.12.95.AU,,1995.0,True,Pioneer,True,08.12.95.AU
+Laser Juke,12.03.96.AU,,1996.0,True,Pioneer,True,12.03.96.AU
+Laser Juke,13.04.96.AU,,1996.0,True,Pioneer,True,13.04.96.AU
+Laser Juke,10.05.96.AU,,1996.0,True,Pioneer,True,10.05.96.AU
+Laser Juke,13.08.96.AU,,1996.0,True,Pioneer,True,13.08.96.AU
+Laser Juke,10.09.96 AU,,1996.0,True,Pioneer,True,10.09.96 AU
+Laser Juke,11.10.96.AU,,1996.0,True,Pioneer,True,11.10.96.AU
+Laser Juke,22.10.96.AU,,1996.0,True,Pioneer,True,22.10.96.AU
+Laser Juke,12.11.96.AU,,1996.0,True,Pioneer,True,12.11.96.AU
+Laser Juke,13.12.96.AU,,1996.0,True,Pioneer,True,13.12.96.AU
+Laser Juke,15.01.97.AU,,1997.0,True,Pioneer,True,15.01.97.AU
+Laser Juke,22.01.97 AU,,1997.0,True,Pioneer,True,22.01.97 AU
+Laser Juke,12.03.97.AU,,1997.0,True,Pioneer,True,12.03.97.AU
+Laser Juke,13.04.97 AU,,1997.0,True,Pioneer,True,13.04.97 AU
+Laser Juke,10.05.97.AU,,1997.0,True,Pioneer,True,10.05.97.AU
+Laser Juke,11.06.97.AU,,1997.0,True,Pioneer,True,11.06.97.AU
+Laser Juke,12.07.97.AU,,1997.0,True,Pioneer,True,12.07.97.AU
+Laser Juke,13.08.97.AU,,1997.0,True,Pioneer,True,13.08.97.AU
+Laser Juke,10.09.97.AU,,1997.0,True,Pioneer,True,10.09.97.AU
+Laser Juke,11.10.97.AU,,1997.0,True,Pioneer,True,11.10.97.AU
+Laser Juke,12.11.97.AU,,1997.0,True,Pioneer,True,12.11.97.AU
+Laser Juke,13.12.97.AU,,1997.0,True,Pioneer,True,13.12.97.AU
+Laser Juke,10.01.98.AU,,1998.0,True,Pioneer,True,10.01.98.AU
+Laser Juke,11.02.98 AU,,1998.0,True,Pioneer,True,11.02.98 AU
+Laser Juke,12.03.98.AU,,1998.0,True,Pioneer,True,12.03.98.AU
+Laser Juke,13.04.98.AU,,1998.0,True,Pioneer,True,13.04.98.AU
+Laser Juke,10.05.98 AU,,1998.0,True,Pioneer,True,10.05.98 AU
+Laser Juke,11.06.98.AU,,1998.0,True,Pioneer,True,11.06.98.AU
+Laser Juke,12.07.98.AU,,1998.0,True,Pioneer,True,12.07.98.AU
+Laser Juke,13.08.98.AU,,1998.0,True,Pioneer,True,13.08.98.AU
+Laser Juke,10.09.98.AU,,1998.0,True,Pioneer,True,10.09.98.AU
+Laser Juke,11.10.98.AU,,1998.0,True,Pioneer,True,11.10.98.AU
+Laser Juke,12.11.98.AU,,1998.0,True,Pioneer,True,12.11.98.AU
+Laser Juke,13.12.98.AU,,1998.0,True,Pioneer,True,13.12.98.AU
+Laser Juke,10.01.99.AU,,1999.0,True,Pioneer,True,10.01.99.AU
+Laser Juke,11.02.99.AU,,1999.0,True,Pioneer,True,11.02.99.AU
+Laser Juke,12.03.99.AU,,1999.0,True,Pioneer,True,12.03.99.AU
+Laser Juke,13.04.99.AU,,1999.0,True,Pioneer,True,13.04.99.AU
+Laser Juke,10.05.99 AU,,1999.0,True,Pioneer,True,10.05.99 AU
+Laser Juke,11.06.99.AU,,1999.0,True,Pioneer,True,11.06.99.AU
+Laser Juke,12.06.99.AU,,1999.0,True,Pioneer,True,12.06.99.AU
+Laser Juke,13.06.99.AU [UK13],,1999.0,True,Diamond Time,True,13.06.99.AU [UK13]
+Laser Juke,12.07.99.AU,,1999.0,True,Pioneer,True,12.07.99.AU
+Laser Juke,13.08.99.AU,,1999.0,True,Pioneer,True,13.08.99.AU
+Laser Juke,10.09.99.AU,,1999.0,True,Pioneer,True,10.09.99.AU
+Laser Juke,11.10.99.AU,,1999.0,True,Pioneer,True,11.10.99.AU
+Laser Juke,13.12.99.AU,,1999.0,True,Pioneer,True,13.12.99.AU
+Laser Juke,10.01.00 AU,,2000.0,True,Pioneer,True,10.01.00 AU
+Laser Juke,11.02.00.AU,,2000.0,True,Pioneer,True,11.02.00.AU
+Laser Juke,12.03.00-A AU,,2000.0,True,Pioneer,True,12.03.00-A AU
+Laser Juke,13.04.00.AU,,2000.0,True,Pioneer,True,13.04.00.AU
+Laser Juke,10.05.00 AU,,2000.0,True,Pioneer,True,10.05.00 AU
+Laser Juke,11.06.00.AU,,2000.0,True,Pioneer,True,11.06.00.AU
+Laser Juke,13.08.00.AU,,2000.0,True,Pioneer,True,13.08.00.AU
+Laser Juke,10.09.00.AU,,2000.0,True,Pioneer,True,10.09.00.AU
+Laser Juke,11.10.00 AU,,2000.0,True,Pioneer,True,11.10.00 AU
+Laser Juke,12.11.00.AU,,2000.0,True,Pioneer,True,12.11.00.AU
+Laser Juke,13.12.00.AU,,2000.0,True,Pioneer,True,13.12.00.AU
+Laser Juke,10.01.01.AU,,2001.0,True,Pioneer,True,10.01.01.AU
+Laser Juke,11.02.01.AU,,2001.0,True,Diamond Time,True,11.02.01.AU
+Laser Juke,12.03.01 AU,,2001.0,True,Pioneer,True,12.03.01 AU
+Laser Juke,13.04.01 AU,,2001.0,True,Pioneer,True,13.04.01 AU
+Laser Juke,10.05.01-A.AU,,2001.0,True,Pioneer,True,10.05.01-A.AU
+Laser Juke,11.05.01.AU,,2001.0,True,Pioneer,True,11.05.01.AU
+Laser Juke,11.06.01-A.AU,,2001.0,True,Pioneer,True,11.06.01-A.AU
+Laser Juke,13.08.01.AU,,2001.0,True,Pioneer,True,13.08.01.AU
+Laser Juke,10.09.01.AU,,2001.0,True,Pioneer,True,10.09.01.AU
+Laser Juke,12.11.01-A.AU,,2001.0,True,Pioneer,True,12.11.01-A.AU
+Laser Juke,10.01.02 AU,,2002.0,True,Pioneer,True,10.01.02 AU
+Laser Juke,11.02.02.AU,,2002.0,True,Pioneer,True,11.02.02.AU
+Laser Juke,12.03.02.AU,,2002.0,True,Pioneer,True,12.03.02.AU
+Laser Juke,10.05.02.AU,,2002.0,True,Pioneer,True,10.05.02.AU
+Laser Juke,12.07.02.AU,,2002.0,True,Pioneer,True,12.07.02.AU
+Laser Juke,AL 01 AUSTRALIA,,,True,Pioneer,True,AL 01 AUSTRALIA
+Laser Juke,AL 02 AUSTRALIA,,,True,Pioneer,True,AL 02 AUSTRALIA
+Laser Juke,AL 03 AUSTRALIA,,,True,Pioneer,True,AL 03 AUSTRALIA
+Laser Juke,AL 04 AUSTRALIA,,,True,Pioneer,True,AL 04 AUSTRALIA
+Laser Juke,AL 05 AUSTRALIA,,,True,Pioneer,True,AL 05 AUSTRALIA
+Laser Juke,AL 06 AUSTRALIA,,,True,Pioneer,True,AL 06 AUSTRALIA
+Laser Juke,AL 07 AUSTRALIA,,,True,Pioneer,True,AL 07 AUSTRALIA
+Laser Juke,AL 08 AUSTRALIA,,,True,Pioneer,True,AL 08 AUSTRALIA
+Laser Juke,AL 09 AUSTRALIA,,,True,Pioneer,True,AL 09 AUSTRALIA
+Laser Juke,AL 10 AUSTRALIA,,,True,Pioneer,True,AL 10 AUSTRALIA
+Laser Juke,AL 11 AUSTRALIA,,,True,Pioneer,True,AL 11 AUSTRALIA
+Laser Juke,19.47.10 AU,,1994.0,True,Pioneer,True,19.47.10 AU
+Laser Juke,16.93.10 AU/SPAN,,1994.0,True,Pioneer,True,16.93.10 AU/SPAN
+Laser Juke,XX.XX.XX.AU[placeholder1],,2000.0,True,Pioneer,True,XX.XX.XX.AU[placeholder1]
+Laser Juke,XX.XX.XX.AU[placeholder2],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder2]
+Laser Juke,XX.XX.XX.AU[placeholder3],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder3]
+Laser Juke,XX.XX.XX.AU[placeholder14],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder14]
+Laser Juke,XX.XX.XX.AU[placeholder4],,1995.0,True,Pioneer,True,XX.XX.XX.AU[placeholder4]
+Laser Juke,XX.XX.XX.AU[placeholder5],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder5]
+Laser Juke,XX.XX.XX.AU[placeholder6],,1993.0,True,Pioneer,True,XX.XX.XX.AU[placeholder6]
+Laser Juke,XX.XX.XX.AU[placeholder7],,1995.0,True,Pioneer,True,XX.XX.XX.AU[placeholder7]
+Laser Juke,XX.XX.XX.AU[placeholder8],,1994.0,True,Pioneer,True,XX.XX.XX.AU[placeholder8]
+Laser Juke,XX.XX.XX.AU[placeholder9],,1995.0,True,Pioneer,True,XX.XX.XX.AU[placeholder9]
+Laser Juke,XX.XX.XX.AU[placeholder9],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder9]
+Laser Juke,XX.XX.XX.AU[placeholder10],,2000.0,True,Pioneer,True,XX.XX.XX.AU[placeholder10]
+Laser Juke,XX.XX.XX.AU[placeholder11],,1994.0,True,Pioneer,True,XX.XX.XX.AU[placeholder11]
+Laser Juke,XX.XX.XX.AU[placeholder12],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder12]
+Laser Juke,XX.XX.XX.AU[placeholder13],,1995.0,True,Pioneer,True,XX.XX.XX.AU[placeholder13]
+ETV,PLP-D 1-04-94,,1994.0,,,,Best Of Lazer Hits '93
+ETV,PLP-C 1-04-93,Apr,1993.0,,,,Country Hits #1
+ETV,PLP-C 2-11-93,Nov,1993.0,,,,Country Hits #2
+ETV,PLP-C 3-06-94,Jun,1994.0,,,,Country Hits #3
+ETV,PLP-A 1-06-92,Jun,1992.0,,,,Dance Hits #589
+ETV,PLP-A 2-07-92,Jul,1992.0,,,,Dance Hits #590
+ETV,PLP-A 3-08-92,Aug,1992.0,,,,Dance Hits #591
+ETV,PLP-A 4-09-92,Sep,1992.0,,,,Dance Hits #592
+ETV,PLP-A 5-10-92,Oct,1992.0,,,,Dance Hits #593
+ETV,PLP-A 6-11-92,Nov,1992.0,,,,Dance Hits #5001
+ETV,PLP-A 7-12-92,Dec,1992.0,,,,Dance Hits #5002
+ETV,PLP-A13-06-93,Jun,1993.0,,,,Dance Hits #5008
+ETV,PLP-A15-08-93,Aug,1993.0,,,,Dance Hits #5010
+ETV,PLP-A16-09-93,Sep,1993.0,,,,Dance Hits #5011
+ETV,PLP-A22-03-94,Mar,1994.0,,,,Dance Hits #5017
+ETV,PLP-A23-04-94,Apr,1994.0,,,,Dance Hits #5018
+ETV,PLP-A24-05-94,May,1994.0,,,,Dance Hits #5019
+ETV,PLP-A25-06-94,Jun,1994.0,,,,Dance Hits #5020
+ETV,PLP-A26-07-94,Jul,1994.0,,,,Dance Hits #5021
+ETV,PLP-A27-08-94,Aug,1994.0,,,,Dance Hits #5022
+ETV,PLP-A28-09-94,Sep,1994.0,,,,Dance Hits #5023
+ETV,PLP-A29-10-94,Oct,1994.0,,,,Dance Hits #5024
+ETV,PLP-A30-11-94,Nov,1994.0,,,,Dance Hits #5025
+ETV,PLP-A31-12-94,Dec,1994.0,,,,Dance Hits #5026
+ETV,PLP-A32-01-95,Jan,1995.0,,,,Network Dance Hits #5027
+ETV,PLP-A33-02-95,Feb,1995.0,,,,Network Dance Hits #5028
+ETV,PLP-A34-03-95,Mar,1995.0,,,,Network Dance Hits #5029
+ETV,PLP-A35-04-95,Apr,1995.0,,,,Network Dance Hits #5030
+ETV,PLP-A36-05-95,May,1995.0,,,,Network Dance Hits #5031
+ETV,PLP-A37-06-95,Jun,1995.0,,,,Network Dance Hits #5032
+ETV,PLP-A38-07-95,Jul,1995.0,,,,Network Dance Hits #5033
+ETV,15-538,,,,,,Network Dance Hits #5034
+ETV,15-702,,,,,,Network Dance Hits #5035
+ETV,15-711,,,,,,Network Dance Hits #5036
+ETV,15-725,,,,,,Network Dance Hits #5037
+ETV,15-738,,,,,,Network Dance Hits #5038
+ETV,15-758,,,,,,Network Dance Hits #5039
+ETV,15-803,,,,,,Network Dance Hits #5040
+ETV,15-863,,,,,,Network Dance Hits #5041
+ETV,15-908,Apr,1996.0,,,,Network Dance Hits #5042
+ETV,15-980,,,,,,Network Dance Hits #5043
+ETV,03-092,,,,,,Network Dance Hits #5044
+ETV,05-060,,,,,,Network Dance Hits #5045
+ETV,05-163,,,,,,Network Dance Hits #5046
+ETV,05-247,,,,,,Network Dance Hits #5047
+ETV,05-937,,,,,,Network Dance Hits #5048
+ETV,09-053,,,,,,Network Dance Hits #5049
+ETV,09-118,,,,,,Network Dance Hits #5050
+ETV,09-174,,,,,,Network Dance Hits #5051
+ETV,09-246,,,,,,Network Dance Hits #5052
+ETV,09-303,,,,,,Network Dance Hits #5053
+ETV,09-388,,,,,,Network Dance Hits #5054
+ETV,09-500,,,,,,Network Dance Hits #5056
+ETV,13600A,,,,,,Network Dance Hits #5057
+ETV,13778A,,,,,,Network Dance Hits #5058
+ETV,PLP-RAC1-92,,,,,,Hot Hits #194
+ETV,PLP-B 1-06-92,Jun,1992.0,,,,Hot Hits #195
+ETV,PLP-B 2-07-92,Jul,1992.0,,,,Hot Hits #196
+ETV,PLP-B 3-08-92,Aug,1992.0,,,,Hot Hits #197
+ETV,PLP-B 4-09-92,Sep,1992.0,,,,Hot Hits #198
+ETV,PLP-B 5-10-92,Oct,1992.0,,,,Hot Hits #199
+ETV,PLP-B 6-11-92,Nov,1992.0,,,,Hot Hits #1001
+ETV,PLP-B 7-12-92,Dec,1992.0,,,,Hot Hits #1002
+ETV,PLP-B 9-02-93,Feb,1993.0,,,,Hot Hits #1004
+ETV,PLP-B10-03-93,Mar,1993.0,,,,Hot Hits #1005
+ETV,PLP-B17-10-93,Oct,1993.0,,,,Hot Hits #1012
+ETV,PLP-B18-11-93,Nov,1993.0,,,,Hot Hits #1013
+ETV,PLP-B19-12-93,Dec,1993.0,,,,Hot Hits #1014
+ETV,PLP-B20-01-94,Jan,1994.0,,,,Hot Hits #1015
+ETV,PLP-B21-02-94,Feb,1994.0,,,,Hot Hits #1016
+ETV,PLP-B22-03-94,Mar,1994.0,,,,Hot Hits #1017
+ETV,PLP-B23-04-94,Apr,1994.0,,,,Hot Hits #1018
+ETV,PLP-B24-05-94,May,1994.0,,,,Hot Hits #1019
+ETV,PLP-B25-06-94,Jun,1994.0,,,,Hot Hits #1020
+ETV,PLP-B26-07-94,Jul,1994.0,,,,Hot Hits #1021
+ETV,PLP-B27-08-94,Aug,1994.0,,,,Hot Hits #1022
+ETV,PLP-B28-09-94,Sep,1994.0,,,,Hot Hits #1023
+ETV,PLP-B29-10-94,Oct,1994.0,,,,Hot Hits #1024
+ETV,PLP-B30-11-94,Nov,1994.0,,,,Hot Hits #1025
+ETV,PLP-B31-12-94,Dec,1994.0,,,,Hot Hits #1026
+ETV,PLP-B32-01-95,Jan,1995.0,,,,Network Hot Hits #1027
+ETV,PLP-B33-02-95,Feb,1995.0,,,,Network Hot Hits #1028
+ETV,PLP-B34-03-95,Mar,1995.0,,,,Network Hot Hits #1029
+ETV,PLP-B35-04-95,Apr,1995.0,,,,Network Hot Hits #1030
+ETV,PLP-B36-05-95,May,1995.0,,,,Network Hot Hits #1031
+ETV,PLP-B37-06-95,Jun,1995.0,,,,Network Hot Hits #1032
+ETV,PLP-B38-07-95,Jul,1995.0,,,,Network Hot Hits #1033
+ETV,15-536,,,,,,Network Hot Hits #1034
+ETV,15-701,,,,,,Network Hot Hits #1035
+ETV,15-710,,,,,,Network Hot Hits #1036
+ETV,15-724,,,,,,Network Hot Hits #1037
+ETV,15-737,,,,,,Network Hot Hits #1038
+ETV,15-757,,,,,,Network Hot Hits #1039
+ETV,15-802,,,,,,Network Hot Hits #1040
+ETV,15-864,,,,,,Network Hot Hits #1041
+ETV,15-907,Apr,1996.0,,,,Network Hot Hits #1042
+ETV,15-979,,,,,,Network Hot Hits #1043
+ETV,03-091,,,,,,Network Hot Hits #1044
+ETV,05-061,,,,,,Network Hot Hits #1045
+ETV,05-162,,,,,,Network Hot Hits #1046
+ETV,05-246,,,,,,Network Hot Hits #1047
+ETV,05-936,,,,,,Network Hot Hits #1048
+ETV,09-052,,,,,,Network Hot Hits #1049
+ETV,09-117,,,,,,Network Hot Hits #1050
+ETV,09-173,,,,,,Network Hot Hits #1051
+ETV,09-245,,,,,,Network Hot Hits #1052
+ETV,09-302,,,,,,Network Hot Hits #1053
+ETV,09-389,,,,,,Network Hot Hits #1054
+ETV,09-425,,,,,,Network Hot Hits #1055
+ETV,09-499,,,,,,Network Hot Hits #1056
+ETV,13598,,,,,,Network Hot Hits #1057
+ETV,13962,,,,,,Network Hot Hits #1058
+ETV,13962B,,,,,,Network Hot Hits #1059
+ETV,09-182,,,,,,Oldies #711 & #715
+ETV,09-391,,,,,,Oldies #713 & #725
+ETV,PLP-S1-04-93,,,,,,Store Hits #1
+ETV,PLP-S2-04-93,,,,,,Store Hits #2
+ETV,PLP-S3-04-93,,,,,,Store Hits #3
+ETV,20-769,Sep,1995.0,,,,Wet Seal #26

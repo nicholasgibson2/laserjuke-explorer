@@ -6,9 +6,11 @@ from print_pdf import create_pdf
 from normalize import normalize_reference
 
 
-custom_list_columns = ["Reference Number"]
+custom_list_columns = ["REFERENCE"]
 
 
+# REFERENCE,Position,Artist,Title,Length
+# REFERENCE,Year,Company
 def reset_last_change():
     st.session_state.last_diffs = {}
 
@@ -89,8 +91,8 @@ def load_custom_lists(discs_df):
             df = read_csv_file(f"{custom_list_dir}/{file}")
             custom_lists[pretty_name] = {"filename": file, "df": df}
 
-        df = pd.DataFrame([], columns=["Reference Number"])
-        df["Reference Number"] = df["Reference Number"].apply(
+        df = pd.DataFrame([], columns=["REFERENCE"])
+        df["REFERENCE"] = df["REFERENCE"].apply(
             lambda ref_num: normalize_reference(discs_df, ref_num)
         )
 
@@ -153,7 +155,7 @@ def paste_custom_list(discs_df):
         else:
             st.error(f"no match for {reference}")
 
-    df = pd.DataFrame(reference_numbers, columns=["Reference Number"])
+    df = pd.DataFrame(reference_numbers, columns=["REFERENCE"])
     st.session_state.custom_lists["Uploaded"] = {"filename": "uploaded.csv", "df": df}
 
 
@@ -162,10 +164,10 @@ def main():
     st.image("laserjuke.png")
     load_css("style.css")
 
-    discs_df = read_csv_file("tino_discs.csv")
-    titles_df = read_csv_file("tino_titles.csv")
+    discs_df = read_csv_file("./data/discs.csv")
+    titles_df = read_csv_file("./data/titles.csv")
 
-    df = pd.merge(discs_df, titles_df, on="Reference Number")
+    df = pd.merge(discs_df, titles_df, on="REFERENCE")
 
     st_sidebar = st.sidebar.container()
 
@@ -178,9 +180,7 @@ def main():
 
     # Add a multiselect to allow the user to select specific dataframes
     selected_lists = st.sidebar.multiselect(
-        "filter on", 
-        list(custom_lists.keys()), 
-        default=list(custom_lists.keys())
+        "filter on", list(custom_lists.keys()), default=list(custom_lists.keys())
     )
 
     # Proceed with the filter only if there are selected lists
@@ -190,9 +190,9 @@ def main():
             [custom_lists[list_name] for list_name in selected_lists], ignore_index=True
         ).drop_duplicates()
 
-        # Filter your main df based on the combined selected dataframe's 'Reference Number'
-        df = df[df["Reference Number"].isin(combined_df["Reference Number"])]
-    
+        # Filter your main df based on the combined selected dataframe's 'REFERENCE'
+        df = df[df["REFERENCE"].isin(combined_df["REFERENCE"])]
+
     st.sidebar.text_area(
         "Custom List",
         on_change=paste_custom_list,
@@ -201,33 +201,35 @@ def main():
     )
 
     with st_sidebar:
-        artists = dynamic_dropdown(df, "Artist", {})
-        titles = dynamic_dropdown(df, "Title", {"Artist": artists})
-        refs = dynamic_dropdown(
-            df, "Reference Number", {"Artist": artists, "Title": titles}
-        )
+        series = dynamic_dropdown(df, "SERIES", {})
+        artists = dynamic_dropdown(df, "ARTIST", {"SERIES": series})
+        titles = dynamic_dropdown(df, "TITLE", {"ARTIST": artists})
+        refs = dynamic_dropdown(df, "REFERENCE", {"ARTIST": artists, "TITLE": titles})
     st_sidebar.divider()
 
-    artist_condition = filter_condition(df, "Artist", artists)
-    title_condition = filter_condition(df, "Title", titles)
-    ref_condition = filter_condition(df, "Reference Number", refs)
+    series_condition = filter_condition(df, "SERIES", series)
+    artist_condition = filter_condition(df, "ARTIST", artists)
+    title_condition = filter_condition(df, "TITLE", titles)
+    ref_condition = filter_condition(df, "REFERENCE", refs)
 
-    filtered_df = df[ref_condition & artist_condition & title_condition].sort_values(
-        by=["Year", "Reference Number"], ascending=False
-    )
+    filtered_df = df[
+        series_condition & ref_condition & artist_condition & title_condition
+    ].sort_values(by=["YEAR", "REFERENCE"], ascending=False)
 
     # print_labels = st.sidebar.button("Print Labels")
     # if print_labels:
     #     create_pdf(filtered_df, "output.pdf")
 
     column_order = [
-        "Reference Number",
-        "Year",
-        "Position",
-        "Artist",
-        "Title",
+        "SERIES",
+        "REFERENCE",
+        "NAME",
+        "YEAR",
+        "POSITION",
+        "ARTIST",
+        "TITLE",
     ] + list(custom_lists.keys())
-    column_config = {"Year": st.column_config.NumberColumn(format="%f")}
+    column_config = {"YEAR": st.column_config.NumberColumn(format="%f")}
 
     st.session_state.diffs_df = st.data_editor(
         filtered_df,
