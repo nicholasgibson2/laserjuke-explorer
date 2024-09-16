@@ -196,8 +196,10 @@ def main():
     with st_sidebar:
         series = dynamic_dropdown(df, "SERIES", {})
         artists = dynamic_dropdown(df, "ARTIST", {"SERIES": series})
-        titles = dynamic_dropdown(df, "TITLE", {"ARTIST": artists})
-        refs = dynamic_dropdown(df, "REFERENCE", {"ARTIST": artists, "TITLE": titles})
+        titles = dynamic_dropdown(df, "TITLE", {"SERIES": series, "ARTIST": artists})
+        refs = dynamic_dropdown(
+            df, "REFERENCE", {"SERIES": series, "ARTIST": artists, "TITLE": titles}
+        )
     st_sidebar.divider()
 
     series_condition = filter_condition(df, "SERIES", series)
