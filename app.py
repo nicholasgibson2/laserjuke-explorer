@@ -9,8 +9,6 @@ from normalize import normalize_reference
 custom_list_columns = ["REFERENCE"]
 
 
-# REFERENCE,Position,Artist,Title,Length
-# REFERENCE,Year,Company
 def reset_last_change():
     st.session_state.last_diffs = {}
 
@@ -33,7 +31,7 @@ def dynamic_dropdown(df, column, dependencies):
     st.session_state[f"prev_{column}"] = prev_selections
 
     selected = st.multiselect(
-        label=column,
+        label=column.title(),
         options=options,
         default=prev_selections,
         on_change=persist_vals,
@@ -96,13 +94,13 @@ def load_custom_lists(discs_df):
             lambda ref_num: normalize_reference(discs_df, ref_num)
         )
 
-        custom_lists["Uploaded"] = {"filename": "uploaded.csv", "df": df}
+        custom_lists["Custom"] = {"filename": "custom.csv", "df": df}
         st.session_state.custom_lists = custom_lists
 
     lists = list(st.session_state.custom_lists.keys())
 
     selected_lists = st.sidebar.multiselect(
-        "Select Custom Lists",
+        "Lists",
         lists,
         default=["Owned"],
         on_change=reset_last_change,
@@ -156,7 +154,7 @@ def paste_custom_list(discs_df):
             st.error(f"no match for {reference}")
 
     df = pd.DataFrame(reference_numbers, columns=["REFERENCE"])
-    st.session_state.custom_lists["Uploaded"] = {"filename": "uploaded.csv", "df": df}
+    st.session_state.custom_lists["Custom"] = {"filename": "custom.csv", "df": df}
 
 
 def main():
@@ -178,19 +176,14 @@ def main():
         df[custom_name] = df["_merge"] == "both"
         df.drop(columns=["_merge"], inplace=True)
 
-    # Add a multiselect to allow the user to select specific dataframes
-    selected_lists = st.sidebar.multiselect(
-        "filter on", list(custom_lists.keys()), default=list(custom_lists.keys())
+    filtered_lists = st.sidebar.multiselect(
+        "Filter On", list(custom_lists.keys()), default=list(custom_lists.keys())
     )
 
-    # Proceed with the filter only if there are selected lists
-    if st.sidebar.checkbox("Filter", on_change=reset_last_change) and selected_lists:
-        # Concatenate only the selected dataframes
+    if st.sidebar.checkbox("Filter", on_change=reset_last_change) and filtered_lists:
         combined_df = pd.concat(
-            [custom_lists[list_name] for list_name in selected_lists], ignore_index=True
+            [custom_lists[list_name] for list_name in filtered_lists], ignore_index=True
         ).drop_duplicates()
-
-        # Filter your main df based on the combined selected dataframe's 'REFERENCE'
         df = df[df["REFERENCE"].isin(combined_df["REFERENCE"])]
 
     st.sidebar.text_area(
@@ -222,14 +215,16 @@ def main():
 
     column_order = [
         "SERIES",
-        "REFERENCE",
         "NAME",
         "YEAR",
         "POSITION",
         "ARTIST",
         "TITLE",
     ] + list(custom_lists.keys())
-    column_config = {"YEAR": st.column_config.NumberColumn(format="%f")}
+    column_config = {}
+    for column in ["SERIES", "NAME", "POSITION", "ARTIST", "TITLE"]:
+        column_config[column] = st.column_config.TextColumn(column.title())
+    column_config["YEAR"] = st.column_config.NumberColumn("Year", format="%f")
 
     st.session_state.diffs_df = st.data_editor(
         filtered_df,
