@@ -1,13 +1,9 @@
 import streamlit as st
 import pandas as pd
-import re
 import base64
 from pathlib import Path
 from print_pdf import create_pdf
 from normalize import normalize_reference
-
-
-custom_list_columns = ["REFERENCE"]
 
 
 def persist_vals(cur_key, prev_key):
@@ -116,7 +112,7 @@ def paste_custom_list(discs_df):
 @st.dialog("Labels", width="large")
 def create_label_pdf(filtered_df):
     if filtered_df["REFERENCE"].nunique() > 100:
-        st.error("max labels per pdf is 100")
+        st.error("max labels 100")
         return
     labels_pdf = create_pdf(filtered_df)
     base64_pdf = base64.b64encode(labels_pdf.read()).decode("utf-8")
@@ -139,7 +135,7 @@ def main():
     custom_lists = load_custom_lists(discs_df)
 
     for custom_name, custom_df in custom_lists.items():
-        df = df.merge(custom_df, on=custom_list_columns, how="left", indicator=True)
+        df = df.merge(custom_df, on="REFERENCE", how="left", indicator=True)
         df[custom_name] = df["_merge"] == "both"
         df.drop(columns=["_merge"], inplace=True)
 
@@ -191,7 +187,7 @@ def main():
         "TITLE",
     ] + list(custom_lists.keys())
     column_config = {}
-    for column in ["SERIES", "NAME", "POSITION", "ARTIST", "TITLE"]:
+    for column in ["SERIES", "NAME", "REFERENCE", "POSITION", "ARTIST", "TITLE"]:
         column_config[column] = st.column_config.TextColumn(column.title())
     column_config["YEAR"] = st.column_config.NumberColumn("Year", format="%f")
 
