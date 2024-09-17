@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import re
+import base64
 from pathlib import Path
 from print_pdf import create_pdf
 from normalize import normalize_reference
@@ -9,13 +10,8 @@ from normalize import normalize_reference
 custom_list_columns = ["REFERENCE"]
 
 
-def reset_last_change():
-    st.session_state.last_diffs = {}
-
-
 def persist_vals(cur_key, prev_key):
     st.session_state[prev_key] = st.session_state[cur_key]
-    reset_last_change()
 
 
 def dynamic_dropdown(df, column, dependencies):
@@ -69,13 +65,6 @@ def custom_list_name_format(filename):
     return Path(filename).stem.replace("_", " ").title()
 
 
-def save_custom_lists():
-    for custom_list in st.session_state.custom_lists.values():
-        custom_list["df"].to_csv(
-            "./custom_lists/" + custom_list["filename"], columns=custom_list_columns
-        )
-
-
 def load_custom_lists(discs_df):
     custom_list_dir = "./custom_lists"
     files = custom_list_files(custom_list_dir)
@@ -87,58 +76,24 @@ def load_custom_lists(discs_df):
                 continue
             pretty_name = custom_list_name_format(file)
             df = read_csv_file(f"{custom_list_dir}/{file}")
+            df["REFERENCE"] = df["REFERENCE"].apply(
+                lambda ref_num: normalize_reference(discs_df, ref_num)
+            )
             custom_lists[pretty_name] = {"filename": file, "df": df}
 
         df = pd.DataFrame([], columns=["REFERENCE"])
-        df["REFERENCE"] = df["REFERENCE"].apply(
-            lambda ref_num: normalize_reference(discs_df, ref_num)
-        )
-
-        custom_lists["Custom"] = {"filename": "custom.csv", "df": df}
+        custom_lists["Custom"] = {"df": df}
         st.session_state.custom_lists = custom_lists
 
     lists = list(st.session_state.custom_lists.keys())
+    lists.sort()
 
-    selected_lists = st.sidebar.multiselect(
-        "Lists",
-        lists,
-        default=["Owned"],
-        on_change=reset_last_change,
-    )
+    selected_lists = st.sidebar.multiselect("Lists", lists, default=["Owned"])
     selected_dict = {}
     for selected in selected_lists:
         selected_dict[selected] = st.session_state.custom_lists[selected]["df"]
 
     return selected_dict
-
-
-def update_custom_val():
-    last_diffs = st.session_state.get("last_diffs", {})
-    cur_diffs = st.session_state.cur_diffs["edited_rows"]
-
-    for key, val in cur_diffs.items():
-        if (key not in last_diffs) or (last_diffs[key] != val):
-            updated_index = key
-            updated_row = val
-            break
-
-    row = st.session_state.diffs_df.iloc[[updated_index]][custom_list_columns]
-
-    df_name, updated_val = next(iter(updated_row.items()))
-    custom_df = st.session_state.custom_lists[df_name]["df"]
-
-    if updated_val:
-        updated_df = pd.concat([custom_df, row], ignore_index=True)
-    else:
-        matched_df = custom_df.merge(
-            row, on=custom_list_columns, how="left", indicator=True
-        )
-        updated_df = matched_df[matched_df["_merge"] == "left_only"].drop(
-            columns="_merge"
-        )
-    st.session_state.custom_lists[df_name]["df"] = updated_df
-
-    st.session_state.last_diffs = cur_diffs
 
 
 def paste_custom_list(discs_df):
@@ -148,13 +103,25 @@ def paste_custom_list(discs_df):
         if reference.strip() == "":
             continue
         normalized = normalize_reference(discs_df, reference)
-        if normalized:
+
+        if normalized in discs_df["REFERENCE"].values:
             reference_numbers.add(normalized)
         else:
-            st.error(f"no match for {reference}")
+            st.error(f"No match for {reference}")
 
     df = pd.DataFrame(reference_numbers, columns=["REFERENCE"])
-    st.session_state.custom_lists["Custom"] = {"filename": "custom.csv", "df": df}
+    st.session_state.custom_lists["Custom"] = {"df": df}
+
+
+@st.dialog("Labels", width="large")
+def create_label_pdf(filtered_df):
+    if filtered_df["REFERENCE"].nunique() > 100:
+        st.error("max labels per pdf is 100")
+        return
+    labels_pdf = create_pdf(filtered_df)
+    base64_pdf = base64.b64encode(labels_pdf.read()).decode("utf-8")
+    pdf_iframe = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="500" type="application/pdf"></iframe>'
+    st.markdown(pdf_iframe, unsafe_allow_html=True)
 
 
 def main():
@@ -176,11 +143,11 @@ def main():
         df[custom_name] = df["_merge"] == "both"
         df.drop(columns=["_merge"], inplace=True)
 
-    filtered_lists = st.sidebar.multiselect(
-        "Filter On", list(custom_lists.keys()), default=list(custom_lists.keys())
-    )
+    with st.sidebar:
+        custom_lists_df = pd.DataFrame(list(custom_lists.keys()), columns=["Filter On"])
+        filtered_lists = dynamic_dropdown(custom_lists_df, "Filter On", {})
 
-    if st.sidebar.checkbox("Filter", on_change=reset_last_change) and filtered_lists:
+    if filtered_lists:
         combined_df = pd.concat(
             [custom_lists[list_name] for list_name in filtered_lists], ignore_index=True
         ).drop_duplicates()
@@ -211,13 +178,13 @@ def main():
         series_condition & ref_condition & artist_condition & title_condition
     ].sort_values(by=["YEAR", "REFERENCE"], ascending=False)
 
-    # print_labels = st.sidebar.button("Print Labels")
-    # if print_labels:
-    #     create_pdf(filtered_df, "output.pdf")
+    if st.sidebar.button("Print Labels"):
+        create_label_pdf(filtered_df)
 
     column_order = [
         "SERIES",
         "NAME",
+        "REFERENCE",
         "YEAR",
         "POSITION",
         "ARTIST",
@@ -230,13 +197,11 @@ def main():
 
     st.session_state.diffs_df = st.data_editor(
         filtered_df,
-        # disabled=column_order[:-1],
         disabled=column_order,
         hide_index=True,
         use_container_width=True,
         column_order=column_order,
         column_config=column_config,
-        on_change=update_custom_val,
         key="cur_diffs",
     )
 

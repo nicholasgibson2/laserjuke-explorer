@@ -4,8 +4,6 @@ import re
 
 def normalize_reference(discs_df, reference):
     pattern = r"(\d{2}\.\d{2}\.\d{2})(.*)"
-    if len(reference) == 6:
-        reference = reference[:2] + "." + reference[2:4] + "." + reference[4:]
     match = re.match(pattern, reference)
     if match:
         base = match.group(1)
@@ -14,7 +12,7 @@ def normalize_reference(discs_df, reference):
         if not corresponding_row.empty:
             suffix = corresponding_row.iloc[0]["REFERENCE"][len(base) :]
         return f"{base}{suffix}"
-    return None
+    return reference
 
 
 def main():
