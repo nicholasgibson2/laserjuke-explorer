@@ -16,7 +16,6 @@ def cut_list(options, column):
         return options
 
     split_value = st.session_state[key][-1]
-    st.write(split_value)
     split_index = options.index(split_value)
     first_half = options[: split_index + 1]
     second_half = options[split_index + 1 :]
