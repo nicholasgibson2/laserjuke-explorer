@@ -3,7 +3,7 @@ import re
 
 
 def normalize_reference(discs_df, reference):
-    pattern = r"(\d{2}\.\d{2}\.\d{2})(.*)"
+    pattern = r"(\d{2}\.\d{2}\.\d+)(.*)"
     match = re.match(pattern, reference)
     if match:
         base = match.group(1)
