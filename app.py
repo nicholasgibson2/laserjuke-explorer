@@ -10,12 +10,27 @@ def persist_vals(cur_key, prev_key):
     st.session_state[prev_key] = st.session_state[cur_key]
 
 
-def dynamic_dropdown(df, column, dependencies):
+def cut_list(options, column):
+    key = f"cur_{column}"
+    if key not in st.session_state or len(st.session_state[key]) == 0:
+        return options
+
+    split_value = st.session_state[key][-1]
+    st.write(split_value)
+    split_index = options.index(split_value)
+    first_half = options[: split_index + 1]
+    second_half = options[split_index + 1 :]
+    return second_half + first_half
+
+
+def dynamic_dropdown(df, column, dependencies, nicksort=False):
     for dep_column, dep_values in dependencies.items():
         if dep_values:
             df = df[df[dep_column].isin(dep_values)]
 
     options = sorted(df[column].unique())
+    if nicksort:
+        options = cut_list(options, column)
 
     prev_selections = st.session_state.get(f"prev_{column}", [])
     prev_selections = [s for s in prev_selections if s in options]
@@ -158,8 +173,10 @@ def main():
 
     with st_sidebar:
         series = dynamic_dropdown(df, "SERIES", {})
-        artists = dynamic_dropdown(df, "ARTIST", {"SERIES": series})
-        titles = dynamic_dropdown(df, "TITLE", {"SERIES": series, "ARTIST": artists})
+        artists = dynamic_dropdown(df, "ARTIST", {"SERIES": series}, nicksort=True)
+        titles = dynamic_dropdown(
+            df, "TITLE", {"SERIES": series, "ARTIST": artists}, nicksort=True
+        )
         refs = dynamic_dropdown(
             df, "REFERENCE", {"SERIES": series, "ARTIST": artists, "TITLE": titles}
         )
