@@ -173,9 +173,7 @@ def main():
     with st_sidebar:
         series = dynamic_dropdown(df, "SERIES", {})
         artists = dynamic_dropdown(df, "ARTIST", {"SERIES": series}, nicksort=True)
-        titles = dynamic_dropdown(
-            df, "TITLE", {"SERIES": series, "ARTIST": artists}, nicksort=True
-        )
+        titles = dynamic_dropdown(df, "TITLE", {"SERIES": series, "ARTIST": artists})
         refs = dynamic_dropdown(
             df, "REFERENCE", {"SERIES": series, "ARTIST": artists, "TITLE": titles}
         )
