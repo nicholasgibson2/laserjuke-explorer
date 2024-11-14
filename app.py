@@ -75,6 +75,7 @@ def custom_list_name_format(filename):
     return Path(filename).stem.replace("_", " ").title()
 
 
+# TODO: PLP-D1-4-94 missing
 def load_custom_lists(discs_df):
     custom_list_dir = "./custom_lists"
     files = custom_list_files(custom_list_dir)
@@ -146,38 +147,39 @@ def main():
 
     st_sidebar = st.sidebar.container()
 
-    custom_lists = load_custom_lists(discs_df)
+    # custom_lists = load_custom_lists(discs_df)
 
-    for custom_name, custom_df in custom_lists.items():
-        df = df.merge(custom_df, on="REFERENCE", how="left", indicator=True)
-        df[custom_name] = df["_merge"] == "both"
-        df.drop(columns=["_merge"], inplace=True)
+    # for custom_name, custom_df in custom_lists.items():
+    #     df = df.merge(custom_df, on="REFERENCE", how="left", indicator=True)
+    #     df[custom_name] = df["_merge"] == "both"
+    #     df.drop(columns=["_merge"], inplace=True)
 
-    with st.sidebar:
-        custom_lists_df = pd.DataFrame(list(custom_lists.keys()), columns=["Filter On"])
-        filtered_lists = dynamic_dropdown(custom_lists_df, "Filter On", {})
+    # with st.sidebar:
+    #     custom_lists_df = pd.DataFrame(list(custom_lists.keys()), columns=["Filter On"])
+    #     filtered_lists = dynamic_dropdown(custom_lists_df, "Filter On", {})
 
-    if filtered_lists:
-        combined_df = pd.concat(
-            [custom_lists[list_name] for list_name in filtered_lists], ignore_index=True
-        ).drop_duplicates()
-        df = df[df["REFERENCE"].isin(combined_df["REFERENCE"])]
+    # if filtered_lists:
+    #     combined_df = pd.concat(
+    #         [custom_lists[list_name] for list_name in filtered_lists], ignore_index=True
+    #     ).drop_duplicates()
+    #     df = df[df["REFERENCE"].isin(combined_df["REFERENCE"])]
 
-    st.sidebar.text_area(
-        "Custom List",
-        on_change=paste_custom_list,
-        key="custom_list_text",
-        args=(discs_df,),
-    )
+    # st.sidebar.text_area(
+    #     "Custom List",
+    #     on_change=paste_custom_list,
+    #     key="custom_list_text",
+    #     args=(discs_df,),
+    # )
 
     with st_sidebar:
-        series = dynamic_dropdown(df, "SERIES", {})
+        # series = dynamic_dropdown(df, "SERIES", {})
+        series = ["Laser Juke"]
         artists = dynamic_dropdown(df, "ARTIST", {"SERIES": series}, nicksort=True)
         titles = dynamic_dropdown(df, "TITLE", {"SERIES": series, "ARTIST": artists})
         refs = dynamic_dropdown(
             df, "REFERENCE", {"SERIES": series, "ARTIST": artists, "TITLE": titles}
         )
-    st_sidebar.divider()
+    # st_sidebar.divider()
 
     series_condition = filter_condition(df, "SERIES", series)
     artist_condition = filter_condition(df, "ARTIST", artists)
@@ -188,18 +190,19 @@ def main():
         series_condition & ref_condition & artist_condition & title_condition
     ].sort_values(by=["YEAR", "REFERENCE"], ascending=False)
 
-    if st.sidebar.button("Print Labels"):
-        create_label_pdf(filtered_df)
+    # if st.sidebar.button("Print Labels"):
+    #     create_label_pdf(filtered_df)
 
     column_order = [
-        "SERIES",
-        "NAME",
+        # "SERIES",
+        # "NAME",
         "REFERENCE",
         "YEAR",
         "POSITION",
         "ARTIST",
         "TITLE",
-    ] + list(custom_lists.keys())
+    ]
+    # ] + list(custom_lists.keys())
     column_config = {}
     for column in ["SERIES", "NAME", "REFERENCE", "POSITION", "ARTIST", "TITLE"]:
         column_config[column] = st.column_config.TextColumn(column.title())
