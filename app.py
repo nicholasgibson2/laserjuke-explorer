@@ -57,7 +57,9 @@ def filter_condition(df, column_name, filter_list):
 
 @st.cache_data
 def read_csv_file(file):
-    return pd.read_csv(file)
+    df = pd.read_csv(file)
+    df = df.drop_duplicates()
+    return df
 
 
 @st.cache_data
@@ -98,7 +100,7 @@ def load_custom_lists(discs_df):
     lists = list(st.session_state.custom_lists.keys())
     lists.sort()
 
-    selected_lists = st.sidebar.multiselect("Lists", lists, default=["Owned"])
+    selected_lists = st.sidebar.multiselect("Lists", lists, default=["Owned", "Tino"])
     selected_dict = {}
     for selected in selected_lists:
         selected_dict[selected] = st.session_state.custom_lists[selected]["df"]
