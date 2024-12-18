@@ -4195,16 +4195,16 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 17.45.10.SPAN 1,B3,Marcela Morelo,Tormento de Amor,
 17.45.10.SPAN 1,B4,Foo Fighters,Breakout,
 17.45.10.SPAN 1,B5,Metallica,The Unforgiven,
-17.45.10.SPAN 1,A1,Ricky Martin,La Copa De La Vida,
-17.45.10.SPAN 1,A2,Enrique Iglesias,Bailamos,
-17.45.10.SPAN 1,A3,Jarabe De Palo,La Flaca,
-17.45.10.SPAN 1,A4,Santana feat. Rob Thomas,Smooth,
-17.45.10.SPAN 1,A5,Jennifer Lopez,Let's Get Loud,
-17.45.10.SPAN 1,B1,Marc Anthony,I Need To Know,
-17.45.10.SPAN 1,B2,Lou Bega,Mambo No. 5,
-17.45.10.SPAN 1,B3,Los Del Rio,Macarena,
-17.45.10.SPAN 1,B4,Gipsy Kings,Bamboléo,
-17.45.10.SPAN 1,B5,Los Lobos,La Bamba,
+17.46.06 ITAL 1,A1,Ricky Martin,La Copa De La Vida,
+17.46.06 ITAL 1,A2,Enrique Iglesias,Bailamos,
+17.46.06 ITAL 1,A3,Jarabe De Palo,La Flaca,
+17.46.06 ITAL 1,A4,Santana feat. Rob Thomas,Smooth,
+17.46.06 ITAL 1,A5,Jennifer Lopez,Let's Get Loud,
+17.46.06 ITAL 1,B1,Marc Anthony,I Need To Know,
+17.46.06 ITAL 1,B2,Lou Bega,Mambo No. 5,
+17.46.06 ITAL 1,B3,Los Del Rio,Macarena,
+17.46.06 ITAL 1,B4,Gipsy Kings,Bamboléo,
+17.46.06 ITAL 1,B5,Los Lobos,La Bamba,
 17.46.10.ITAL,A1,Scialpi,A Amare,
 17.46.10.ITAL,A2,Rosario Di Bella,Cantando,
 17.46.10.ITAL,A3,Double Dee,Don't You Feel,
@@ -6202,16 +6202,16 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 19.61.02.GER,B3,Sparks,Now That I Own The BBC,3:53
 19.61.02.GER,B4,Members Of Mayday,Great,3:32
 19.61.02.GER,B5,Rednex,Rolling Home,4:44
-19.62.02.ITAL,A1,Vasco Rossi,Mi Si Escludeva,
-19.62.02.ITAL,A2,Francesco Baccini,Sono Stufo Di Vedere Quelle Facce,
-19.62.02.ITAL,A3,Irene Grandi,Bambine Cattive,
-19.62.02.ITAL,A4,Coolio feat. LV,Gangsta's Paradise (OST Dangerous Minds),
-19.62.02.ITAL,A5,T.a.f.k.a.p. (Prince),Gold,
-19.62.02.ITAL,B1,Madonna,Rain,
-19.62.02.ITAL,B2,Ustmamo`,Memobox,
-19.62.02.ITAL,B3,La Crus,Natura Morta,
-19.62.02.ITAL,B4,Alice,Dammi La Mano Amore,
-19.62.02.ITAL,B5,Mo-Do,Sex Bump Twist,
+19.62.03.ITAL,A1,Vasco Rossi,Mi Si Escludeva,
+19.62.03.ITAL,A2,Francesco Baccini,Sono Stufo Di Vedere Quelle Facce,
+19.62.03.ITAL,A3,Irene Grandi,Bambine Cattive,
+19.62.03.ITAL,A4,Coolio feat. LV,Gangsta's Paradise (OST Dangerous Minds),
+19.62.03.ITAL,A5,T.a.f.k.a.p. (Prince),Gold,
+19.62.03.ITAL,B1,Madonna,Rain,
+19.62.03.ITAL,B2,Ustmamo`,Memobox,
+19.62.03.ITAL,B3,La Crus,Natura Morta,
+19.62.03.ITAL,B4,Alice,Dammi La Mano Amore,
+19.62.03.ITAL,B5,Mo-Do,Sex Bump Twist,
 19.63.05 SPAN,A1,Madredeus,Alfama,
 19.63.05 SPAN,A2,Héroes Del Silencio,Avalancha,
 19.63.05 SPAN,A3,Double Vision,Knock Knocking,
@@ -6870,7 +6870,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 11.09.93.AU,A1,U2,Numb,4:19
 11.09.93.AU,A2,Michael Jackson,Will You Be There,4:03
 11.09.93.AU,A3,Taylor Dayne,Can't Get Enough Of Your Love,4:16
-11.09.93.AU,A4,Spin Doctors,Jimmy Olsen'S Blues,3:13
+11.09.93.AU,A4,Spin Doctors,Jimmy Olsen's Blues,3:13
 11.09.93.AU,A5,AC/DC,Big Gun,4:07
 11.09.93.AU,B1,Snow,Girl I've Been Hurt,3:57
 11.09.93.AU,B2,Tim Finn,Persuasion,3:50
@@ -6973,7 +6973,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 11.04.94.AU,A4,Heart,Will You Be There (In The Morning),4:13
 11.04.94.AU,A5,Richard Marx,Now And Forever,3:33
 11.04.94.AU,B1,Frankie Goes To Hollywood,Welcome To The Pleasuredome,4:12
-11.04.94.AU,B2,Snoop Doggy Dogg,What'S My Name,3:53
+11.04.94.AU,B2,Snoop Doggy Dogg,What's My Name?,3:53
 11.04.94.AU,B3,Culture Beat,Anything,3:52
 11.04.94.AU,B4,Celine Dion,The Power Of Love,4:19
 11.04.94.AU,B5,Stone Temple Pilots,Creep,3:41
@@ -7312,7 +7312,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 13.04.97 AU,A3,The Cardigans,Lovefool,
 13.04.97 AU,A4,En Vogue,Don't Let Go (Love),
 13.04.97 AU,A5,Cake,The Distance,
-13.04.97 AU,B1,R. kelly,I Believe I Can Fly,
+13.04.97 AU,B1,R. Kelly,I Believe I Can Fly,
 13.04.97 AU,B2,Nick Cave & The Bad Seeds,Into My Arms,
 13.04.97 AU,B3,Aerosmith,Falling In Love (Is Hard On The Knees),
 13.04.97 AU,B4,Warren G,I Shot The Sheriff (B. Marley),
@@ -7966,7 +7966,7 @@ AL 08 AUSTRALIA,B1,David Lee Roth,California Girls,3:03
 AL 08 AUSTRALIA,B2,Sabrina,Boys (Summertime Love),3:38
 AL 08 AUSTRALIA,B3,INXS,Taste It,3:23
 AL 08 AUSTRALIA,B4,Prince & The New Power Generation,Sexy MF,7:31
-AL 08 AUSTRALIA,B5,The doors,Break On Through (To The Other Side),2:19
+AL 08 AUSTRALIA,B5,The Doors,Break On Through (To The Other Side),2:19
 AL 09 AUSTRALIA,A1,Van Halen,Jump '93 (Live),3:58
 AL 09 AUSTRALIA,A2,Thin Lizzy,Boys Are Back In Town,3:57
 AL 09 AUSTRALIA,A3,Bon Jovi,Keep The Faith,3:54
