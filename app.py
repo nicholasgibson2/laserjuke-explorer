@@ -91,6 +91,7 @@ def load_custom_lists(discs_df):
             df["REFERENCE"] = df["REFERENCE"].apply(
                 lambda ref_num: normalize_reference(discs_df, ref_num)
             )
+            df.drop_duplicates(subset="REFERENCE", inplace=True)
             custom_lists[pretty_name] = {"filename": file, "df": df}
 
         df = pd.DataFrame([], columns=["REFERENCE"])
@@ -196,7 +197,7 @@ def main():
     column_order = [
         "SERIES",
         "NAME",
-        "REFERENCE",
+        # "REFERENCE",
         "YEAR",
         "POSITION",
         "ARTIST",
