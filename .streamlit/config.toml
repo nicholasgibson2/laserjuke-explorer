@@ -1,2 +1,5 @@
 [server]
 disconnectedSessionTTL = 600
+
+[theme]
+base = "dark"
