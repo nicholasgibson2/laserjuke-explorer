@@ -163,3 +163,4 @@ scratch
 backup
 normalized.csv
 orig.csv
+data_normalizer.py
