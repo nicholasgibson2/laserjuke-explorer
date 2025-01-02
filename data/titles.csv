@@ -16,7 +16,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.04.03.EURO,A5,Dire Straits,Money For Nothing,4:09
 10.04.03.EURO,B1,Eurythmics,Shame,4:04
 10.04.03.EURO,B2,The Communards,Never Can Say Goodbye,3:58
-10.04.03.EURO,B3,Joe Cocker,When A Woman Loves A Man,3:58
+10.04.03.EURO,B3,Joe Cocker,A Woman Loves A Man,3:58
 10.04.03.EURO,B4,Sting,Englishman In New York,4:05
 10.04.03.EURO,B5,Chris Rea,Que Sera,3:41
 10.16.04.EURO,A1,Erasure,Blue Savannah,
@@ -36,7 +36,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.17.07,A5,Big Country,Save Me,
 10.17.07,B1,Roger Waters,Another Brick In The Wall,
 10.17.07,B2,Mylène Farmer,Sans Contrefacon,
-10.17.07,B3,Bob Geldof,Song Of Indifference,
+10.17.07,B3,Bob Geldof,The Great Song Of Indifference,
 10.17.07,B4,Luciano Pavarotti,Nessun Dorma (World Cup'90,
 10.17.07,B5,Jean-Michel Jarre,Calypso,
 10.18.10.EURO [UK11],A1,The Cure,Never Enough,4:31
@@ -56,7 +56,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.19.01.EURO [UK10],A5,Alannah Myles,Black Velvet,3:43
 10.19.01.EURO [UK10],B1,Madonna,Vogue,4:19
 10.19.01.EURO [UK10],B2,Roxette,It Must Have Been Love (Christmas for the Broken Hearted),4:04
-10.19.01.EURO [UK10],B3,Gary Moore,Still Got the Blues (For You),3:49
+10.19.01.EURO [UK10],B3,Gary Moore,Still Got The Blues,3:49
 10.19.01.EURO [UK10],B4,Bob Geldof,The Great Song Of Indifference,3:53
 10.19.01.EURO [UK10],B5,Jon Bon Jovi,Blaze Of Glory,3:52
 10.21.07.EURO [UK11],A1,Dire Straits,Brothers in Arms,
@@ -78,7 +78,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.22.10.(UK10),B2,James Brown,Move On,
 10.22.10.(UK10),B3,Bros,Try,
 10.22.10.(UK10),B4,Crystal Waters,Makin' Happy,
-10.22.10.(UK10),B5,Crystal Waters,Gypsy Woman (She's Homeless) (La Da Dee),
+10.22.10.(UK10),B5,Crystal Waters,Gypsy Woman (She's Homeless),
 10.23.01.EURO [UK 11],A1,Michael Jackson,Bad,4:21
 10.23.01.EURO [UK 11],A2,Michael Jackson,The Way You Make Me Feel,3:38
 10.23.01.EURO [UK 11],A3,Michael Jackson,Thriller,3:46
@@ -158,7 +158,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.30.11.EUR,B2,Bryan Adams,Please Forgive Me,5:04
 10.30.11.EUR,B3,Take That & Lulu,Re-Light My Fire,3:44
 10.30.11.EUR,B4,Oleta Adams,Window Of Hope,3:30
-10.30.11.EUR,B5,M People,Movin' On Up,3:29
+10.30.11.EUR,B5,M People,Moving On Up,3:29
 10.31.04.EURO,A1,Bruce Springsteen,Streets Of Philadelphia,2:57
 10.31.04.EURO,A2,Level 42,Forever Now,4:07
 10.31.04.EURO,A3,Marcella Detroit,I Believe,4:49
@@ -184,7 +184,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.33.02.EURO,A3,Whigfield,Another Day,3:48
 10.33.02.EURO,A4,Simple Minds,She's A River,3:53
 10.33.02.EURO,A5,The Human League,Tell Me When,3:51
-10.33.02.EURO,B1,Annie Lennox,No More I Love You's,4:07
+10.33.02.EURO,B1,Annie Lennox,"No More ""I Love You's""",4:07
 10.33.02.EURO,B2,Aerosmith,Blind Man,4:22
 10.33.02.EURO,B3,The Stone Roses,Love Spreads,3:21
 10.33.02.EURO,B4,Michelle Gayle,I'll Find You,4:24
@@ -193,7 +193,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.34.07 EURO,A2,Ali Campbell & Pamela Starks,That Look In Your Eye,3:29
 10.34.07 EURO,A3,Jimmy Somerville,Hurt So Good,3:39
 10.34.07 EURO,A4,East 17,Hold My Body Tight,3:35
-10.34.07 EURO,A5,U2,"Hold Me, Thrill Me, Kiss Me, Kill Me (Batman Forever)",4:45
+10.34.07 EURO,A5,U2,"Hold Me, Thrill Me, Kiss Me, Kill Me",4:45
 10.34.07 EURO,B1,Whigfield,Think Of You,4:00
 10.34.07 EURO,B2,Incognito,Everyday,4:01
 10.34.07 EURO,B3,Blessid Union of Souls,I Believe,3:49
@@ -222,14 +222,14 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.37.10.EURO,A1,Alisha's Attic,"I Am, I Feel",4:00
 10.37.10.EURO,A2,R.E.M.,E-Bow The Letter,4:04
 10.37.10.EURO,A3,Jamiroquai,Virtual Insanity,3:55
-10.37.10.EURO,A4,Sheryl Crow,It Makes You Happy,4:00
+10.37.10.EURO,A4,Sheryl Crow,If It Makes You Happy,4:00
 10.37.10.EURO,A5,Fugees,Ready Or Not,3:50
 10.37.10.EURO,B1,Stretch & Vern Pres. Maddog,I'm Alive,3:02
 10.37.10.EURO,B2,Peter Andre,Flava,3:48
 10.37.10.EURO,B3,Donna Lewis,I Love You Always Forever,3:47
 10.37.10.EURO,B4,George Michael,Spinning The Wheel,4:08
 10.37.10.EURO,B5,Tina Turner,Something Beautiful Remains,3:55
-10.38.03.EURO,A1,U2,Discotheque,4:31
+10.38.03.EURO,A1,U2,Discothèque,4:31
 10.38.03.EURO,A2,Skunk Anansie,Hedonism (Just Because You Feel Good),3:28
 10.38.03.EURO,A3,Whitney Houston,I Believe In You And Me,3:53
 10.38.03.EURO,A4,White Town,Your Woman,4:19
@@ -285,7 +285,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 10.43.04.EURO,A4,Robbie Williams,Strong,4:05
 10.43.04.EURO,A5,Stereophonics,Just Looking,4:01
 10.43.04.EURO,B1,Underworld,Push Upstairs,3:59
-10.43.04.EURO,B2,Whitney Houston,It's Not Right But It's OK,3:55
+10.43.04.EURO,B2,Whitney Houston,It's Not Right But It's Okay,3:55
 10.43.04.EURO,B3,The Cranberries,Promises,4:02
 10.43.04.EURO,B4,Manic Street Preachers,You Stole The Sun From My Heart,4:20
 10.43.04.EURO,B5,Blur,Tender,3:43
@@ -703,7 +703,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 11.51.04.EURO 1,A2,Alanis Morissette,Hands Clean,4:18
 11.51.04.EURO 1,A3,Nickelback,How You Remind Me,3:44
 11.51.04.EURO 1,A4,Alicia Keys,A Woman's Worth,4:14
-11.51.04.EURO 1,A5,Shakira,"Whenever, Wherever",3:19
+11.51.04.EURO 1,A5,Shakira,"Suerte (Whenever, Wherever)",3:19
 11.51.04.EURO 1,B1,DB Boulevard,Point Of View,3:50
 11.51.04.EURO 1,B2,Sophie Ellis Bextor,Murder On The Dancefloor,3:46
 11.51.04.EURO 1,B3,Staind,Outside,4:53
@@ -712,7 +712,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 12.14.10.EURO,A1,Lil Louis,French Kiss,2:40
 12.14.10.EURO,A2,Kaoma,Lambada,3:30
 12.14.10.EURO,A3,Aerosmith,Love In An Elevator,5:30
-12.14.10.EURO,A4,Jean-Michel Jarre,Oxygène,2:41
+12.14.10.EURO,A4,Jean-Michel Jarre,"Oxygene, Pt. 8",2:41
 12.14.10.EURO,A5,Eddie Murphy,Put Your Mouth On Me,4:07
 12.14.10.EURO,B1,Run-DMC feat. S. Tyler and J. Perry,Walk This Way,3:32
 12.14.10.EURO,B2,Cyndi Lauper,My First Night Without You,3:05
@@ -750,7 +750,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 12.20.02.EURO [UK11],B4,Los Lobos,Down By The Riverbed,4:05
 12.20.02.EURO [UK11],B5,Sisters of Mercy,Doctor Jeep,3:12
 12.21.05.EURO [UK11],A1,Michael Bolton,How Am I Supposed To Live Without You,
-12.21.05.EURO [UK11],A2,Gloria Estefan,I Don't Wanna Lose You,
+12.21.05.EURO [UK11],A2,Gloria Estefan,Don't Wanna Lose You,
 12.21.05.EURO [UK11],A3,Berlin,You Take My Breath Away,
 12.21.05.EURO [UK11],A4,The Cars,Drive,
 12.21.05.EURO [UK11],A5,George Michael,Careless Whisper,
@@ -854,7 +854,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 12.31.01.EURO,A3,Snow,Informer,4:06
 12.31.01.EURO,A4,Haddaway,What Is Love,4:00
 12.31.01.EURO,A5,Culture Beat,Mr. Vain,3:58
-12.31.01.EURO,B1,UB40,(I Can't Help) Falling In Love,3:24
+12.31.01.EURO,B1,UB40,(I Can't Help) Falling In Love With You,3:24
 12.31.01.EURO,B2,Charles & Eddie,Would I Lie To You,3:58
 12.31.01.EURO,B3,Ace of Base,All That She Wants,3:32
 12.31.01.EURO,B4,Shaggy,Oh Carolina,3:12
@@ -951,7 +951,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 12.40.10.EURO,B5,Diana King,I Say A Little Prayer,3:37
 12.41.03.EURO,A1,Backstreet Boys,All I Have To Give,4:02
 12.41.03.EURO,A2,Wes,Alane,3:41
-12.41.03.EURO,A3,Metallica,Unforgiven II,4:32
+12.41.03.EURO,A3,Metallica,The Unforgiven II,4:32
 12.41.03.EURO,A4,Imani Coppola,Legend Of A Cowgirl,3:52
 12.41.03.EURO,A5,Robyn,Show Me Love,3:31
 12.41.03.EURO,B1,Solid Harmonie,I'll Be There For You,3:10
@@ -962,9 +962,9 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 12.42.08.EURO,A1,Spice Girls,Viva Forever,4:12
 12.42.08.EURO,A2,Billie Piper,Because We Want To,3:50
 12.42.08.EURO,A3,Beastie Boys,Intergalactic,4:27
-12.42.08.EURO,A4,Five,Got The Feeling,3:35
+12.42.08.EURO,A4,Five,Got The Feelin',3:35
 12.42.08.EURO,A5,Eagle-Eye Cherry,Falling In Love Again,3:02
-12.42.08.EURO,B1,Will Smith,Just The 2 Of Us,4:14
+12.42.08.EURO,B1,Will Smith,Just The Two Of Us,4:14
 12.42.08.EURO,B2,Ultra Naté,New Kind Of Medicine,3:36
 12.42.08.EURO,B3,Lenny Kravitz,If You Can't Say No,4:34
 12.42.08.EURO,B4,Destiny's Child,With me,3:26
@@ -1219,7 +1219,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 13.29.05.EURO,B3,The The,Infected (Versus The World),3:13
 13.29.05.EURO,B4,Liza Minnelli,Theme from New York New York,3:12
 13.29.05.EURO,B5,Gloria Estefan,Ballad Medley (Into The Light),5:34
-13.30.09.EURO,A1,Billy Joel,River Of Dreams,3:55
+13.30.09.EURO,A1,Billy Joel,The River Of Dreams,3:55
 13.30.09.EURO,A2,Madonna,Rain,4:24
 13.30.09.EURO,A3,Whitney Houston,Run To You,4:19
 13.30.09.EURO,A4,Take That,Pray,3:21
@@ -1227,7 +1227,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 13.30.09.EURO,B1,R.E.M.,Nightswimming,4:09
 13.30.09.EURO,B2,Chaka Demus & Pliers,Tease Me,3:42
 13.30.09.EURO,B3,Sade,Cherish The Day,4:25
-13.30.09.EURO,B4,Mariah Carey,Dream Lover,3:57
+13.30.09.EURO,B4,Mariah Carey,Dreamlover,3:57
 13.30.09.EURO,B5,Freddie Mercury,Living On My Own,3:39
 13.31.02.EURO,A1,"Bryan Adams, Rod Stewart, Sting",All For Love,4:34
 13.31.02.EURO,A2,Pet Shop Boys,I Wouldn't Normally Do this Kind of Thing,3:56
@@ -1270,9 +1270,9 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 13.34.05.EURO,B4,Brownstone,If You Love Me,3:42
 13.34.05.EURO,B5,Radiohead,High & Dry,3:52
 13.35.10.EURO,A1,N-Trance,Stayin' Alive,4:05
-13.35.10.EURO,A2,The Rembrandts,I'll Be There For You (Friends),3:03
+13.35.10.EURO,A2,The Rembrandts,I'll Be There For You,3:03
 13.35.10.EURO,A3,The Shamen,Destination Eschaton,3:55
-13.35.10.EURO,A4,Michael Bolton,Can I Touch You There,4:51
+13.35.10.EURO,A4,Michael Bolton,Can I Touch You...There?,4:51
 13.35.10.EURO,A5,Haddaway,Catch A Fire,4:03
 13.35.10.EURO,B1,Oasis,Roll With It,3:57
 13.35.10.EURO,B2,Berri,Sunshine After The Rain,3:26
@@ -1448,7 +1448,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 14.08.05.ITAL,B2,Matia Bazar,La Prima Stella Della Sera,
 14.08.05.ITAL,B3,Espressione Musica,Momma Demmi Isoldi,
 14.08.05.ITAL,B4,Enrico Ruggeri,I Giorni Randagi,
-14.08.05.ITAL,B5,Vasco Rossi,C'e Chi Dice No,
+14.08.05.ITAL,B5,Vasco Rossi,C'È Chi Dice No,
 14.40.03.EURO,A1,Wet Wet Wet,Hold Back The River,
 14.40.03.EURO,A2,Elton John,Sacrifice,
 14.40.03.EURO,A3,Big Fun,Can't Shake The Feeling,
@@ -1503,7 +1503,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 14.46.09 [UK11],A2,Level 42,Guaranteed,
 14.46.09 [UK11],A3,ABC,Love Conquers All,
 14.46.09 [UK11],A4,Technotronic,Work,
-14.46.09 [UK11],A5,Martika,Love Thy Will Be Done,
+14.46.09 [UK11],A5,Martika,Love...Thy Will Be Done,
 14.46.09 [UK11],B1,Matt Bianco,Macumba,
 14.46.09 [UK11],B2,Sabrina,Do Ya Think I'm Sexy?,
 14.46.09 [UK11],B3,The Rolling Stones,Sex Drive,
@@ -1629,14 +1629,14 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 14.54.10.EURO,B3,Bitty McLean,It Keeps Rainin' (Tears From My Eyes),3:50
 14.54.10.EURO,B4,Tina Turner,Disco Inferno,3:50
 14.54.10.EURO,B5,Haddaway,Life,3:51
-14.55.03.EURO,A1,Richard Marx,Now & Forever,3:32
+14.55.03.EURO,A1,Richard Marx,Now And Forever,3:32
 14.55.03.EURO,A2,Tori Amos,Cornflake Girl,3:54
 14.55.03.EURO,A3,D:Ream,Things Can Only Get Better (Re-release),4:08
 14.55.03.EURO,A4,Eternal,Save Our Love,3:48
 14.55.03.EURO,A5,Toni Braxton,Breathe Again,4:31
 14.55.03.EURO,B1,Meat Loaf,Rock And Roll Dreams Come Through,4:27
 14.55.03.EURO,B2,Bobby Brown & Whitney Houston,Something In Common,3:55
-14.55.03.EURO,B3,Céline Dion,Power Of Love,4:15
+14.55.03.EURO,B3,Céline Dion,The Power Of Love,4:15
 14.55.03.EURO,B4,Aretha Franklin,A Deeper Love,3:44
 14.55.03.EURO,B5,ZZ Top,Pincushion,3:35
 14.56.08.EURO,A1,The B-52's,(Meet) The Flintstones,2:43
@@ -1676,7 +1676,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 14.59.11.EURO,A5,Tears For Fears,Raoul & The Kings Of Spain,4:08
 14.59.11.EURO,B1,Diana Ross,Take Me Higher,4:02
 14.59.11.EURO,B2,Blur,Country House,3:48
-14.59.11.EURO,B3,Def Leppard,When Love & Hate Collide,4:12
+14.59.11.EURO,B3,Def Leppard,When Love And Hate Collide,4:12
 14.59.11.EURO,B4,Shaggy,Boombastic,3:53
 14.59.11.EURO,B5,Nick Cave & Kylie Minogue,Where The Wild Roses Grow,4:02
 14.60.04.EURO,A1,Take That,How Deep Is Your Love,3:40
@@ -2171,7 +2171,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 15.52.03.EURO,B5,The Beloved,Sweet Harmony,3:38
 15.52.07.ITAL 2,A1,Aerosmith,Crazy,
 15.52.07.ITAL 2,A2,Bon Jovi,Always,
-15.52.07.ITAL 2,A3,Guns N' Roses,Sweet Child Of Mine,
+15.52.07.ITAL 2,A3,Guns N' Roses,Sweet Child O' Mine,
 15.52.07.ITAL 2,A4,The Offspring,Pretty Fly For A White Guy,
 15.52.07.ITAL 2,A5,Blink-182,What's My Age Again?,
 15.52.07.ITAL 2,B1,Marilyn Manson,Antichrist Superstar,
@@ -2291,13 +2291,13 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 15.62.08.SPAN,B5,Los Sencillos,Doctor Amor,
 15.63.11 FREN,A1,La Famille,Papadoo,
 15.63.11 FREN,A2,Paul Personne,Loco Loco,
-15.63.11 FREN,A3,Bryan Adams,Summer Of'69,
+15.63.11 FREN,A3,Bryan Adams,Summer Of '69,
 15.63.11 FREN,A4,Lena Fiagbe,What's It Like To Be Beautiful,
 15.63.11 FREN,A5,Swing Out Sister,La La (Means I Love You),
 15.63.11 FREN,B1,Pink Floyd,High Hopes,
 15.63.11 FREN,B2,Naomi Campbell,Love & Tears,
 15.63.11 FREN,B3,Blur,Parklife,
-15.63.11 FREN,B4,Bon Jovi,Livin'On A Player,
+15.63.11 FREN,B4,Bon Jovi,Livin' On A Prayer,
 15.63.11 FREN,B5,Urban Species,Spiritual Love,
 15.64.12.GER,A1,Mr. President,Up 'N Away,3:54
 15.64.12.GER,A2,Playahitty,The Summer Is Magic,3:17
@@ -2308,7 +2308,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 15.64.12.GER,B2,Traffic,Some Kinda Woman,3:54
 15.64.12.GER,B3,Army of Lovers,Lit De Parade,3:22
 15.64.12.GER,B4,DJ BoBo,Let The Dream Come True,4:03
-15.64.12.GER,B5,Wet Wet Wet,Goodnight Girl '94,3:39
+15.64.12.GER,B5,Wet Wet Wet,Goodnight Girl,3:39
 15.65.03.SPAN,A1,Laura Pausini,Amores Extraños (Strani Amori),4:15
 15.65.03.SPAN,A2,Seguridad Social,Acción,3:38
 15.65.03.SPAN,A3,Vargas Blues Band,Hot Wires,3:17
@@ -2596,7 +2596,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 15.96.07.SPAN,A5,Chris Duran,"Baila, Baila, Baila",3:48
 15.96.07.SPAN,B1,Nosotrash,Mis muñecas,2:50
 15.96.07.SPAN,B2,Rocio Jurado,Se Nos Rompió El Amor,4:13
-15.96.07.SPAN,B3,Alejandro Sanz,"Y, Si  Fuera Ella",3:55
+15.96.07.SPAN,B3,Alejandro Sanz,Y ¿Si Fuera Ella?,3:55
 15.96.07.SPAN,B4,Def Leppard,Animal,4:07
 15.96.07.SPAN,B5,Sister Bliss,"Can't Get A Man, Can't Get A Job (Life's A Bitch)",3:50
 15.98.09.GER,A1,Loona,Bailando,3:36
@@ -2783,7 +2783,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.18.05.SPAN 1,A4,La Frontera,Tu Vida En Un Papel,
 16.18.05.SPAN 1,A5,"Ai, Ai, Ai",L'Ovella Negra,
 16.18.05.SPAN 1,B1,Diego Torres,Se Que Ya No Volveras,
-16.18.05.SPAN 1,B2,Jean-Michel Jarre,Oxygène 8,
+16.18.05.SPAN 1,B2,Jean-Michel Jarre,"Oxygene, Pt. 8",
 16.18.05.SPAN 1,B3,Van Morrison,The Healing Game,
 16.18.05.SPAN 1,B4,Missiego,Mueve Tu Cucu,
 16.18.05.SPAN 1,B5,Fangoria,La Lengua Asesina,
@@ -3007,7 +3007,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.37.06.SPAN 1,B3,José Mercé,Te Roza y Te Quema,3:46
 16.37.06.SPAN 1,B4,Meat Loaf,I'd Do Anything For Love (But I Won't Do That),5:13
 16.37.06.SPAN 1,B5,Gun,Crazy You,4:13
-16.38.08.ITAL 1,A1,Eros Ramazzotti,L'Ombra Del Gigante,
+16.38.08.ITAL 1,A1,Eros Ramazzotti,La Sombra Del Gigante,
 16.38.08.ITAL 1,A2,Timoria,Mexico,
 16.38.08.ITAL 1,A3,Lùnapop,Vespa Special (Spanish Version),
 16.38.08.ITAL 1,A4,Franco Battiato,Running Against The Grain,
@@ -3032,9 +3032,9 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.40.10.EURO 1,A3,Bon Jovi,You Give Love A Bad Name,3:44
 16.40.10.EURO 1,A4,Pink Floyd,Another Brick In The Wall,3:14
 16.40.10.EURO 1,A5,Aerosmith,Cryin',4:19
-16.40.10.EURO 1,B1,Metallica,Enter The Sandman,4:11
+16.40.10.EURO 1,B1,Metallica,Enter Sandman,4:11
 16.40.10.EURO 1,B2,Billy Idol,Rebel Yell,3:26
-16.40.10.EURO 1,B3,Ozzy Osbourne,A Shot In The Dark,4:03
+16.40.10.EURO 1,B3,Ozzy Osbourne,Shot In The Dark,4:03
 16.40.10.EURO 1,B4,Megadeth,Symphony Of Destruction,3:55
 16.40.10.EURO 1,B5,Extreme,Get The Funk Out,4:222
 16.41.04.GER,A1,Die Wildecker Herzbuben,Herzilein,
@@ -3065,7 +3065,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.42.04.FREN,B1,David Hallyday,Wanna Take My Time,
 16.42.04.FREN,B2,Patricia Kaas,Mademoiselle Chante Le Blues,
 16.42.04.FREN,B3,Roch Voisine,La Berceuse Du Petit Diable,
-16.42.04.FREN,B4,Guesch Patti,Etienne,
+16.42.04.FREN,B4,Guesch Patti,Étienne,
 16.42.04.FREN,B5,Niagara,J'ai Vu,
 16.42.12 FREN,A1,Assia & Doc Gynéco,Mauvais Garçon,
 16.42.12 FREN,A2,Les Innocents,Le Cygne,
@@ -3232,7 +3232,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.55.04.EURO 2,A3,Jakatta,American Dream,
 16.55.04.EURO 2,A4,"R, Kelly",The Storm Is Over Now,
 16.55.04.EURO 2,A5,Joe feat. Mystikal,Stutter,
-16.55.04.EURO 2,B1,Manic Street Preachers,So Why So Bad,
+16.55.04.EURO 2,B1,Manic Street Preachers,So Why So Sad,
 16.55.04.EURO 2,B2,Dream,He Loves U Not,
 16.55.04.EURO 2,B3,Stereophonics,Mr. Writer,
 16.55.04.EURO 2,B4,A1,No More,
@@ -3454,7 +3454,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.79.05.SPAN,B1,Os Resentidos,Están Aquí,
 16.79.05.SPAN,B2,Marc Parrot,Cansado De Esperar,
 16.79.05.SPAN,B3,2 Unlimited,No Limit,
-16.79.05.SPAN,B4,Dance 2 Trance,Power of American Natives (P.A.N.),
+16.79.05.SPAN,B4,Dance 2 Trance,Power Of American Natives,
 16.79.05.SPAN,B5,Magneto,Para Siempre,
 16.80.05 ITAL,A1,Ligabue,Ho Messo Via,
 16.80.05 ITAL,A2,Jovanotti,Ragazzo Fortunato,
@@ -3477,7 +3477,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.81.07.GER,B4,Gary Clark,Freefloating,
 16.81.07.GER,B5,World Party,Is It Like Today?,
 16.82.09.FREN,A1,François Feldman,Fais Tomber La Pluie,
-16.82.09.FREN,A2,Boyz II Men,In The Still Of The Night (I'll Remember),
+16.82.09.FREN,A2,Boyz II Men,In The Still Of The Nite (I'll Remember),
 16.82.09.FREN,A3,Eddie Murphy & Michael Jackson,Whatzupwitu,
 16.82.09.FREN,A4,Orient,Dor Biha,
 16.82.09.FREN,A5,Les Valentins,J'ai Triste,
@@ -3518,7 +3518,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.85.10.ITAL,B5,Cavaliere,Lasciami Stare Sono Un Animale,
 16.86.02.FREN,A1,Soul Asylum,Runaway Train,
 16.86.02.FREN,A2,Spin Doctors,Jimmy Olsen's Blues,
-16.86.02.FREN,A3,George Michael,Killer Papa Was A Rolling Stone,
+16.86.02.FREN,A3,George Michael,Killer / Papa Was a Rollin’ Stone,
 16.86.02.FREN,A4,RudeLuck,Tout Recommencer,
 16.86.02.FREN,A5,Au P'tit Bonheur,Arletta,
 16.86.02.FREN,B1,Les Valentins,Les Pieds Dans La Lune,
@@ -3601,7 +3601,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 16.94.11.ITAL,A4,Pooh,Le Canzoni Di Domani,4:03
 16.94.11.ITAL,A5,Paolo Belli,Mi Hanno Lasciato Qui,4:31
 16.94.11.ITAL,B1,Miguel Bosé,I Cieli Dell'Est,3:47
-16.94.11.ITAL,B2,Naomi Campbell,Love And Tears,4:10
+16.94.11.ITAL,B2,Naomi Campbell,Love & Tears,4:10
 16.94.11.ITAL,B3,Ice MC,It's A Rainy Day,4:15
 16.94.11.ITAL,B4,Whigfield,Saturday Night,3:56
 16.94.11.ITAL,B5,Double Dee,Love Nobody,3:49
@@ -3906,7 +3906,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 17.20.03.ITAL 1,B4,AC/DC,That's The Way I Wanna Rock 'N' Roll,
 17.20.03.ITAL 1,B5,Mötley Crüe,Kick Start My Heart,
 17.20.07.EURO,A1,Jason Donovan,Another Night,3:22
-17.20.07.EURO,A2,Snap!,Oops Up,4:08
+17.20.07.EURO,A2,Snap!,Ooops Up,4:08
 17.20.07.EURO,A3,Kim Wilde,Time,4:03
 17.20.07.EURO,A4,Jeff Lynne,Every Little Thing,3:44
 17.20.07.EURO,A5,Guru Josh,Whose Law (Is It Anyway)?,3:23
@@ -3922,7 +3922,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 17.21.04 SPAN 1,A5,O.B.K.,De Qué Me Sirve Llorar,
 17.21.04 SPAN 1,B1,Ambra Angiolini,"Tú, Yo, Francesca y Davide",
 17.21.04 SPAN 1,B2,Alara Kalama,Si Tanques Els Ulls,
-17.21.04 SPAN 1,B3,Thalia,AMor A La Mejicana,
+17.21.04 SPAN 1,B3,Thalia,Amor A La Mexicana,
 17.21.04 SPAN 1,B4,Mangu,"Calle Luna, Calle Sol",
 17.21.04 SPAN 1,B5,Alice Cooper,Poison,
 17.22.08.GER,A1,Twenty 4 Seven feat. MC Fixx It,I Can't Stand It,4:07
@@ -3945,7 +3945,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 17.23.06.GER 1,B3,La Bouche,A Moment Of Love,4:09
 17.23.06.GER 1,B4,Massive Attack,Teardrop,4:46
 17.23.06.GER 1,B5,Sunvibe,Dreamer,3:40
-17.23.09.EURO,A1,Billy Idol,L. A. Woman,
+17.23.09.EURO,A1,Billy Idol,L.A. Woman,
 17.23.09.EURO,A2,Jive Bunny And The Mastermixers,Can Can You Party,
 17.23.09.EURO,A3,Lindy Layton feat. Janet Kay,Silly Games,
 17.23.09.EURO,A4,Whitesnake,Now You're Gone,
@@ -4220,7 +4220,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 17.47.12.EURO 2,A3,Beatchuggers feat. Eric Clapton,Forever Man,3:51
 17.47.12.EURO 2,A4,Ricky Martin,She Bangs,4:07
 17.47.12.EURO 2,A5,The Offspring,Original Prankster,3:42
-17.47.12.EURO 2,B1,Destiny's Child,"Independent Women, Part. 1",3:43
+17.47.12.EURO 2,B1,Destiny's Child,"Independent Women, Part 1",3:43
 17.47.12.EURO 2,B2,Tom Jones & Heather Small,You Need Love Like I Do ...,3:24
 17.47.12.EURO 2,B3,Louise,Beautiful Inside,3:22
 17.47.12.EURO 2,B4,Backstreet Boys,Shape Of My Heart,3:51
@@ -4444,7 +4444,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 17.78.11.GER,B2,M.C. Sar & The Real McCoy,Another Night,
 17.78.11.GER,B3,Sven Väth,L'esperanza,
 17.78.11.GER,B4,Masterboy,Everybody Needs Somebody,
-17.78.11.GER,B5,Urban Cookie Collective,The Key The Secret,
+17.78.11.GER,B5,Urban Cookie Collective,"The Key, The Secret",
 17.79.11.ITAL,A1,Luca Carboni,Sarà un uomo (Live),4:18
 17.79.11.ITAL,A2,Raf,Due,4:23
 17.79.11.ITAL,A3,Quartiere Latino,Parola Di Lupetto,4:03
@@ -5626,7 +5626,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 18.89.06 GER,A1,Stefan Raab,Hier kommt die Maus,
 18.89.06 GER,A2,Los Del Rio,Macarena,
 18.89.06 GER,A3,Caught In The Act,Don't Walk Away,
-18.89.06 GER,A4,Mr. President,Coco Jambo,
+18.89.06 GER,A4,Mr. President,Coco Jamboo,
 18.89.06 GER,A5,Double Vision,All Right,
 18.89.06 GER,B1,BND,Here I Go Again,
 18.89.06 GER,B2,Grooveminister,Wieder Ohne,
@@ -5664,7 +5664,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 18.94.12 ITAL,B4,Guns N' Roses,Welcome To The Jungle,
 18.94.12 ITAL,B5,Whitesnake,Is This Love,
 18.95.02.SPAN,A1,El Niño Gusano,Pon Tu Mente Al Sol,3:45
-18.95.02.SPAN,A2,Eros Ramazzotti,L' Aurora,4:03
+18.95.02.SPAN,A2,Eros Ramazzotti,L'Aurora,4:03
 18.95.02.SPAN,A3,Marco Masini,Mi Amor Allí Estará,4:23
 18.95.02.SPAN,A4,La Caramba,La Caramba y El Caray,4:32
 18.95.02.SPAN,A5,Los Enemigos,Tengo Una Casa,2:31
@@ -5878,7 +5878,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 19.33.03 FREN,A4,Rita,Roxanne,
 19.33.03 FREN,A5,Tori Amos,Crucify,
 19.33.03 FREN,B1,CO.RO Feat. Taleesa,Because The Night,
-19.33.03 FREN,B2,Inner Circle,Sweat ( A La La La La Long),
+19.33.03 FREN,B2,Inner Circle,Sweat (A La La La La Long),
 19.33.03 FREN,B3,The Shamen,LSI (Love Sex Intelligence),
 19.33.03 FREN,B4,Tasmin Archer,Sleeping Satellite,
 19.33.03 FREN,B5,Felix,Don't You Want Me,
@@ -6142,7 +6142,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 19.56.08.FREN,B3,Ebony Vibe Everlasting (E.V.E.),Groove Of Love,4:21
 19.56.08.FREN,B4,La Bouche,Be My Lover,3:45
 19.56.08.FREN,B5,Eternal,Just A Step From Heaven,4:14
-19.57.09.GER,A1,Pet Shop Boys,Paninero '95,4:10
+19.57.09.GER,A1,Pet Shop Boys,Paninaro '95,4:10
 19.57.09.GER,A2,Garfield,Cool Cat,3:43
 19.57.09.GER,A3,Nessaja,Once Again,3:19
 19.57.09.GER,A4,New Order,Blue Monday '95,3:46
@@ -6233,7 +6233,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 19.64.04 ITAL 2,B4,Marilyn Manson,Coma White,
 19.64.04 ITAL 2,B5,Guns N' Roses,Paradise City,
 19.65.07.GER,A1,Das Modul,Frühlingsgefühle,3:21
-19.65.07.GER,A2,Eros Ramazzotti,Piu Bella Cosa,4:28
+19.65.07.GER,A2,Eros Ramazzotti,Più Bella Cosa,4:28
 19.65.07.GER,A3,Culture Beat,Crying In The Rain,3:56
 19.65.07.GER,A4,Sir Prize,Love Is The Answer,3:09
 19.65.07.GER,A5,Dee,Feeling Hm-Pa-Paa-Paaa,3:18
@@ -6241,7 +6241,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 19.65.07.GER,B2,Imperio,Cyberdream,4:20
 19.65.07.GER,B3,Soultans,Can't Take My Hands Off You,3:58
 19.65.07.GER,B4,2 Unlimited,Spread Your Love,3:43
-19.65.07.GER,B5,Down Low,Vision Of Love,3:44
+19.65.07.GER,B5,Down Low,Vision Of Life,3:44
 19.66.08.ITAL,A1,Alexia,Summer Is Crazy,3:22
 19.66.08.ITAL,A2,Energipsy,A Mi Me Gusta,3:23
 19.66.08.ITAL,A3,Umberto Tozzi,Il Grido,3:54
@@ -6250,7 +6250,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 19.66.08.ITAL,B1,2Pac feat. Dr. Dre & Roger Troutman,California Love,4:02
 19.66.08.ITAL,B2,Rage Against The Machine,Bulls On Parade,3:57
 19.66.08.ITAL,B3,Soundgarden,Pretty Noose,4:09
-19.66.08.ITAL,B4,Miguel Bosé,La Auto-Radio,4:17
+19.66.08.ITAL,B4,Miguel Bosé,La Auto-Radio Canta,4:17
 19.66.08.ITAL,B5,Pink Floyd,Another Brick In The Wall,3:15
 19.67.10.SPAN,A1,Joaquín Sabina,Es Mentira,4:03
 19.67.10.SPAN,A2,Umpah Pah,Si,3:11
@@ -6432,7 +6432,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 19.88.12 FREN,B3,Cypress Hill,Tequila Sunrise,
 19.88.12 FREN,B4,Puff Daddy & Faith Evans,I'll Be Missing You,
 19.88.12 FREN,B5,Jemma & Elise,Make Believe,
-19.89.01.GER,A1,ATB,9PM (Till I Come),3:15
+19.89.01.GER,A1,ATB,9 PM (Till I Come),3:15
 19.89.01.GER,A2,Wolfsheim,Once In A Lifetime,3:46
 19.89.01.GER,A3,Die Ärzte,1/2 Lovesong,4:00
 19.89.01.GER,A4,Blank & Jones,Flying To The Moon,3:29
@@ -6461,7 +6461,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 19.91.04.SPAN,B2,Fito & Fitipaldis,Miranda Al Cielo,4:11
 19.91.04.SPAN,B3,Vargas,Sangre Española,4:05
 19.91.04.SPAN,B4,Joan Manuel Serrat,Donde Quiera Que Estés,3:15
-19.91.04.SPAN,B5,Def Leppard,When Love & Hate Collide,4:16
+19.91.04.SPAN,B5,Def Leppard,When Love And Hate Collide,4:16
 19.92.02.EURO,A1,Santos,Camels,3:36
 19.92.02.EURO,A2,Lene Marlin,Where I'm Headed,4:11
 19.92.02.EURO,A3,Sisqó,Incomplete,4:32
@@ -6569,7 +6569,7 @@ xx.xx.xx[placeholder15],B5,Haddaway,What Is Love,
 12.05.99 [UK12],A5,Boney M. vs Horny United,Ma Baker / Somebody Scream,
 12.05.99 [UK12],B1,Groove Armada,If Everybody Looked The Same,
 12.05.99 [UK12],B2,Moby,Run On,
-12.05.99 [UK12],B3,Powerhouse feat. Duane Harden,What U Need,
+12.05.99 [UK12],B3,Powerhouse feat. Duane Harden,What You Need,
 12.05.99 [UK12],B4,Terrorvision,III Wishes,
 12.05.99 [UK12],B5,Geri Halliwell,Look At Me,
 13.06.99  [UK13],A1,Stereophonics,Pick A Part That's New,
@@ -6747,7 +6747,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 14.05.91 AU,B3,Londonbeat,A Better Love,
 14.05.91 AU,B4,Rick Astley,Cry For Help,
 14.05.91 AU,B5,Black Box,The Total Mix,
-01.01.92.AU,A1,The Rolling Stones,Sexdrive,
+01.01.92.AU,A1,The Rolling Stones,Sex Drive,
 01.01.92.AU,A2,Alice Cooper,Poison,
 01.01.92.AU,A3,Cher,If I Could Turn Back Time,
 01.01.92.AU,A4,George Michael,I Want Your Sex,
@@ -6876,7 +6876,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 11.09.93.AU,B2,Tim Finn,Persuasion,3:50
 11.09.93.AU,B3,The Cruel Sea,The Honeymoon Is Over,3:11
 11.09.93.AU,B4,Silk,Freak Me,4:33
-11.09.93.AU,B5,UB40,(I Can't Help) Falling In Love,3:38
+11.09.93.AU,B5,UB40,(I Can't Help) Falling In Love With You,3:38
 15.09.93.AU,A1,Whitney Houston,Run To You,4:20
 15.09.93.AU,A2,Ace of Base,All That She Wants,3:29
 15.09.93.AU,A3,Dave Dobbyn,Maybe The Rain,2:51
@@ -6917,14 +6917,14 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 13.11.93 AU,B3,Tony! Toni! Toné!,If I Had No Loot,4:05
 13.11.93 AU,B4,The Sharp,Scratch My Back,3:24
 13.11.93 AU,B5,Led Zeppelin,Over The Hills And Far Away,4:48
-17.11.93.AU,A1,Bon Jovi,Sleep When I'm Dead,4:21
+17.11.93.AU,A1,Bon Jovi,I'll Sleep When I'm Dead,4:21
 17.11.93.AU,A2,Soul Asylum,Runaway Train,4:15
 17.11.93.AU,A3,Weddings Parties Anything,Monday's Experts,2:47
 17.11.93.AU,A4,Midnight Oil,Outbreak Of Love,4:35
 17.11.93.AU,A5,Tommy Emmanuel,The Journey,3:55
 17.11.93.AU,B1,Aerosmith,Cryin',4:16
 17.11.93.AU,B2,SWV,Right Here,3:47
-17.11.93.AU,B3,Urban Cookie Collective,"The Key,  The Secret",3:41
+17.11.93.AU,B3,Urban Cookie Collective,"The Key, The Secret",3:41
 17.11.93.AU,B4,ABBA,Mamma Mia,3:35
 17.11.93.AU,B5,Crowded House,Distant Sun,3:49
 10.12.93.AU,A1,INXS,The Gift,4:24
@@ -6934,7 +6934,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 10.12.93.AU,A5,Kate Bush,Rubberband Girl,4:04
 10.12.93.AU,B1,Def Leppard,2 Steps Behind,3:55
 10.12.93.AU,B2,DJ Jazzy Jeff & the Fresh Prince,Boom! Shake The Room,3:45
-10.12.93.AU,B3,Apache Indian,Boom Shack A-Lak,3:48
+10.12.93.AU,B3,Apache Indian,Boom Shack-A-Lak,3:48
 10.12.93.AU,B4,Bee Gees,Paying The Price Of Love,4:10
 10.12.93.AU,B5,Pet Shop Boys,Go West (Village People),4:19
 14.12.93.AU,A1,U2,Lemon,
@@ -7077,7 +7077,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 11.05.95.AU,B3,M People,Open Your Heart,
 11.05.95.AU,B4,Dionne Farris,I Know,
 11.05.95.AU,B5,Londonbeat,Come Back,
-12.06.95.AU,A1,Tokyo Ghetto Pussy,Everybody On The Floor,
+12.06.95.AU,A1,Tokyo Ghetto Pussy,Everybody On The Floor (Pump It),
 12.06.95.AU,A2,Brownstone,If You Love Me,
 12.06.95.AU,A3,Madonna,Bedtime Story,
 12.06.95.AU,A4,Silverchair,Pure Massacre,
@@ -7097,7 +7097,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 11.08.95.AU,B3,DJ BoBo,Love Is All Around,4:13
 11.08.95.AU,B4,Nicki French,For All We Know,3:09
 11.08.95.AU,B5,Bandido,I Drove All Night,3:25
-12.09.95.AUSTRALIA,A1,U2,"Hold Me, Thrill Me, Kiss Me, Kill Me (OST Batman Forever)",4:40
+12.09.95.AUSTRALIA,A1,U2,"Hold Me, Thrill Me, Kiss Me, Kill Me",4:40
 12.09.95.AUSTRALIA,A2,Diana King,Shy Guy (OST Bad Boys),3:40
 12.09.95.AUSTRALIA,A3,Bon Jovi,This Ain't A Love Song,4:29
 12.09.95.AUSTRALIA,A4,Montell Jordan,This Is How We Do It,3:50
@@ -7216,7 +7216,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 13.04.96.AU,B2,Everything But The Girl,Missing,
 13.04.96.AU,B3,Björk,It's Oh So Quiet,
 13.04.96.AU,B4,Janet Jackson,Twenty Foreplay,
-13.04.96.AU,B5,Berri,The Sunshine After The Rain,
+13.04.96.AU,B5,Berri,Sunshine After The Rain,
 10.05.96.AU,A1,Boyzone,Father And Son,
 10.05.96.AU,A2,3T,Anything,
 10.05.96.AU,A3,Céline Dion,Falling Into You,
@@ -7231,7 +7231,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 13.08.96.AU,A2,Adam Clayton & Larry Mullen Jr.,"Theme From ""Mission: Impossible""",3:29
 13.08.96.AU,A3,Metallica,Until It Sleeps,4:11
 13.08.96.AU,A4,Alanis Morissette,You Learn,4:00
-13.08.96.AU,A5,Bryan Adams,The Only Thing That Looks Good..,3:37
+13.08.96.AU,A5,Bryan Adams,The Only Thing That Looks Good On Me Is You,3:37
 13.08.96.AU,B1,Madonna,Love Don't Live Here Anymore,4:2
 13.08.96.AU,B2,3T,24/7,4:01
 13.08.96.AU,B3,Oasis,Champagne Supernova,4:02
@@ -7261,7 +7261,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 22.10.96.AU,A2,Robbie Williams,Freedom (George Michael Song),4:20
 22.10.96.AU,A3,Umboza,Sunshine,3:50
 22.10.96.AU,A4,Human Nature,Tellin' Everybody,3:54
-22.10.96.AU,A5,The Rembrandts,I'll Be There For You (Friends),3:05
+22.10.96.AU,A5,The Rembrandts,I'll Be There For You,3:05
 22.10.96.AU,B1,Prince (T.A.F.K.A.P.),Dinner With Delores,2:53
 22.10.96.AU,B2,Primitive Radio Gods,Standing Outside A Broken Phone Booth With Money In My Hand,4:35
 22.10.96.AU,B3,Reel 2 Real,Jazz It Up,3:25
@@ -7283,7 +7283,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 13.12.96.AU,A4,Jimmy Barnes,Lover Lover,3:22
 13.12.96.AU,A5,Belinda Carlisle,In Too Deep (Jenny Morris song),3:59
 13.12.96.AU,B1,Dead Or Alive,You Spin Me Round (Like A Record) '96,3:38
-13.12.96.AU,B2,B.B.E.,Seven Days & One Week,4:31
+13.12.96.AU,B2,B.B.E.,Seven Days And One Week,4:31
 13.12.96.AU,B3,Alanis Morissette,Head Over Feet,3:09
 13.12.96.AU,B4,Fugees,Ready Or Not,4:36
 13.12.96.AU,B5,Backstreet Boys,Get Down (You're The One For Me),3:55
@@ -7315,7 +7315,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 13.04.97 AU,B1,R. Kelly,I Believe I Can Fly,
 13.04.97 AU,B2,Nick Cave & The Bad Seeds,Into My Arms,
 13.04.97 AU,B3,Aerosmith,Falling In Love (Is Hard On The Knees),
-13.04.97 AU,B4,Warren G,I Shot The Sheriff (B. Marley),
+13.04.97 AU,B4,Warren G,I Shot The Sheriff,
 13.04.97 AU,B5,Sheryl Crow,Everyday Is A Winding Road,
 10.05.97.AU,A1,Human Nature,Don't Say Goodbye,
 10.05.97.AU,A2,U2,Staring At The Sun,
@@ -7347,7 +7347,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 12.07.97.AU,B3,Damage,Forever,
 12.07.97.AU,B4,2Pac & Snoop Doggy Dogg,Wanted Dead Or Alive,
 12.07.97.AU,B5,Reef,Place Your Hands,
-13.08.97.AU,A1,Az Yet,Hard To Say I'm Sorry (Chicago),3:18
+13.08.97.AU,A1,Az Yet,Hard To Say I'm Sorry,3:18
 13.08.97.AU,A2,Faith No More,Ashes To Ashes,3:26
 13.08.97.AU,A3,Leonardo's Bride,Even When I'm Sleeping,3:52
 13.08.97.AU,A4,The Smashing Pumpkins,The End Is The Beginning Is The End,5:08
@@ -7487,7 +7487,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 10.09.98.AU,B3,Will Smith,Just The Two Of Us,4:33
 10.09.98.AU,B4,Ultimate Kaos,Casanova,3:50
 10.09.98.AU,B5,Alexia,Uh La La La,3:36
-11.10.98.AU,A1,Aerosmith,I Don't Wanna Miss A Thing,4:53
+11.10.98.AU,A1,Aerosmith,I Don't Want To Miss A Thing,4:53
 11.10.98.AU,A2,Spice Girls,Viva Forever,4:14
 11.10.98.AU,A3,Green Day,Good Riddance (Time Of Your Life),2:30
 11.10.98.AU,A4,Cold Chisel,The Things I Love In You,3:26
@@ -7635,7 +7635,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 13.12.99.AU,B1,Bob Marley vs. Funkstar De Luxe,Sun Is Shining,3:35
 13.12.99.AU,B2,Enrique Iglesias,Bailamos,3:33
 13.12.99.AU,B3,Boyzone,Baby Can I Hold You,3:16
-13.12.99.AU,B4,Ricky Martin,Shake Your Bon Bon,3:04
+13.12.99.AU,B4,Ricky Martin,Shake Your Bon-Bon,3:04
 13.12.99.AU,B5,Five,Keep On Movin',3:12
 10.01.00 AU,A1,M2M,Don't Say You Love Me,
 10.01.00 AU,A2,Tina Cousins,Forever,
@@ -7721,7 +7721,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 12.11.00.AU,A2,Spiller,Groovejet,3:45
 12.11.00.AU,A3,Christina Aguilera,Come On Over (All I Want Is You),3:42
 12.11.00.AU,A4,Wheatus,Teenage Dirtbag,4:07
-12.11.00.AU,A5,Destiny's Child,Bug-A-Boo,3:16
+12.11.00.AU,A5,Destiny's Child,Bug a Boo,3:16
 12.11.00.AU,B1,Green Day,Minority,2:47
 12.11.00.AU,B2,The Superjesus,Gravity,4:00
 12.11.00.AU,B3,Powderfinger,My Happiness,4:38
@@ -7742,11 +7742,11 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 10.01.01.AU,A3,Jennifer Lopez,Let'S Get Loud,3:17
 10.01.01.AU,A4,Backstreet Boys,Shape Of My Heart,3:50
 10.01.01.AU,A5,Modjo,Lady (Hear Me Tonight),3:42
-10.01.01.AU,B1,Craig David,7  Days,4:14
+10.01.01.AU,B1,Craig David,7 Days,4:14
 10.01.01.AU,B2,Robbie Williams & Kylie Minogue,Kids,4:44
 10.01.01.AU,B3,Britney Spears,Stronger,3:26
 10.01.01.AU,B4,Ronan Keating,The Way You Make Me Feel,3:38
-10.01.01.AU,B5,Destiny's Child,Independent Women Part I,3:43
+10.01.01.AU,B5,Destiny's Child,"Independent Women, Part 1",3:43
 11.02.01.AU,A1,Gwyneth Paltrow & Huey Lewis,Cruisin',2:59
 11.02.01.AU,A2,Jennifer Lopez,Love Don't Cost a Thing,4:35
 11.02.01.AU,A3,Matchbox Twenty,If You're Gone,4:35
@@ -7760,7 +7760,7 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 12.03.01 AU,A1,Eminem feat Dido,Stan (Censored),5:32
 12.03.01 AU,A2,Debelah Morgan,Dance With Me,3:37
 12.03.01 AU,A3,Vitamin C,The Itch,3:17
-12.03.01 AU,A4,Samantha Mumba,Body 11 Body,3:33
+12.03.01 AU,A4,Samantha Mumba,Body II Body,3:33
 12.03.01 AU,A5,Limp Bizkit,Rollin',3:39
 12.03.01 AU,B1,Public Domain,Operation Blade (Bass In The Place),3:03
 12.03.01 AU,B2,Tony Lee Scott,Take Me Away,3:06
@@ -7847,11 +7847,11 @@ ET-001,B5,TINA TURNER,WHAT YOU GET IS WHAT YOU SEE,
 10.01.02 AU,B3,IIO,Rapture,
 10.01.02 AU,B4,Janet Jackson & Missy Elliott,Son Of A Gun,
 10.01.02 AU,B5,Blink-182,First Date,
-11.02.02.AU,A1,Pink,Get  The Party Started,
+11.02.02.AU,A1,Pink,Get The Party Started,
 11.02.02.AU,A2,Selwyn,Buggin' Me,
 11.02.02.AU,A3,Enrique Iglesias,Hero,
-11.02.02.AU,A4,Robbie Williams & Nicole Kidman,Somethin'Stupid,
-11.02.02.AU,A5,Usher,U Got It Bag,
+11.02.02.AU,A4,Robbie Williams & Nicole Kidman,Somethin' Stupid,
+11.02.02.AU,A5,Usher,U Got It Bad,
 11.02.02.AU,B1,U2,Walk On,
 11.02.02.AU,B2,No Doubt,Hey Baby,
 11.02.02.AU,B3,Killing Heidi,Heavensent,
@@ -7954,7 +7954,7 @@ AL 07 AUSTRALIA,A4,The Eagles,Hotel California,4:26
 AL 07 AUSTRALIA,A5,Tears For Fears,Everybody Wants To Rule The World,4:21
 AL 07 AUSTRALIA,B1,Eurythmics,Would I Lie To You,4:08
 AL 07 AUSTRALIA,B2,Blondie,Heart Of Glass,3:32
-AL 07 AUSTRALIA,B3,Bryan Adams,Summer Of'69,3:25
+AL 07 AUSTRALIA,B3,Bryan Adams,Summer Of '69,3:25
 AL 07 AUSTRALIA,B4,Dire Straits,Sultans Of Swing,4:12
 AL 07 AUSTRALIA,B5,Paul Simon,You Can Call Me Al,4:37
 AL 08 AUSTRALIA,A1,Alice Cooper,Poison,3:59
@@ -7991,7 +7991,7 @@ AL 11 AUSTRALIA,A1,Guns N' Roses,Knockin' On Heaven's Door (Live),3:50
 AL 11 AUSTRALIA,A2,Scorpions,Wind Of Change,5:11
 AL 11 AUSTRALIA,A3,Guns N' Roses,Live And Let Die,3:10
 AL 11 AUSTRALIA,A4,Metallica,Enter Sandman,4:29
-AL 11 AUSTRALIA,A5,Kiss,God Gave Rock & Roll You II,4:17
+AL 11 AUSTRALIA,A5,Kiss,God Gave Rock 'N' Roll To You II,4:17
 AL 11 AUSTRALIA,B1,AC/DC,Thunderstruck,3:42
 AL 11 AUSTRALIA,B2,Aerosmith,Love In An Elevator,4:12
 AL 11 AUSTRALIA,B3,Mötley Crüe,Dr. Feelgood,3:47
@@ -8123,7 +8123,7 @@ XX.XX.XX.AU[placeholder9],A3,Mariah Carey,Always Be My Baby,
 XX.XX.XX.AU[placeholder9],A4,DJ Darren Briais VS DJ Peewee Ferris,I Feel It,
 XX.XX.XX.AU[placeholder9],A5,The Prodigy,Firestarter,
 XX.XX.XX.AU[placeholder9],B1,The Presidents Of The United States Of America,Peaches,
-XX.XX.XX.AU[placeholder9],B2,Coolio,"1,2,3,4 (Sumpin' New)",
+XX.XX.XX.AU[placeholder9],B2,Coolio,"1, 2, 3, 4 (Sumpin' New)",
 XX.XX.XX.AU[placeholder9],B3,2Pac feat Dr.Dre,California Love,
 XX.XX.XX.AU[placeholder9],B4,Definition Of Sound,Pass The Vibes,
 XX.XX.XX.AU[placeholder9],B5,Simply Red,Never Never Love,
@@ -8183,7 +8183,7 @@ PLP-D 1-04-94,14,Robin S.,Show Me Love (Version 2),
 PLP-D 1-04-94,15,Naughty By Nature,Hip Hop Hooray,
 PLP-D 1-04-94,16,Sting,If I Ever Lose My Faith In You,
 PLP-D 1-04-94,17,Spin Doctors,Two Princes,
-PLP-D 1-04-94,18,Boy George,Crying Game,
+PLP-D 1-04-94,18,Boy George,The Crying Game,
 PLP-D 1-04-94,19,Tony! Toni! Toné!,If I Had No Loot,
 PLP-D 1-04-94,20,Annie Lennox,Little Bird,
 PLP-D 1-04-94,21,Wreckx-n-Effect,Rump Shaker,
@@ -8198,7 +8198,7 @@ PLP-C 1-04-93,3,Billy Ray Cyrus,Achy Breaky Heart,
 PLP-C 1-04-93,4,Travis Tritt / Marty Stuart,The Whiskey Ain't Workin,
 PLP-C 1-04-93,5,John Anderson,Seminole Wind,
 PLP-C 1-04-93,6,Wynonna,No One Else On Earth,
-PLP-C 1-04-93,7,Mary Chapin Carpenter,Down At The Twist & Shout,
+PLP-C 1-04-93,7,Mary Chapin Carpenter,Down At The Twist And Shout,
 PLP-C 1-04-93,8,Dwight Yoakam,Suspicious Minds,
 PLP-C 1-04-93,9,Robert Ellis Orral,"Boom, It Was Over",
 PLP-C 1-04-93,10,Aaron Tippin,Ain't Nothing Wrong With The Radio,
@@ -8221,7 +8221,7 @@ PLP-C 2-11-93,9,Garth Brooks,Thunder Rolls (Live),
 PLP-C 2-11-93,10,George Strait,Heartland,
 PLP-C 2-11-93,11,Travis Tritt,Trouble,
 PLP-C 2-11-93,12,Randy Travis,Cowboy Boogie,
-PLP-C 2-11-93,13,Wynonna,Like No One Else On Earth,
+PLP-C 2-11-93,13,Wynonna,No One Else On Earth,
 PLP-C 2-11-93,14,Billy Ray Cyrus,In The Heart Of A Woman,
 PLP-C 2-11-93,15,Joe Diffie,Honky Tonk Attitude,
 PLP-C 2-11-93,16,Alan Jackson,Mercury Blues,
@@ -8340,7 +8340,7 @@ PLP-A13-06-93,3,Masters at work,I Can't Get No Sleep,
 PLP-A13-06-93,4,Gloria Estefan,Go Away,
 PLP-A13-06-93,5,Malaika,Gotta Know Your Name,
 PLP-A13-06-93,6,The Shamen,Phorever People,
-PLP-A13-06-93,7,George Michael,Killer / Papa Was A Rolling Stone,
+PLP-A13-06-93,7,George Michael,Killer / Papa Was a Rollin’ Stone,
 PLP-A13-06-93,8,Deacon Blue,Your Town (Club Mix),
 PLP-A13-06-93,9,Deep Forest,Sweet Lullaby (Version ?),
 PLP-A13-06-93,10,Johnny Gill,The Floor,
@@ -8356,7 +8356,7 @@ PLP-A15-08-93,8,Jomanda,I Like It,
 PLP-A15-08-93,9,Dina Carroll,Special Kind Of Love,
 PLP-A15-08-93,10,808 State,10 X 10 X 10,
 PLP-A15-08-93,11,Front 242,Religion,
-PLP-A15-08-93,12,David Morales & The Bad Yard Club,Gimmi Luv,
+PLP-A15-08-93,12,David Morales & The Bad Yard Club,Gimme Luv,
 PLP-A15-08-93,13,Johnny P.,Look Good,
 PLP-A16-09-93,1,Saint Etienne,Who Do You Think You Are (Dance Version),
 PLP-A16-09-93,2,Dr. Alban,Sing Hallelujah,
@@ -8455,7 +8455,7 @@ PLP-A27-08-94,13,Nona Gaye & Prince,Love Sign,
 PLP-A28-09-94,1,Pet Shop Boys,Absolutely Fabulous,
 PLP-A28-09-94,2,Jaki Graham,Ain't Nobody,
 PLP-A28-09-94,3,Shara Nelson,Down That Road,
-PLP-A28-09-94,4,Alicia Bridges,I Love The Night Life,
+PLP-A28-09-94,4,Alicia Bridges,I Love The Nightlife,
 PLP-A28-09-94,5,M People,One Night In Heaven (Club Mix),
 PLP-A28-09-94,6,Overlords,God's Eye (Club Mix),
 PLP-A28-09-94,7,The New Power Generation,Superhero,
@@ -8541,7 +8541,7 @@ PLP-A34-03-95,7,Jimmy Somerville,Heartbeat,
 PLP-A34-03-95,8,Gilette,Mister Personality,
 PLP-A34-03-95,9,Snap! featuring Donna Summer,Welcome To Tomorrow,
 PLP-A34-03-95,10,Sparks,When Do I Get To Sing 'My Way'? (Version 2),
-PLP-A34-03-95,11,Newton,Skyhigh,
+PLP-A34-03-95,11,Newton,Sky High,
 PLP-A34-03-95,12,Portrait,I Can Call You (Remix),
 PLP-A34-03-95,13,Soul For Real,Candy Rain (Remix),
 PLP-A34-03-95,14,Andru Donalds,Mishale (Remix),
@@ -8631,7 +8631,7 @@ PLP-A38-07-95,13,Real McCoy,Come And Get Your Love,
 15-711,3,Billie Ray Martin,Running Around Town,
 15-711,4,Cyndi Lauper,Girls Just Wanna Have Fun,
 15-711,5,D:ream,Shoot Me With Your Love,
-15-711,6,Boy George,Fun Time,
+15-711,6,Boy George,Funtime,
 15-711,7,Gary Glitter,Rock N'roll Part 2,
 15-711,8,Blur,House In The Country,
 15-711,9,Soul II Soul,Love Enuff,
@@ -8755,12 +8755,12 @@ PLP-A38-07-95,13,Real McCoy,Come And Get Your Love,
 05-060,3,Pet Shop Boys,Before,
 05-060,4,Jordan Hill,For The Love Of You (Remix),
 05-060,5,Bob Marley,What Goes Around Comes Around,
-05-060,6,Adam Clayton & Larry Mullen Jr.,Theme From Mission:Impossible,
+05-060,6,Adam Clayton & Larry Mullen Jr.,"Theme From ""Mission: Impossible""",
 05-060,7,Planet Soul,Feel The Music,
 05-060,8,B.K.S.,Astroplane,
 05-060,9,Robert Miles,Children,
 05-060,10,Petroleum Jell,Love Won't Wait,
-05-060,11,No Mercy,Where Do We Go,
+05-060,11,No Mercy,Where Do You Go,
 05-060,12,Paradisio,Bialando,
 05-060,13,Johnna,In My Dreams,
 05-060,14,Marusha,Secret,
@@ -8855,11 +8855,11 @@ PLP-A38-07-95,13,Real McCoy,Come And Get Your Love,
 09-246,4,Chaka Khan & Me'Shell Ndege'ocello,Never Miss The Water (Club Mix),
 09-246,5,Wild Orchid,Talk To Me,
 09-246,6,Björk,I Miss You,
-09-246,7,U2,Discoteque,
+09-246,7,U2,Discothèque,
 09-246,8,Heads,Damage I've Done (Etv Bonus Mix),
 09-246,9,Byron Stingily,Get Up,
 09-246,10,Jonny Z.,No Senor,
-09-246,11,Gina G,Ooh...Ahh.Just A Little Bit,
+09-246,11,Gina G,Ooh Aah... Just A Little Bit,
 09-246,12,David Bowie,Little Wonder,
 09-303,1,Crystal Waters,Say ...If You Feel Alright,
 09-303,2,Erykah Badu,On & On (Remix),
@@ -8909,7 +8909,7 @@ PLP-A38-07-95,13,Real McCoy,Come And Get Your Love,
 13600A,4,Lighthouse Family,Lifted (Dance Edit),
 13600A,5,Junkster,Slide (Remix),
 13600A,6,Various Artists,The Jock Jam,
-13600A,7,Diana King,Say A Little Prayer,
+13600A,7,Diana King,I Say A Little Prayer,
 13600A,8,Ron Perkov,"Live, Love, Dance",
 13600A,9,Todd Terry feat. M.Washington & J.Brow,Something Goin' On,
 13600A,10,Blue Amazon,Then The Rain Falls,
@@ -9024,7 +9024,7 @@ PLP-B 6-11-92,11,Shai,If I Ever Fall In Love (Acappella),
 PLP-B 6-11-92,12,Prince,My Name Is Prince,
 PLP-B 6-11-92,13,Trey Lorenz,Someone To Hold,
 PLP-B 6-11-92,14,Swing out Sister,Am I The Same Girl,
-PLP-B 7-12-92,1,Madonna,Deeper & Deeper,
+PLP-B 7-12-92,1,Madonna,Deeper And Deeper,
 PLP-B 7-12-92,2,Whitney Houston,I Will Always Love You,
 PLP-B 7-12-92,3,Michael Bolton,To Love Somebody,
 PLP-B 7-12-92,4,Elton John,The Last Song,
@@ -9053,7 +9053,7 @@ PLP-B 9-02-93,12,Guns N' Roses,Garden Of Eden,
 PLP-B10-03-93,1,Madonna,Bad Girl,
 PLP-B10-03-93,2,Boy Krazy,That's What Love Can Do,
 PLP-B10-03-93,3,Brian McKnight & Vanessa Williams,Love Is,
-PLP-B10-03-93,4,Sting,If I Ever Lose My Faith In You Version ?,
+PLP-B10-03-93,4,Sting,If I Ever Lose My Faith In You,
 PLP-B10-03-93,5,Paul McCartney,Hope Of Deliverance,
 PLP-B10-03-93,6,Ugly Kid Joe,Cats In The Cradle,
 PLP-B10-03-93,7,Spin Doctors,Two Princes,
@@ -9074,7 +9074,7 @@ PLP-B17-10-93,7,Nirvana,Heart Shaped Box,
 PLP-B17-10-93,8,Blind Melon,No Rain,
 PLP-B17-10-93,9,Gin Blossoms,Hey Jealousy,
 PLP-B17-10-93,10,Meat Loaf,I'd Do Anything For Love (But I Won't Do That),
-PLP-B17-10-93,11,Sting,Nothin' Bout Me,
+PLP-B17-10-93,11,Sting,Nothing 'Bout Me,
 PLP-B17-10-93,12,Daryl Hall,I'm In A Philly Mood,
 PLP-B17-10-93,13,Gloria Estefan,Con Los Amos,
 PLP-B18-11-93,1,Sting,Demolition Man,
@@ -9092,7 +9092,7 @@ PLP-B18-11-93,12,Toni Braxton,Breathe Again,
 PLP-B18-11-93,13,Salt'n'Pepa,Shoop,
 PLP-B19-12-93,1,"Rod Stewart, Sting & Bryan Adams",All For Love,
 PLP-B19-12-93,2,Mariah Carey,Hero,
-PLP-B19-12-93,3,Michael Bolton,Said I Loved You But I Lied,
+PLP-B19-12-93,3,Michael Bolton,Said I Loved You...But I Lied,
 PLP-B19-12-93,4,U2,"Stay (Faraway, So Close)",
 PLP-B19-12-93,5,Billy Joel,All About Soul,
 PLP-B19-12-93,6,Aerosmith,Amazing,
@@ -9116,14 +9116,14 @@ PLP-B20-01-94,12,Hi-Five,Never Should've Let You Go,
 PLP-B20-01-94,13,Snoop Doggy Dogg,What's My Name?,
 PLP-B21-02-94,1,Rod Stewart,Having A Party,
 PLP-B21-02-94,2,Bruce Springsteen,Streets Of Philadelphia,
-PLP-B21-02-94,3,Meat Loaf,Rock & Roll Dreams Come True,
-PLP-B21-02-94,4,ZZ Top,Pin Cushion,
+PLP-B21-02-94,3,Meat Loaf,Rock And Roll Dreams Come Through,
+PLP-B21-02-94,4,ZZ Top,Pincushion,
 PLP-B21-02-94,5,Def Leppard,Miss You In A Heartbeat,
 PLP-B21-02-94,6,The Cranberries,Linger,
 PLP-B21-02-94,7,Joshua Kadison,Jessie,
 PLP-B21-02-94,8,Ace of Base,The Sign,
 PLP-B21-02-94,9,Salt 'N' Pepa With En Vogue,Whatta Man,
-PLP-B21-02-94,10,Céline Dion,Power Of Love,
+PLP-B21-02-94,10,Céline Dion,The Power Of Love,
 PLP-B21-02-94,11,X-Scape,Understanding,
 PLP-B21-02-94,12,Jodeci,Cry For You,
 PLP-B21-02-94,13,All-4-Love,So Much In Love,
@@ -9139,7 +9139,7 @@ PLP-B22-03-94,8,John Mellencamp,Baby Please Don't Go,
 PLP-B22-03-94,9,Guns N' Roses,Since I Don't Have You,
 PLP-B22-03-94,10,The Symbol (Prince),The Most Beautiful Girl In The World,
 PLP-B22-03-94,11,Snoop Doggy Dogg,Gin And Juice,
-PLP-B22-03-94,12,R. Kelly,Bump N'grind,
+PLP-B22-03-94,12,R. Kelly,Bump n' Grind,
 PLP-B22-03-94,13,Domino,Getto Jam,
 PLP-B23-04-94,1,Madonna,I'll Remember,
 PLP-B23-04-94,2,Big Mountain,"Baby, I Love Your Way",
@@ -9228,7 +9228,7 @@ PLP-B29-10-94,2,R.E.M.,"What's The Frequency, Kenneth?",
 PLP-B29-10-94,3,Nirvana,About A Girl,
 PLP-B29-10-94,4,Sheryl Crow,All I Wanna Do,
 PLP-B29-10-94,5,Madonna,Secret,
-PLP-B29-10-94,6,Aaliyah,At Your Best (You Are Love) (Gangsta Chill Remix),
+PLP-B29-10-94,6,Aaliyah,At Your Best (You Are Love) Gangstar Child Mix,
 PLP-B29-10-94,7,Brandy,I Wanna Be Down,
 PLP-B29-10-94,8,Céline Dion,Think Twice,
 PLP-B29-10-94,9,The Pretenders,I'll Stand By You,
@@ -9308,10 +9308,10 @@ PLP-B34-03-95,14,Adina Howard,Freak Like Me,
 PLP-B35-04-95,1,Bruce Springsteen,Murder Incorporated (Live),
 PLP-B35-04-95,2,The Rolling Stones,I Go Wild,
 PLP-B35-04-95,3,Tom Petty,It's Good To Be King,
-PLP-B35-04-95,4,Van Halen,Can't Stop Loving You,
+PLP-B35-04-95,4,Van Halen,Can't Stop Lovin' You,
 PLP-B35-04-95,5,Melissa Etheridge,If I Wanted To,
 PLP-B35-04-95,6,Blessid Union of Souls,I Believe,
-PLP-B35-04-95,7,Annie Lennox,"No More ""I Love You""",
+PLP-B35-04-95,7,Annie Lennox,"No More ""I Love You's""",
 PLP-B35-04-95,8,Dionne Farris,I Know (Version ?),
 PLP-B35-04-95,9,Gilette,Mister Personality,
 PLP-B35-04-95,10,Montell Jordan,This Is How We Do It,
@@ -9375,7 +9375,7 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 15-536,13,Chris Isaak,Somebody's Crying,
 15-536,14,Garth Brooks,The River,
 15-701,1,Michael Jackson,You Are Not Alone,
-15-701,2,Michael Bolton,Can I Touch You ... There,
+15-701,2,Michael Bolton,Can I Touch You...There?,
 15-701,3,Take That,Back For Good,
 15-701,4,Rod Stewart,This,
 15-701,5,Neil Young,Downtown,
@@ -9432,7 +9432,7 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 15-757,3,Don Henley,The Garden Of Allah,
 15-757,4,The Rolling Stones,Like A Rolling Stone,
 15-757,5,Bonnie Raitt Feat. Bryan Adams,Rock Steady (Live),
-15-757,6,Def Leppard,When Love & Hate Collide,
+15-757,6,Def Leppard,When Love And Hate Collide,
 15-757,7,Bon Jovi,Lie To Me,
 15-757,8,Collective Soul,The World I Know,
 15-757,9,Joan Osborne,One Of Us,
@@ -9479,8 +9479,8 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 15-907,11,Chantay Savage,I Will Survive,
 15-907,12,R. Kelly,Down Low (Live To Regret It Mix),
 15-907,13,Fugees,Fu Gee La,
-15-907,14,Coolio,"1,2,3,4 (Sumpin'new)",
-15-979,1,Hootie & the Blowfish,Old Man And Me,
+15-907,14,Coolio,"1, 2, 3, 4 (Sumpin' New)",
+15-979,1,Hootie & the Blowfish,Old Man & Me,
 15-979,2,Stone Temple Pilots,Big Bang Baby,
 15-979,3,Gin Blossoms,Day Job,
 15-979,4,Gloria Estefan,Reach,
@@ -9495,7 +9495,7 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 15-979,13,'Weird Al' Yankovic,Amish Paradise,
 15-979,14,Michael Jackson,They Don't Care About Us (Prison Version),
 03-091,1,George Michael,Fast Love (MTV Version),
-03-091,2,Adam Clayton & Larry Mullen Jr.,Theme From Mission:Impossible,
+03-091,2,Adam Clayton & Larry Mullen Jr.,"Theme From ""Mission: Impossible""",
 03-091,3,Bryan Adams,The Only Thing That Looks Good On Me Is You,
 03-091,4,Alanis Morissette,You Learn,
 03-091,5,Tina Arena,Chains,
@@ -9506,7 +9506,7 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 03-091,10,Quad City DJ's,C'mon N'ride It (The Train),
 03-091,11,'Weird Al' Yankovic,Gump,
 03-091,12,Def Leppard,Work It Out,
-03-091,13,Everclear,Heartspark Dollarsigns,
+03-091,13,Everclear,Heartspark Dollarsign,
 03-091,14,Jars Of Clay,Flood,
 03-091,15,Case feat. Foxy Brown & Mary J. Blige,Touch Me Tease Me,
 05-061,1,Hootie & the Blowfish,Tucker's Town,
@@ -9551,7 +9551,7 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 05-246,12,Kiss,Shout It Out Loud (Live),
 05-246,13,Amanda Marshall,This Could Take All Night,
 05-246,14,Monica featuring Treach,Ain't Nobody,
-05-936,1,Sheryl Crow,It It Makes You Happy,
+05-936,1,Sheryl Crow,If It Makes You Happy,
 05-936,2,Alanis Morissette,Head Over Feet,
 05-936,3,Oasis,Don't Look Back In Anger,
 05-936,4,Republica,Ready To Go (Version 2),
@@ -9594,7 +9594,7 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 09-117,12,DC Talk,Between You And Me,
 09-117,13,Red Hot Chili Peppers,Love Rollercoaster,
 09-173,1,Gloria Estefan,I'm Not Giving You Up,
-09-173,2,Whitney Houston,I Believe In You & Me,
+09-173,2,Whitney Houston,I Believe In You And Me,
 09-173,3,Donna Lewis,Without Love,
 09-173,4,R. Kelly,I Believe I Can Fly,
 09-173,5,Babyface,Everytime I Close My Eyes,
@@ -9625,7 +9625,7 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 09-302,3,Nuyorican Soul featuring India,Runaway,
 09-302,4,Spice Girls,Wannabe,
 09-302,5,AZ Yet,Hard To Say I'm Sorry,
-09-302,6,U2,Discoteque,
+09-302,6,U2,Discothèque,
 09-302,7,The Prodigy,Firestarter,
 09-302,8,Nine Inch Nails,The Perfect Drug,
 09-302,9,Metallica,King Nothing,
@@ -9670,7 +9670,7 @@ PLP-B38-07-95,14,Shaggy,Boombastic,
 09-499,6,Blessid Union of Souls,I Wanna Be There,
 09-499,7,Michael Jackson,Blood On The Dancefloor,
 09-499,8,Robyn,Do You Know,
-09-499,9,Puff Daddy & Faith Evans,I'll B Missing You,
+09-499,9,Puff Daddy & Faith Evans,I'll Be Missing You,
 09-499,10,Rome,I Belong To You,
 09-499,11,Tony! Toni! Toné!,Thinking Of You,
 09-499,12,Freak Nasty,Da'dip,
@@ -9797,8 +9797,8 @@ PLP-S2-04-93,4,Peter Gabriel,Steam,
 PLP-S2-04-93,5,The Orb,Blue Room,
 PLP-S2-04-93,6,En Vogue,"Give It Up, Turn It Loose",
 PLP-S2-04-93,7,Young Black Teenagers,Tap The Bottle,
-PLP-S2-04-93,8,Madonna,Deeper & Deeper,
-PLP-S2-04-93,9,Boy George,Crying Game,
+PLP-S2-04-93,8,Madonna,Deeper And Deeper,
+PLP-S2-04-93,9,Boy George,The Crying Game,
 PLP-S2-04-93,10,Franke,Understand This Groove,
 PLP-S2-04-93,11,Gary Clail,Who Pays The Piper,
 PLP-S2-04-93,12,Stereo MC's,Step It Up,
@@ -9807,7 +9807,7 @@ PLP-S3-04-93,1,Céline Dion,Love Can Move Mountains,
 PLP-S3-04-93,2,Sunscreem,Perfect Motion,
 PLP-S3-04-93,3,INXS,Beautiful Girl,
 PLP-S3-04-93,4,Annie Lennox,Little Bird,
-PLP-S3-04-93,5,Yello,Rubberband Man,
+PLP-S3-04-93,5,Yello,Rubberbandman,
 PLP-S3-04-93,6,Sade,Kiss Of Life,
 PLP-S3-04-93,7,Concrete Blonde,Everybody Knows,
 PLP-S3-04-93,8,Vanessa Paradis,Be My Baby,
@@ -9819,7 +9819,7 @@ PLP-S3-04-93,13,Meat Beat Mannifesto,Mindstream,
 PLP-S3-04-93,14,Kenny G,Forever In Love,
 PLP-S3-04-93,15,Chante Moore,Love's Taken Over,
 20-769,1,Luscious Jackson,Here,
-20-769,2,Bee Gees,Stauying Alive,
+20-769,2,Bee Gees,Stayin' Alive,
 20-769,3,Elastica,Stutter (Live),
 20-769,4,Sister Sledge,We Are Family,
 20-769,5,Matthew Sweet,We're The Same,
@@ -9868,13 +9868,13 @@ PLP-C 9-03-95,14,Woody Lee,Get Over It,
 PLP-C 9-03-95,15,David Lee Murphy,Party Crowd,
 PLP-C 9-03-95,16,Wylie & The Wild West Show,Hey Maria,
 PLP-C 9-03-95,17,Alison Krauss & Union Station,When You Say Nothing At All,
-PLP-A21-02-94,1,Aretha Franklin,Pride A Deeper Love,
+PLP-A21-02-94,1,Aretha Franklin,A Deeper Love,
 PLP-A21-02-94,2,Rozalla,I Love Music (Remix),
 PLP-A21-02-94,3,Pet Shop Boys,I Wouldn't Normally,
 PLP-A21-02-94,4,INXS feat. Ray Charles,Please (You Got That),
 PLP-A21-02-94,5,New Order,Spooky,
 PLP-A21-02-94,6,Culture Beat,Got To Get It,
-PLP-A21-02-94,7,M People,Movin' On Up,
+PLP-A21-02-94,7,M People,Moving On Up,
 PLP-A21-02-94,8,Chantay Savage,Betcha'll Never Find,
 PLP-A21-02-94,9,Zhané,Groove Thang,
 PLP-A21-02-94,10,Stay,Eternal,
@@ -9891,7 +9891,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 [box-placeholder-1],8,Backstreet Boys,Larger Than Life,
 [box-placeholder-1],9,A1,Everytime,
 [box-placeholder-1],10,One Phat Deeva,In And Out Of My Life,
-[box-placeholder-1],11,Five,Keep On Moving,
+[box-placeholder-1],11,Five,Keep On Movin',
 [box-placeholder-1],12,Diana Ross,Not Over You Yet,
 [box-placeholder-1],13,Simply Red,Ain'T That A Lot Of Love,
 [box-placeholder-1],14,B*Witched,Jesse Hold On,
@@ -9908,7 +9908,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 [box-placeholder-1],25,Basement Jaxx,Jump 'N Shout,
 [box-placeholder-1],26,BBMak,Still On Your Side,
 [box-placeholder-1],27,Dina Carroll,Say You Love Me,
-[box-placeholder-1],28,Ricky Martin,Shake Your Bon Bon,
+[box-placeholder-1],28,Ricky Martin,Shake Your Bon-Bon,
 [box-placeholder-1],29,911,Wonderland,
 [box-placeholder-6],1,Jennifer Lopez,Waiting For Tonight,
 [box-placeholder-6],2,702,You Don'T Know,
@@ -9920,7 +9920,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 [box-placeholder-6],8,Backstreet Boys,Larger Than Life,
 [box-placeholder-6],9,A1,Everytime,
 [box-placeholder-6],10,One Phat Deeva,In And Out Of My Life,
-[box-placeholder-6],11,Five,Keep On Moving,
+[box-placeholder-6],11,Five,Keep On Movin',
 [box-placeholder-6],12,Diana Ross,Not Over You Yet,
 [box-placeholder-6],13,Simply Red,Ain'T That A Lot Of Love,
 [box-placeholder-6],14,B*Witched,Jesse Hold On,
@@ -9937,7 +9937,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 [box-placeholder-6],25,Basement Jaxx,Jump 'N Shout,
 [box-placeholder-6],26,BBMak,Still On Your Side,
 [box-placeholder-6],27,Dina Carroll,Say You Love Me,
-[box-placeholder-6],28,Ricky Martin,Shake Your Bon Bon,
+[box-placeholder-6],28,Ricky Martin,Shake Your Bon-Bon,
 [box-placeholder-6],29,911,Wonderland,
 17-238,1,Half Pint,One Leg Up,
 17-238,2,Jcd & Dawg Lb,Get Naked,
@@ -9948,7 +9948,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 17-238,7,Cypress Hill,Stoned Is The Way Of The Walk,
 17-238,8,Digable Planets,Rebirth Of Slick (Cool Like Dat),
 17-238,9,TLC,Hat 2 Da Back,
-17-238,10,Whitney Houston,I'M Every Women,
+17-238,10,Whitney Houston,I'm Every Woman,
 17-238,11,Mick Jagger,Sweet Thing,
 17-238,12,INXS,Beautiful Girl,
 17-238,13,Paul Weller,Into Tomorrow,
@@ -10028,7 +10028,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 09-011,4,Changing Faces,I Got Somebody Else,
 09-011,5,D'Influence,Magic,
 09-011,6,Ll Cool J,Phenomenon,
-09-011,7,Smash Mouth,Walking On The Sun,
+09-011,7,Smash Mouth,Walkin' On The Sun,
 09-011,8,E-Male,We Are E-Male,
 09-011,9,B-Yond,The Key,
 09-011,10,702,No Doubt,
@@ -10092,7 +10092,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 20-981,26,Lisa Loeb & Nine Stories,Taffy,
 20-981,27,Yvette Michelle,"Everynight, Everyday",
 09-031,1,2Pac,Toss It Up,
-09-031,2,Toni Braxton,Unbreak My Break,
+09-031,2,Toni Braxton,Un-Break My Heart,
 09-031,3,Mista,Lady,
 09-031,4,Jay-Z,Can't Knock The Hustle,
 09-031,5,Xzibit,The Foundation,
@@ -10133,7 +10133,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 09-071,12,Flesh N Bone,World So Cruel,
 09-071,13,Tony Toni Tone Feat' Dj Quik,Let'S Get Down,
 09-071,14,Aaliyah,One In A Million,
-09-071,15,Seal,Fly Like A Eagle,
+09-071,15,Seal,Fly Like An Eagle,
 09-071,16,Republic,Drop Dead Gorgeous,
 09-071,17,Ghostface Killah,Daytona 500,
 09-071,18,Tamia,Keep Hope Alive,
@@ -10164,7 +10164,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 09-255,17,Blackstreet,Don'T Leave Me,
 09-255,18,Type O Negative,Love You To Death,
 09-255,19,Kula Shaker,Hey Dude,
-09-255,20,Big Head Todd and The Monsters,Resignation Supreme,
+09-255,20,Big Head Todd and The Monsters,Resignation Superman,
 09-255,21,B-Legit Feat' Darryl Hall,Ghetto Smile,
 09-255,22,Rome,I Belong To You,
 09-255,23,Depeche Mode,Barrel Of A Gun,
@@ -10202,7 +10202,7 @@ PLP-A21-02-94,13,Tashan,Love Is Forever,
 10-983,2,Scarface,Streetlife,
 10-983,3,Lo-Key,I Got A Thang 4 Ya,
 10-983,4,Treble & Bass,My Sweet Senorita,
-10-983,5,The Heights,How Do To Talk To An Angel,
+10-983,5,The Heights,How Do You Talk To An Angel,
 10-983,6,Live Squad,Heartless,
 10-983,7,Home Team,Pick It Up,
 10-983,8,Portrait,Here We Go Again!,
@@ -10264,7 +10264,7 @@ PCLP-00546,4,Deep,Breath Us Mix,
 PCLP-00546,5,Blur,Girls & Boys (Pet Shop Boys Remix),
 PCLP-00546,6,The Cranberries,Linger,
 PCLP-00546,7,Lulu,Let Me Wake Up In Your Arms,
-PCLP-00546,8,Richard Marx,Chain Around My Heart,
+PCLP-00546,8,Richard Marx,Chains Around My Heart,
 PCLP-00565,1,Amy Grant & Vince Gill,House Of Love,
 PCLP-00565,2,Joshua Kadison,Beautiful In My Eyes,
 PCLP-00565,3,Jon Secada,Do You Believe In Us,
@@ -10351,7 +10351,7 @@ PCLP-00595,8,Queen Latifah,Just Another Day,
 9401,10,Janet Jackson,Because of Love,
 9401,11,Culture Beat,Got To Get It,
 9401,12,Collage,I Will Be Loving You,
-9401,13,R. Kelly,Bump-N-Grind,
+9401,13,R. Kelly,Bump n' Grind,
 09-295,1,Silverchair,Abuse Me,
 09-295,2,Fiona Apple,Sleep To Dream,
 09-295,3,Mundy,To You I Bestow,
@@ -10364,7 +10364,7 @@ PCLP-00595,8,Queen Latifah,Just Another Day,
 09-295,11,Veruca Salt,Volcano Girls,
 09-295,12,Funkmaster Flex,I'm Not Feeling You,
 09-295,13,David Bowie,Little Wonder,
-09-295,14,Spice Girls,Wanna Be,
+09-295,14,Spice Girls,Wannabe,
 09-295,15,Cranes,Tangled Up,
 09-295,16,Cranes,Fourteen,
 09-295,17,Squirrel Nut Zippers,Hell,
