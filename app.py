@@ -4,6 +4,7 @@ import base64
 from pathlib import Path
 from print_pdf import create_pdf
 from normalize import normalize_reference
+from PIL import Image
 
 
 def persist_vals(cur_key, prev_key):
@@ -138,7 +139,8 @@ def create_label_pdf(filtered_df):
 
 
 def main():
-    st.set_page_config(page_title="Laser Juke Explorer", layout="wide")
+    im = Image.open("juke_star.png")
+    st.set_page_config(page_title="Laser Juke Explorer", layout="wide", page_icon=im)
     st.image("laserjuke.png")
     load_css("style.css")
 
