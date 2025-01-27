@@ -808,7 +808,7 @@ Laser Juke,AL 09 AUSTRALIA,,,True,Pioneer,True,AL 09 AUSTRALIA,Australia
 Laser Juke,AL 10 AUSTRALIA,,,True,Pioneer,True,AL 10 AUSTRALIA,Australia
 Laser Juke,AL 11 AUSTRALIA,,,True,Pioneer,True,AL 11 AUSTRALIA,Australia
 Laser Juke,19.47.10 AU,,1994.0,True,Pioneer,True,19.47.10 AU,Australia
-Laser Juke,16.93.10 AU/SPAN,,1994.0,True,Pioneer,True,16.93.10 AU/SPAN,
+Laser Juke,16.93.10 AU/SPAN,,1994.0,True,Pioneer,True,16.93.10 AU/SPAN,Australia
 Laser Juke,XX.XX.XX.AU[placeholder1],,2000.0,True,Pioneer,True,XX.XX.XX.AU[placeholder1],Australia
 Laser Juke,XX.XX.XX.AU[placeholder2],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder2],Australia
 Laser Juke,XX.XX.XX.AU[placeholder3],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder3],Australia
@@ -824,208 +824,208 @@ Laser Juke,XX.XX.XX.AU[placeholder10],,2000.0,True,Pioneer,True,XX.XX.XX.AU[plac
 Laser Juke,XX.XX.XX.AU[placeholder11],,1994.0,True,Pioneer,True,XX.XX.XX.AU[placeholder11],Australia
 Laser Juke,XX.XX.XX.AU[placeholder12],,1996.0,True,Pioneer,True,XX.XX.XX.AU[placeholder12],Australia
 Laser Juke,XX.XX.XX.AU[placeholder13],,1995.0,True,Pioneer,True,XX.XX.XX.AU[placeholder13],Australia
-ETV,PLP-D 1-04-94,,1994.0,,,,Best Of Lazer Hits '93,USA
-ETV,PLP-C 1-04-93,Apr,1993.0,,,,Country Hits #1,USA
-ETV,PLP-C 2-11-93,Nov,1993.0,,,,Country Hits #2,USA
-ETV,PLP-C 3-06-94,Jun,1994.0,,,,Country Hits #3,USA
-ETV,PLP-A 1-06-92,Jun,1992.0,,,,Dance Hits #589,USA
-ETV,PLP-A 2-07-92,Jul,1992.0,,,,Dance Hits #590,USA
-ETV,PLP-A 3-08-92,Aug,1992.0,,,,Dance Hits #591,USA
-ETV,PLP-A 4-09-92,Sep,1992.0,,,,Dance Hits #592,USA
-ETV,PLP-A 5-10-92,Oct,1992.0,,,,Dance Hits #593,USA
-ETV,PLP-A 6-11-92,Nov,1992.0,,,,Dance Hits #5001,USA
-ETV,PLP-A 7-12-92,Dec,1992.0,,,,Dance Hits #5002,USA
-ETV,PLP-A13-06-93,Jun,1993.0,,,,Dance Hits #5008,USA
-ETV,PLP-A15-08-93,Aug,1993.0,,,,Dance Hits #5010,USA
-ETV,PLP-A16-09-93,Sep,1993.0,,,,Dance Hits #5011,USA
-ETV,PLP-A22-03-94,Mar,1994.0,,,,Dance Hits #5017,USA
-ETV,PLP-A23-04-94,Apr,1994.0,,,,Dance Hits #5018,USA
-ETV,PLP-A24-05-94,May,1994.0,,,,Dance Hits #5019,USA
-ETV,PLP-A25-06-94,Jun,1994.0,,,,Dance Hits #5020,USA
-ETV,PLP-A26-07-94,Jul,1994.0,,,,Dance Hits #5021,USA
-ETV,PLP-A27-08-94,Aug,1994.0,,,,Dance Hits #5022,USA
-ETV,PLP-A28-09-94,Sep,1994.0,,,,Dance Hits #5023,USA
-ETV,PLP-A29-10-94,Oct,1994.0,,,,Dance Hits #5024,USA
-ETV,PLP-A30-11-94,Nov,1994.0,,,,Dance Hits #5025,USA
-ETV,PLP-A31-12-94,Dec,1994.0,,,,Dance Hits #5026,USA
-ETV,PLP-A32-01-95,Jan,1995.0,,,,Network Dance Hits #5027,USA
-ETV,PLP-A33-02-95,Feb,1995.0,,,,Network Dance Hits #5028,USA
-ETV,PLP-A34-03-95,Mar,1995.0,,,,Network Dance Hits #5029,USA
-ETV,PLP-A35-04-95,Apr,1995.0,,,,Network Dance Hits #5030,USA
-ETV,PLP-A36-05-95,May,1995.0,,,,Network Dance Hits #5031,USA
-ETV,PLP-A37-06-95,Jun,1995.0,,,,Network Dance Hits #5032,USA
-ETV,PLP-A38-07-95,Jul,1995.0,,,,Network Dance Hits #5033,USA
-ETV,15-538,,,,,,Network Dance Hits #5034,USA
-ETV,15-702,,,,,,Network Dance Hits #5035,USA
-ETV,15-711,,,,,,Network Dance Hits #5036,USA
-ETV,15-725,,,,,,Network Dance Hits #5037,USA
-ETV,15-738,,,,,,Network Dance Hits #5038,USA
-ETV,15-758,,,,,,Network Dance Hits #5039,USA
-ETV,15-803,,,,,,Network Dance Hits #5040,USA
-ETV,15-863,,,,,,Network Dance Hits #5041,USA
-ETV,15-908,Apr,1996.0,,,,Network Dance Hits #5042,USA
-ETV,15-980,,,,,,Network Dance Hits #5043,USA
-ETV,03-092,,,,,,Network Dance Hits #5044,USA
-ETV,05-060,,,,,,Network Dance Hits #5045,USA
-ETV,05-163,,,,,,Network Dance Hits #5046,USA
-ETV,05-247,,,,,,Network Dance Hits #5047,USA
-ETV,05-937,,,,,,Network Dance Hits #5048,USA
-ETV,09-053,,,,,,Network Dance Hits #5049,USA
-ETV,09-118,,,,,,Network Dance Hits #5050,USA
-ETV,09-174,,,,,,Network Dance Hits #5051,USA
-ETV,09-246,,,,,,Network Dance Hits #5052,USA
-ETV,09-303,,,,,,Network Dance Hits #5053,USA
-ETV,09-388,,,,,,Network Dance Hits #5054,USA
-ETV,09-500,,,,,,Network Dance Hits #5056,USA
-ETV,13600A,,,,,,Network Dance Hits #5057,USA
-ETV,13778A,,,,,,Network Dance Hits #5058,USA
-ETV,PLP-RAC1-92,,,,,,Hot Hits #194,USA
-ETV,PLP-B 1-06-92,Jun,1992.0,,,,Hot Hits #195,USA
-ETV,PLP-B 2-07-92,Jul,1992.0,,,,Hot Hits #196,USA
-ETV,PLP-B 3-08-92,Aug,1992.0,,,,Hot Hits #197,USA
-ETV,PLP-B 4-09-92,Sep,1992.0,,,,Hot Hits #198,USA
-ETV,PLP-B 5-10-92,Oct,1992.0,,,,Hot Hits #199,USA
-ETV,PLP-B 6-11-92,Nov,1992.0,,,,Hot Hits #1001,USA
-ETV,PLP-B 7-12-92,Dec,1992.0,,,,Hot Hits #1002,USA
-ETV,PLP-B 9-02-93,Feb,1993.0,,,,Hot Hits #1004,USA
-ETV,PLP-B10-03-93,Mar,1993.0,,,,Hot Hits #1005,USA
-ETV,PLP-B17-10-93,Oct,1993.0,,,,Hot Hits #1012,USA
-ETV,PLP-B18-11-93,Nov,1993.0,,,,Hot Hits #1013,USA
-ETV,PLP-B19-12-93,Dec,1993.0,,,,Hot Hits #1014,USA
-ETV,PLP-B20-01-94,Jan,1994.0,,,,Hot Hits #1015,USA
-ETV,PLP-B21-02-94,Feb,1994.0,,,,Hot Hits #1016,USA
-ETV,PLP-B22-03-94,Mar,1994.0,,,,Hot Hits #1017,USA
-ETV,PLP-B23-04-94,Apr,1994.0,,,,Hot Hits #1018,USA
-ETV,PLP-B24-05-94,May,1994.0,,,,Hot Hits #1019,USA
-ETV,PLP-B25-06-94,Jun,1994.0,,,,Hot Hits #1020,USA
-ETV,PLP-B26-07-94,Jul,1994.0,,,,Hot Hits #1021,USA
-ETV,PLP-B27-08-94,Aug,1994.0,,,,Hot Hits #1022,USA
-ETV,PLP-B28-09-94,Sep,1994.0,,,,Hot Hits #1023,USA
-ETV,PLP-B29-10-94,Oct,1994.0,,,,Hot Hits #1024,USA
-ETV,PLP-B30-11-94,Nov,1994.0,,,,Hot Hits #1025,USA
-ETV,PLP-B31-12-94,Dec,1994.0,,,,Hot Hits #1026,USA
-ETV,PLP-B32-01-95,Jan,1995.0,,,,Network Hot Hits #1027,USA
-ETV,PLP-B33-02-95,Feb,1995.0,,,,Network Hot Hits #1028,USA
-ETV,PLP-B34-03-95,Mar,1995.0,,,,Network Hot Hits #1029,USA
-ETV,PLP-B35-04-95,Apr,1995.0,,,,Network Hot Hits #1030,USA
-ETV,PLP-B36-05-95,May,1995.0,,,,Network Hot Hits #1031,USA
-ETV,PLP-B37-06-95,Jun,1995.0,,,,Network Hot Hits #1032,USA
-ETV,PLP-B38-07-95,Jul,1995.0,,,,Network Hot Hits #1033,USA
-ETV,15-536,,,,,,Network Hot Hits #1034,USA
-ETV,15-701,,,,,,Network Hot Hits #1035,USA
-ETV,15-710,,,,,,Network Hot Hits #1036,USA
-ETV,15-724,,,,,,Network Hot Hits #1037,USA
-ETV,15-737,,,,,,Network Hot Hits #1038,USA
-ETV,15-757,,,,,,Network Hot Hits #1039,USA
-ETV,15-802,,,,,,Network Hot Hits #1040,USA
-ETV,15-864,,,,,,Network Hot Hits #1041,USA
-ETV,15-907,Apr,1996.0,,,,Network Hot Hits #1042,USA
-ETV,15-979,,,,,,Network Hot Hits #1043,USA
-ETV,03-091,,,,,,Network Hot Hits #1044,USA
-ETV,05-061,,,,,,Network Hot Hits #1045,USA
-ETV,05-162,,,,,,Network Hot Hits #1046,USA
-ETV,05-246,,,,,,Network Hot Hits #1047,USA
-ETV,05-936,,,,,,Network Hot Hits #1048,USA
-ETV,09-052,,,,,,Network Hot Hits #1049,USA
-ETV,09-117,,,,,,Network Hot Hits #1050,USA
-ETV,09-173,,,,,,Network Hot Hits #1051,USA
-ETV,09-245,,,,,,Network Hot Hits #1052,USA
-ETV,09-302,,,,,,Network Hot Hits #1053,USA
-ETV,09-389,,,,,,Network Hot Hits #1054,USA
-ETV,09-425,,,,,,Network Hot Hits #1055,USA
-ETV,09-499,,,,,,Network Hot Hits #1056,USA
-ETV,13598,,,,,,Network Hot Hits #1057,USA
-ETV,13962,,,,,,Network Hot Hits #1058,USA
-ETV,13962B,,,,,,Network Hot Hits #1059,USA
-ETV,09-182,,,,,,Oldies #711 & #715,USA
-ETV,09-391,,,,,,Oldies #713 & #725,USA
-ETV,PLP-S1-04-93,,,,,,Store Hits #1,USA
-ETV,PLP-S2-04-93,,,,,,Store Hits #2,USA
-ETV,PLP-S3-04-93,,,,,,Store Hits #3,USA
-ETV,20-769,Sep,1995.0,,,,Wet Seal #26,USA
-ETV,15-733,,1988.0,,,,Christmas 1988 - Volume 3,USA
-ETV,PLP-C 9-03-95,Mar,1995.0,,,,Country Hits #9,USA
-ETV,PLP-A21-02-94,Feb,1994.0,,,,Dance Hits #5016,USA
-The Box,[box-placeholder-1],,,,Imation,,Disc 176,USA
-The Box,[box-placeholder-2],,,,Imation,,Disc 178,USA
-The Box,[box-placeholder-3],,,,Imation,,Disc 184,USA
-The Box,[box-placeholder-6],,1999.0,,Imation,,UK Disc 173,USA
-The Box,17-235,,,,Pioneer,,Disc  98,USA
-The Box,17-237,,,,Pioneer,,Disc  99,USA
-The Box,03-016,,,,Pioneer,,Disc 1,USA
-The Box,17-238,,1992.0,,Pioneer,,Disc 104,USA
-The Box,17-355,,,,Pioneer,,Disc 107,USA
-The Box,17-863,,1993.0,,Pioneer,,Disc 114,USA
-The Box,17-868,,,,Pioneer,,Disc 119,USA
-The Box,09-506,,,,Pioneer,,Disc 12,USA
-The Box,17-869,,1993.0,,Pioneer,,Disc 120,USA
-The Box,17-870,,,,Pioneer,,Disc 121,USA
-The Box,18-159,,1993.0,,Pioneer,,Disc 123,USA
-The Box,09-011,,,,Pioneer,,Disc 127,USA
-The Box,09-507,,,,Pioneer,,Disc 13,USA
-The Box,09-569,,,,Pioneer,,Disc 14 UK,USA
-The Box,18-510,,,,Pioneer,,Disc 140,USA
-The Box,15-171,,,,Pioneer,,Disc 142,USA
-The Box,15-213,,,,Pioneer,,Disc 144,USA
-The Box,18-779,,,,Pioneer,,Disc 145,USA
-The Box,18-782,,,,Pioneer,,Disc 149,USA
-The Box,09-573,,,,Pioneer,,Disc 15,USA
-The Box,18-785,,,,Pioneer,,Disc 151,USA
-The Box,16-058,,,,Pioneer,,Disc 152,USA
-The Box,16-076,,,,Pioneer,,Disc 153,USA
-The Box,16-128,,,,Pioneer,,Disc 157,USA
-The Box,18-593,,,,Pioneer,,Disc 161,USA
-The Box,18-595,,,,Pioneer,,Disc 163,USA
-The Box,18-598,,,,Pioneer,,Disc 166,USA
-The Box,18-599,,,,Pioneer,,Disc 167,USA
-The Box,18-600,,,,Pioneer,,Disc 168,USA
-The Box,16-378,,,,Pioneer,,Disc 169,USA
-The Box,18-601,,,,Pioneer,,Disc 169,USA
-The Box,16-412,,,,Pioneer,,Disc 170,USA
-The Box,18-602,,,,Pioneer,,Disc 170,USA
-The Box,18-603,,,,Pioneer,,Disc 171,USA
-The Box,20-267,,,,Pioneer,,Disc 173,USA
-The Box,20-542,,1995.0,,Pioneer,,Disc 177,USA
-The Box,20-544,,,,Pioneer,,Disc 179,USA
-The Box,[box-placeholder-4],,,,Pioneer,,Disc 179,USA
-The Box,[box-placeholder-5],,,,Pioneer,,Disc 181 UK,USA
-The Box,20-548,,,,Pioneer,,Disc 184,USA
-The Box,20-549,,,,Pioneer,,Disc 185,USA
-The Box,20-550,,,,Pioneer,,Disc 186,USA
-The Box,20-754,,,,Pioneer,,Disc 187,USA
-The Box,20-757,,,,Pioneer,,Disc 190,USA
-The Box,20-759,,,,Pioneer,,Disc 192,USA
-The Box,20-760,,,,Pioneer,,Disc 193,USA
-The Box,20-760,,,,Pioneer,,Disc 193,USA
-The Box,20-761,,,,Pioneer,,Disc 194,USA
-The Box,20-762,,,,Pioneer,,Disc 195,USA
-The Box,20-764,,,,Pioneer,,Disc 197,USA
-The Box,20-765,,,,Pioneer,,Disc 198,USA
-The Box,20-766,,,,Pioneer,,Disc 199,USA
+ETV,PLP-D 1-04-94,,1994.0,,,,Best Of Lazer Hits '93,United States
+ETV,PLP-C 1-04-93,Apr,1993.0,,,,Country Hits #1,United States
+ETV,PLP-C 2-11-93,Nov,1993.0,,,,Country Hits #2,United States
+ETV,PLP-C 3-06-94,Jun,1994.0,,,,Country Hits #3,United States
+ETV,PLP-A 1-06-92,Jun,1992.0,,,,Dance Hits #589,United States
+ETV,PLP-A 2-07-92,Jul,1992.0,,,,Dance Hits #590,United States
+ETV,PLP-A 3-08-92,Aug,1992.0,,,,Dance Hits #591,United States
+ETV,PLP-A 4-09-92,Sep,1992.0,,,,Dance Hits #592,United States
+ETV,PLP-A 5-10-92,Oct,1992.0,,,,Dance Hits #593,United States
+ETV,PLP-A 6-11-92,Nov,1992.0,,,,Dance Hits #5001,United States
+ETV,PLP-A 7-12-92,Dec,1992.0,,,,Dance Hits #5002,United States
+ETV,PLP-A13-06-93,Jun,1993.0,,,,Dance Hits #5008,United States
+ETV,PLP-A15-08-93,Aug,1993.0,,,,Dance Hits #5010,United States
+ETV,PLP-A16-09-93,Sep,1993.0,,,,Dance Hits #5011,United States
+ETV,PLP-A22-03-94,Mar,1994.0,,,,Dance Hits #5017,United States
+ETV,PLP-A23-04-94,Apr,1994.0,,,,Dance Hits #5018,United States
+ETV,PLP-A24-05-94,May,1994.0,,,,Dance Hits #5019,United States
+ETV,PLP-A25-06-94,Jun,1994.0,,,,Dance Hits #5020,United States
+ETV,PLP-A26-07-94,Jul,1994.0,,,,Dance Hits #5021,United States
+ETV,PLP-A27-08-94,Aug,1994.0,,,,Dance Hits #5022,United States
+ETV,PLP-A28-09-94,Sep,1994.0,,,,Dance Hits #5023,United States
+ETV,PLP-A29-10-94,Oct,1994.0,,,,Dance Hits #5024,United States
+ETV,PLP-A30-11-94,Nov,1994.0,,,,Dance Hits #5025,United States
+ETV,PLP-A31-12-94,Dec,1994.0,,,,Dance Hits #5026,United States
+ETV,PLP-A32-01-95,Jan,1995.0,,,,Network Dance Hits #5027,United States
+ETV,PLP-A33-02-95,Feb,1995.0,,,,Network Dance Hits #5028,United States
+ETV,PLP-A34-03-95,Mar,1995.0,,,,Network Dance Hits #5029,United States
+ETV,PLP-A35-04-95,Apr,1995.0,,,,Network Dance Hits #5030,United States
+ETV,PLP-A36-05-95,May,1995.0,,,,Network Dance Hits #5031,United States
+ETV,PLP-A37-06-95,Jun,1995.0,,,,Network Dance Hits #5032,United States
+ETV,PLP-A38-07-95,Jul,1995.0,,,,Network Dance Hits #5033,United States
+ETV,15-538,,,,,,Network Dance Hits #5034,United States
+ETV,15-702,,,,,,Network Dance Hits #5035,United States
+ETV,15-711,,,,,,Network Dance Hits #5036,United States
+ETV,15-725,,,,,,Network Dance Hits #5037,United States
+ETV,15-738,,,,,,Network Dance Hits #5038,United States
+ETV,15-758,,,,,,Network Dance Hits #5039,United States
+ETV,15-803,,,,,,Network Dance Hits #5040,United States
+ETV,15-863,,,,,,Network Dance Hits #5041,United States
+ETV,15-908,Apr,1996.0,,,,Network Dance Hits #5042,United States
+ETV,15-980,,,,,,Network Dance Hits #5043,United States
+ETV,03-092,,,,,,Network Dance Hits #5044,United States
+ETV,05-060,,,,,,Network Dance Hits #5045,United States
+ETV,05-163,,,,,,Network Dance Hits #5046,United States
+ETV,05-247,,,,,,Network Dance Hits #5047,United States
+ETV,05-937,,,,,,Network Dance Hits #5048,United States
+ETV,09-053,,,,,,Network Dance Hits #5049,United States
+ETV,09-118,,,,,,Network Dance Hits #5050,United States
+ETV,09-174,,,,,,Network Dance Hits #5051,United States
+ETV,09-246,,,,,,Network Dance Hits #5052,United States
+ETV,09-303,,,,,,Network Dance Hits #5053,United States
+ETV,09-388,,,,,,Network Dance Hits #5054,United States
+ETV,09-500,,,,,,Network Dance Hits #5056,United States
+ETV,13600A,,,,,,Network Dance Hits #5057,United States
+ETV,13778A,,,,,,Network Dance Hits #5058,United States
+ETV,PLP-RAC1-92,,,,,,Hot Hits #194,United States
+ETV,PLP-B 1-06-92,Jun,1992.0,,,,Hot Hits #195,United States
+ETV,PLP-B 2-07-92,Jul,1992.0,,,,Hot Hits #196,United States
+ETV,PLP-B 3-08-92,Aug,1992.0,,,,Hot Hits #197,United States
+ETV,PLP-B 4-09-92,Sep,1992.0,,,,Hot Hits #198,United States
+ETV,PLP-B 5-10-92,Oct,1992.0,,,,Hot Hits #199,United States
+ETV,PLP-B 6-11-92,Nov,1992.0,,,,Hot Hits #1001,United States
+ETV,PLP-B 7-12-92,Dec,1992.0,,,,Hot Hits #1002,United States
+ETV,PLP-B 9-02-93,Feb,1993.0,,,,Hot Hits #1004,United States
+ETV,PLP-B10-03-93,Mar,1993.0,,,,Hot Hits #1005,United States
+ETV,PLP-B17-10-93,Oct,1993.0,,,,Hot Hits #1012,United States
+ETV,PLP-B18-11-93,Nov,1993.0,,,,Hot Hits #1013,United States
+ETV,PLP-B19-12-93,Dec,1993.0,,,,Hot Hits #1014,United States
+ETV,PLP-B20-01-94,Jan,1994.0,,,,Hot Hits #1015,United States
+ETV,PLP-B21-02-94,Feb,1994.0,,,,Hot Hits #1016,United States
+ETV,PLP-B22-03-94,Mar,1994.0,,,,Hot Hits #1017,United States
+ETV,PLP-B23-04-94,Apr,1994.0,,,,Hot Hits #1018,United States
+ETV,PLP-B24-05-94,May,1994.0,,,,Hot Hits #1019,United States
+ETV,PLP-B25-06-94,Jun,1994.0,,,,Hot Hits #1020,United States
+ETV,PLP-B26-07-94,Jul,1994.0,,,,Hot Hits #1021,United States
+ETV,PLP-B27-08-94,Aug,1994.0,,,,Hot Hits #1022,United States
+ETV,PLP-B28-09-94,Sep,1994.0,,,,Hot Hits #1023,United States
+ETV,PLP-B29-10-94,Oct,1994.0,,,,Hot Hits #1024,United States
+ETV,PLP-B30-11-94,Nov,1994.0,,,,Hot Hits #1025,United States
+ETV,PLP-B31-12-94,Dec,1994.0,,,,Hot Hits #1026,United States
+ETV,PLP-B32-01-95,Jan,1995.0,,,,Network Hot Hits #1027,United States
+ETV,PLP-B33-02-95,Feb,1995.0,,,,Network Hot Hits #1028,United States
+ETV,PLP-B34-03-95,Mar,1995.0,,,,Network Hot Hits #1029,United States
+ETV,PLP-B35-04-95,Apr,1995.0,,,,Network Hot Hits #1030,United States
+ETV,PLP-B36-05-95,May,1995.0,,,,Network Hot Hits #1031,United States
+ETV,PLP-B37-06-95,Jun,1995.0,,,,Network Hot Hits #1032,United States
+ETV,PLP-B38-07-95,Jul,1995.0,,,,Network Hot Hits #1033,United States
+ETV,15-536,,,,,,Network Hot Hits #1034,United States
+ETV,15-701,,,,,,Network Hot Hits #1035,United States
+ETV,15-710,,,,,,Network Hot Hits #1036,United States
+ETV,15-724,,,,,,Network Hot Hits #1037,United States
+ETV,15-737,,,,,,Network Hot Hits #1038,United States
+ETV,15-757,,,,,,Network Hot Hits #1039,United States
+ETV,15-802,,,,,,Network Hot Hits #1040,United States
+ETV,15-864,,,,,,Network Hot Hits #1041,United States
+ETV,15-907,Apr,1996.0,,,,Network Hot Hits #1042,United States
+ETV,15-979,,,,,,Network Hot Hits #1043,United States
+ETV,03-091,,,,,,Network Hot Hits #1044,United States
+ETV,05-061,,,,,,Network Hot Hits #1045,United States
+ETV,05-162,,,,,,Network Hot Hits #1046,United States
+ETV,05-246,,,,,,Network Hot Hits #1047,United States
+ETV,05-936,,,,,,Network Hot Hits #1048,United States
+ETV,09-052,,,,,,Network Hot Hits #1049,United States
+ETV,09-117,,,,,,Network Hot Hits #1050,United States
+ETV,09-173,,,,,,Network Hot Hits #1051,United States
+ETV,09-245,,,,,,Network Hot Hits #1052,United States
+ETV,09-302,,,,,,Network Hot Hits #1053,United States
+ETV,09-389,,,,,,Network Hot Hits #1054,United States
+ETV,09-425,,,,,,Network Hot Hits #1055,United States
+ETV,09-499,,,,,,Network Hot Hits #1056,United States
+ETV,13598,,,,,,Network Hot Hits #1057,United States
+ETV,13962,,,,,,Network Hot Hits #1058,United States
+ETV,13962B,,,,,,Network Hot Hits #1059,United States
+ETV,09-182,,,,,,Oldies #711 & #715,United States
+ETV,09-391,,,,,,Oldies #713 & #725,United States
+ETV,PLP-S1-04-93,,,,,,Store Hits #1,United States
+ETV,PLP-S2-04-93,,,,,,Store Hits #2,United States
+ETV,PLP-S3-04-93,,,,,,Store Hits #3,United States
+ETV,20-769,Sep,1995.0,,,,Wet Seal #26,United States
+ETV,15-733,,1988.0,,,,Christmas 1988 - Volume 3,United States
+ETV,PLP-C 9-03-95,Mar,1995.0,,,,Country Hits #9,United States
+ETV,PLP-A21-02-94,Feb,1994.0,,,,Dance Hits #5016,United States
+The Box,[box-placeholder-1],,,,Imation,,Disc 176,United States
+The Box,[box-placeholder-2],,,,Imation,,Disc 178,United States
+The Box,[box-placeholder-3],,,,Imation,,Disc 184,United States
+The Box,[box-placeholder-6],,1999.0,,Imation,,UK Disc 173,United States
+The Box,17-235,,,,Pioneer,,Disc  98,United States
+The Box,17-237,,,,Pioneer,,Disc  99,United States
+The Box,03-016,,,,Pioneer,,Disc 1,United States
+The Box,17-238,,1992.0,,Pioneer,,Disc 104,United States
+The Box,17-355,,,,Pioneer,,Disc 107,United States
+The Box,17-863,,1993.0,,Pioneer,,Disc 114,United States
+The Box,17-868,,,,Pioneer,,Disc 119,United States
+The Box,09-506,,,,Pioneer,,Disc 12,United States
+The Box,17-869,,1993.0,,Pioneer,,Disc 120,United States
+The Box,17-870,,,,Pioneer,,Disc 121,United States
+The Box,18-159,,1993.0,,Pioneer,,Disc 123,United States
+The Box,09-011,,,,Pioneer,,Disc 127,United States
+The Box,09-507,,,,Pioneer,,Disc 13,United States
+The Box,09-569,,,,Pioneer,,Disc 14 UK,United States
+The Box,18-510,,,,Pioneer,,Disc 140,United States
+The Box,15-171,,,,Pioneer,,Disc 142,United States
+The Box,15-213,,,,Pioneer,,Disc 144,United States
+The Box,18-779,,,,Pioneer,,Disc 145,United States
+The Box,18-782,,,,Pioneer,,Disc 149,United States
+The Box,09-573,,,,Pioneer,,Disc 15,United States
+The Box,18-785,,,,Pioneer,,Disc 151,United States
+The Box,16-058,,,,Pioneer,,Disc 152,United States
+The Box,16-076,,,,Pioneer,,Disc 153,United States
+The Box,16-128,,,,Pioneer,,Disc 157,United States
+The Box,18-593,,,,Pioneer,,Disc 161,United States
+The Box,18-595,,,,Pioneer,,Disc 163,United States
+The Box,18-598,,,,Pioneer,,Disc 166,United States
+The Box,18-599,,,,Pioneer,,Disc 167,United States
+The Box,18-600,,,,Pioneer,,Disc 168,United States
+The Box,16-378,,,,Pioneer,,Disc 169,United States
+The Box,18-601,,,,Pioneer,,Disc 169,United States
+The Box,16-412,,,,Pioneer,,Disc 170,United States
+The Box,18-602,,,,Pioneer,,Disc 170,United States
+The Box,18-603,,,,Pioneer,,Disc 171,United States
+The Box,20-267,,,,Pioneer,,Disc 173,United States
+The Box,20-542,,1995.0,,Pioneer,,Disc 177,United States
+The Box,20-544,,,,Pioneer,,Disc 179,United States
+The Box,[box-placeholder-4],,,,Pioneer,,Disc 179,United States
+The Box,[box-placeholder-5],,,,Pioneer,,Disc 181 UK,United States
+The Box,20-548,,,,Pioneer,,Disc 184,United States
+The Box,20-549,,,,Pioneer,,Disc 185,United States
+The Box,20-550,,,,Pioneer,,Disc 186,United States
+The Box,20-754,,,,Pioneer,,Disc 187,United States
+The Box,20-757,,,,Pioneer,,Disc 190,United States
+The Box,20-759,,,,Pioneer,,Disc 192,United States
+The Box,20-760,,,,Pioneer,,Disc 193,United States
+The Box,20-760,,,,Pioneer,,Disc 193,United States
+The Box,20-761,,,,Pioneer,,Disc 194,United States
+The Box,20-762,,,,Pioneer,,Disc 195,United States
+The Box,20-764,,,,Pioneer,,Disc 197,United States
+The Box,20-765,,,,Pioneer,,Disc 198,United States
+The Box,20-766,,,,Pioneer,,Disc 199,United States
 The Box,20-981,,,,Pioneer,,Disc 202,United Kingdom
-The Box,20-986,,,,Pioneer,,Disc 207,USA
-The Box,20-987,,,,Pioneer,,Disc 209,USA
-The Box,15-911,,,,Pioneer,,Disc 211,USA
-The Box,15-978,,1996.0,,Pioneer,,Disc 214,USA
-The Box,03-074,,,,Pioneer,,Disc 216,USA
-The Box,05-040,,,,Pioneer,,Disc 219,USA
-The Box,05-125,,1996.0,,Pioneer,,Disc 221,USA
-The Box,05-140,,1996.0,,Pioneer,,Disc 222,USA
-The Box,05-242,,,,Pioneer,,Disc 224,USA
-The Box,05-405,,,,Pioneer,,Disc 226,USA
+The Box,20-986,,,,Pioneer,,Disc 207,United States
+The Box,20-987,,,,Pioneer,,Disc 209,United States
+The Box,15-911,,,,Pioneer,,Disc 211,United States
+The Box,15-978,,1996.0,,Pioneer,,Disc 214,United States
+The Box,03-074,,,,Pioneer,,Disc 216,United States
+The Box,05-040,,,,Pioneer,,Disc 219,United States
+The Box,05-125,,1996.0,,Pioneer,,Disc 221,United States
+The Box,05-140,,1996.0,,Pioneer,,Disc 222,United States
+The Box,05-242,,,,Pioneer,,Disc 224,United States
+The Box,05-405,,,,Pioneer,,Disc 226,United States
 The Box,05-858,,,,Pioneer,,Disc 227,United Kingdom
-The Box,07-014,,1996.0,,Pioneer,,Disc 228,USA
-The Box,07-027,,,,Pioneer,,Disc 229,USA
-The Box,09-031,,1996.0,,Pioneer,,Disc 230,USA
-The Box,09-071,,1996.0,,Pioneer,,Disc 231,USA
-The Box,09-098,,1996.0,,Pioneer,,Disc 233,USA
-The Box,09-232,,1997.0,,Pioneer,,Disc 239,USA
-The Box,09-255,,1997.0,,Pioneer,,Disc 240,USA
-The Box,09-287,,,,Pioneer,,Disc 241,USA
-The Box,09-157,,,,Pioneer,,Disc 6,USA
-The Box,10-979,,1992.0,,Pioneer,,Disc 91,USA
-The Box,10-983,,1992.0,,Pioneer,,Disc 96,USA
-The Box,09-922,,,,Pioneer,,UK Disc 136,USA
+The Box,07-014,,1996.0,,Pioneer,,Disc 228,United States
+The Box,07-027,,,,Pioneer,,Disc 229,United States
+The Box,09-031,,1996.0,,Pioneer,,Disc 230,United States
+The Box,09-071,,1996.0,,Pioneer,,Disc 231,United States
+The Box,09-098,,1996.0,,Pioneer,,Disc 233,United States
+The Box,09-232,,1997.0,,Pioneer,,Disc 239,United States
+The Box,09-255,,1997.0,,Pioneer,,Disc 240,United States
+The Box,09-287,,,,Pioneer,,Disc 241,United States
+The Box,09-157,,,,Pioneer,,Disc 6,United States
+The Box,10-979,,1992.0,,Pioneer,,Disc 91,United States
+The Box,10-983,,1992.0,,Pioneer,,Disc 96,United States
+The Box,09-922,,,,Pioneer,,UK Disc 136,United States
 Promo Lights Clip!,PCLP-00604,,1995.0,,,,Britpop 1,Japan
 Promo Lights Clip!,PCLP-00553,,1995.0,,,,Rock 1,Japan
 Promo Lights Clip!,PCLP-00590,,1996.0,,,,Anniversary,Japan
@@ -1046,6 +1046,6 @@ Promo Lights Clip!,PCLP-00583,,1995.0,,,,Selection 1,Japan
 Promo Lights Clip!,PCLP-00552,,1995.0,,,,Smooth Vibe 1,Japan
 Promo Lights Clip!,PCLP-00572,,,,,,Smooth Vibe 2,Japan
 Promo Lights Clip!,PCLP-00595,,,,,,Smooth Vibe 3,Japan
-Metro Motion Video,9301,,1993.0,,,,Best Of Dance 1993 Volume 1,USA
-Metro Motion Video,9401,,1994.0,,,,Best Of Dance 1994 Volume 1,USA
-New Music Review,09-295,Mar,1997.0,False,,,March 1997,USA
+Metro Motion Video,9301,,1993.0,,,,Best Of Dance 1993 Volume 1,United States
+Metro Motion Video,9401,,1994.0,,,,Best Of Dance 1994 Volume 1,United States
+New Music Review,09-295,Mar,1997.0,False,,,March 1997,United States
