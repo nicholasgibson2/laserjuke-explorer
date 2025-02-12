@@ -210,14 +210,13 @@ def main():
         column_config[column] = st.column_config.TextColumn(column.title())
     column_config["YEAR"] = st.column_config.NumberColumn("Year", format="%f")
 
-    st.session_state.diffs_df = st.data_editor(
+    st.data_editor(
         filtered_df,
         disabled=column_order,
         hide_index=True,
         use_container_width=True,
         column_order=column_order,
         column_config=column_config,
-        key="cur_diffs",
     )
 
 
