@@ -102,7 +102,7 @@ def load_custom_lists(discs_df):
     lists = list(st.session_state.custom_lists.keys())
     lists.sort()
 
-    selected_lists = st.sidebar.multiselect("Lists", lists, default=["Owned", "Tino"])
+    selected_lists = st.sidebar.multiselect("Lists", lists, default=["Owned"])
     selected_dict = {}
     for selected in selected_lists:
         selected_dict[selected] = st.session_state.custom_lists[selected]["df"]
