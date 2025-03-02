@@ -5,6 +5,9 @@ from pathlib import Path
 from print_pdf import create_pdf
 from normalize import normalize_reference
 from PIL import Image
+import re
+
+nicksort = ["ARTIST"]
 
 
 def persist_vals(cur_key, prev_key):
@@ -23,13 +26,14 @@ def cut_list(options, column):
     return second_half + first_half
 
 
-def dynamic_dropdown(df, column, dependencies, nicksort=False):
+def dynamic_dropdown(df, column, dependencies):
     for dep_column, dep_values in dependencies.items():
         if dep_values:
             df = df[df[dep_column].isin(dep_values)]
 
-    options = sorted(df[column].unique())
-    if nicksort:
+    options = sorted(df[column].dropna().unique(), key=lambda x: str(x))
+
+    if column in nicksort:
         options = cut_list(options, column)
 
     prev_selections = st.session_state.get(f"prev_{column}", [])
@@ -54,6 +58,36 @@ def filter_condition(df, column_name, filter_list):
         return df[column_name].isin(filter_list)
     else:
         return pd.Series([True] * len(df), index=df.index)
+
+
+def create_filters(df, filter_fields, st_container):
+    selected_values = {}
+
+    for i, field in enumerate(filter_fields):
+        dependencies = {
+            prev_field: selected_values[prev_field]
+            for prev_field in filter_fields[:i]
+            if prev_field in selected_values
+        }
+
+        with st_container:
+            selected_values[field] = dynamic_dropdown(df, field, dependencies)
+
+    st_container.divider()
+
+    conditions = [
+        filter_condition(df, field, selected_values[field]) for field in filter_fields
+    ]
+
+    combined_condition = pd.Series(True, index=df.index)
+    for condition in conditions:
+        combined_condition = combined_condition & condition
+
+    filtered_df = df[combined_condition].sort_values(
+        by=["YEAR", "MONTH", "REFERENCE"], ascending=[False, False, True]
+    )
+
+    return filtered_df
 
 
 @st.cache_data
@@ -138,6 +172,22 @@ def create_label_pdf(filtered_df):
     st.markdown(pdf_iframe, unsafe_allow_html=True)
 
 
+def parse_month(df):
+    df["MONTH"] = None
+    pattern = r"(\d+)\.(\d+)\.(\d+)"
+    for index, row in df.iterrows():
+        reference = str(row["REFERENCE"])
+        match = re.match(pattern, reference)
+        if match:
+            if row["COUNTRY"] == "Australia":
+                month = int(match.group(2))
+            else:
+                month = int(match.group(3))
+            if 1 <= month <= 12:
+                df.at[index, "MONTH"] = month
+    return df
+
+
 def main():
     im = Image.open("juke_star.png")
     st.set_page_config(page_title="Laser Juke Explorer", layout="wide", page_icon=im)
@@ -148,6 +198,7 @@ def main():
     titles_df = read_csv_file("./data/titles.csv")
 
     df = pd.merge(discs_df, titles_df, on="REFERENCE")
+    df = parse_month(df)
 
     st_sidebar = st.sidebar.container()
 
@@ -175,40 +226,28 @@ def main():
         args=(discs_df,),
     )
 
-    with st_sidebar:
-        series = dynamic_dropdown(df, "SERIES", {})
-        artists = dynamic_dropdown(df, "ARTIST", {"SERIES": series}, nicksort=True)
-        titles = dynamic_dropdown(df, "TITLE", {"SERIES": series, "ARTIST": artists})
-        refs = dynamic_dropdown(
-            df, "REFERENCE", {"SERIES": series, "ARTIST": artists, "TITLE": titles}
-        )
-    st_sidebar.divider()
-
-    series_condition = filter_condition(df, "SERIES", series)
-    artist_condition = filter_condition(df, "ARTIST", artists)
-    title_condition = filter_condition(df, "TITLE", titles)
-    ref_condition = filter_condition(df, "REFERENCE", refs)
-
-    filtered_df = df[
-        series_condition & ref_condition & artist_condition & title_condition
-    ].sort_values(by=["YEAR", "REFERENCE"], ascending=False)
+    filters = ["SERIES", "COUNTRY", "ARTIST", "TITLE", "REFERENCE"]
+    filtered_df = create_filters(df, filters, st_sidebar)
 
     if st.sidebar.button("Print Labels"):
         create_label_pdf(filtered_df)
 
     column_order = [
         "SERIES",
+        "COUNTRY",
         "NAME",
         # "REFERENCE",
         "YEAR",
+        "MONTH",
         "POSITION",
         "ARTIST",
         "TITLE",
-    ] + list(custom_lists.keys())
+    ]
     column_config = {}
-    for column in ["SERIES", "NAME", "REFERENCE", "POSITION", "ARTIST", "TITLE"]:
+    for column in column_order:
         column_config[column] = st.column_config.TextColumn(column.title())
     column_config["YEAR"] = st.column_config.NumberColumn("Year", format="%f")
+    column_order += list(custom_lists.keys())
 
     st.data_editor(
         filtered_df,
