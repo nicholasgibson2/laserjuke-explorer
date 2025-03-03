@@ -5,7 +5,6 @@ from pathlib import Path
 from print_pdf import create_pdf
 from normalize import normalize_reference
 from PIL import Image
-import re
 
 nicksort = ["ARTIST"]
 
@@ -112,6 +111,7 @@ def custom_list_name_format(filename):
     return Path(filename).stem.replace("_", " ").title()
 
 
+# TODO: figure out if we can use caching for this
 def load_custom_lists(discs_df):
     custom_list_dir = "./custom_lists"
     files = custom_list_files(custom_list_dir)
@@ -123,9 +123,10 @@ def load_custom_lists(discs_df):
                 continue
             pretty_name = custom_list_name_format(file)
             df = read_csv_file(f"{custom_list_dir}/{file}")
-            df["REFERENCE"] = df["REFERENCE"].apply(
-                lambda ref_num: normalize_reference(discs_df, ref_num)
-            )
+            # not sure if I want to normalize refs
+            # df["REFERENCE"] = df["REFERENCE"].apply(
+            #     lambda ref_num: normalize_reference(discs_df, ref_num)
+            # )
             df.drop_duplicates(subset="REFERENCE", inplace=True)
             custom_lists[pretty_name] = {"filename": file, "df": df}
 
@@ -172,22 +173,6 @@ def create_label_pdf(filtered_df):
     st.markdown(pdf_iframe, unsafe_allow_html=True)
 
 
-def parse_month(df):
-    df["MONTH"] = None
-    pattern = r"(\d+)\.(\d+)\.(\d+)"
-    for index, row in df.iterrows():
-        reference = str(row["REFERENCE"])
-        match = re.match(pattern, reference)
-        if match:
-            if row["COUNTRY"] == "Australia":
-                month = int(match.group(2))
-            else:
-                month = int(match.group(3))
-            if 1 <= month <= 12:
-                df.at[index, "MONTH"] = month
-    return df
-
-
 def main():
     im = Image.open("juke_star.png")
     st.set_page_config(page_title="Laser Juke Explorer", layout="wide", page_icon=im)
@@ -198,7 +183,6 @@ def main():
     titles_df = read_csv_file("./data/titles.csv")
 
     df = pd.merge(discs_df, titles_df, on="REFERENCE")
-    df = parse_month(df)
 
     st_sidebar = st.sidebar.container()
 
