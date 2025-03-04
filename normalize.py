@@ -16,11 +16,11 @@ def normalize_reference(discs_df, reference):
 
 
 def main():
-    tino_discs_df = pd.read_csv("./data/discs.csv")
+    discs_df = pd.read_csv("./data/discs.csv")
     orig_df = pd.read_csv("./orig.csv")
     normalized_references = []
     for ref in orig_df["REFERENCE"]:
-        normalized_ref = normalize_reference(tino_discs_df, ref)
+        normalized_ref = normalize_reference(discs_df, ref)
         normalized_references.append(normalized_ref)
         if normalized_ref is None:
             print(f"No match found for: {ref}")

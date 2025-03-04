@@ -89,20 +89,13 @@ def create_filters(df, filter_fields, st_container):
     return filtered_df
 
 
-@st.cache_data
-def read_csv_file(file):
-    df = pd.read_csv(file)
-    df = df.drop_duplicates()
-    return df
-
-
-@st.cache_data
+@st.cache_resource
 def load_css(file_name):
     with open(file_name, "r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-@st.cache_data
+@st.cache_resource
 def custom_list_files(directory):
     return [file.name for file in Path(directory).iterdir() if file.is_file()]
 
@@ -111,8 +104,15 @@ def custom_list_name_format(filename):
     return Path(filename).stem.replace("_", " ").title()
 
 
-# TODO: figure out if we can use caching for this
-def load_custom_lists(discs_df):
+@st.cache_resource
+def read_custom_list_file(file):
+    df = pd.read_csv(file)
+    df.drop_duplicates(subset="REFERENCE", inplace=True)
+    return df
+
+
+# TODO: figure out if we can use more caching for this
+def load_custom_lists():
     custom_list_dir = "./custom_lists"
     files = custom_list_files(custom_list_dir)
 
@@ -122,12 +122,7 @@ def load_custom_lists(discs_df):
             if file == ".DS_Store":
                 continue
             pretty_name = custom_list_name_format(file)
-            df = read_csv_file(f"{custom_list_dir}/{file}")
-            # not sure if I want to normalize refs
-            # df["REFERENCE"] = df["REFERENCE"].apply(
-            #     lambda ref_num: normalize_reference(discs_df, ref_num)
-            # )
-            df.drop_duplicates(subset="REFERENCE", inplace=True)
+            df = read_custom_list_file(f"{custom_list_dir}/{file}")
             custom_lists[pretty_name] = {"filename": file, "df": df}
 
         df = pd.DataFrame([], columns=["REFERENCE"])
@@ -173,20 +168,30 @@ def create_label_pdf(filtered_df):
     st.markdown(pdf_iframe, unsafe_allow_html=True)
 
 
+@st.cache_resource
+def load_data():
+    discs_df = pd.read_csv("./data/discs.csv")
+    discs_df.drop_duplicates(inplace=True)
+
+    titles_df = pd.read_csv("./data/titles.csv")
+    discs_df.drop_duplicates(inplace=True)
+
+    df = pd.merge(discs_df, titles_df, on="REFERENCE")
+    # df["ARTIST"] = df["ARTIST"].str.replace(r"^The (.+)", r"\1, The", regex=True)
+
+    return df
+
+
 def main():
     im = Image.open("juke_star.png")
     st.set_page_config(page_title="Laser Juke Explorer", layout="wide", page_icon=im)
     st.image("laserjuke.png")
     load_css("style.css")
 
-    discs_df = read_csv_file("./data/discs.csv")
-    titles_df = read_csv_file("./data/titles.csv")
-
-    df = pd.merge(discs_df, titles_df, on="REFERENCE")
+    df = load_data()
 
     st_sidebar = st.sidebar.container()
-
-    custom_lists = load_custom_lists(discs_df)
+    custom_lists = load_custom_lists()
 
     for custom_name, custom_df in custom_lists.items():
         df = df.merge(custom_df, on="REFERENCE", how="left", indicator=True)
@@ -207,7 +212,7 @@ def main():
         "Custom List",
         on_change=paste_custom_list,
         key="custom_list_text",
-        args=(discs_df,),
+        args=(df,),
     )
 
     filters = ["SERIES", "COUNTRY", "ARTIST", "TITLE", "REFERENCE"]
