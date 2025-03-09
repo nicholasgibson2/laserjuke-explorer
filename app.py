@@ -3,6 +3,7 @@ import pandas as pd
 import base64
 from pathlib import Path
 from print_pdf import create_pdf
+from statistics import display_statistics
 from normalize import normalize_reference
 from PIL import Image
 
@@ -237,6 +238,9 @@ def main():
         column_config[column] = st.column_config.TextColumn(column.title())
     column_config["YEAR"] = st.column_config.NumberColumn("Year", format="%f")
     column_order += list(custom_lists.keys())
+
+    if st.sidebar.toggle("Statistics"):
+        display_statistics(filtered_df, custom_lists, column_config)
 
     st.data_editor(
         filtered_df,
