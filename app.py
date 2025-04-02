@@ -222,6 +222,9 @@ def main():
     if st.sidebar.button("Print Labels"):
         create_label_pdf(filtered_df)
 
+    st.sidebar.divider()
+
+    stats_container = st.sidebar.container()
     column_order = [
         "SERIES",
         "COUNTRY",
@@ -229,17 +232,19 @@ def main():
         # "REFERENCE",
         "YEAR",
         "MONTH",
-        "POSITION",
-        "ARTIST",
-        "TITLE",
     ]
+    if st.sidebar.toggle("Discs Only"):
+        filtered_df = filtered_df.drop_duplicates(subset=column_order)
+    else:
+        column_order += ["POSITION", "ARTIST", "TITLE"]
+
     column_config = {}
     for column in column_order:
         column_config[column] = st.column_config.TextColumn(column.title())
     column_config["YEAR"] = st.column_config.NumberColumn("Year", format="%f")
     column_order += list(custom_lists.keys())
 
-    if st.sidebar.toggle("Statistics"):
+    if stats_container.toggle("Statistics"):
         display_statistics(filtered_df, custom_lists, column_config)
 
     st.data_editor(
