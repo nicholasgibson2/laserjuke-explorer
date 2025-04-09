@@ -16,10 +16,13 @@ def persist_vals(cur_key, prev_key):
 
 def cut_list(options, column):
     key = f"cur_{column}"
-    if key not in st.session_state or len(st.session_state[key]) == 0:
+    if key not in st.session_state or not st.session_state[key]:
         return options
 
     split_value = st.session_state[key][-1]
+    if split_value not in options:
+        return options
+
     split_index = options.index(split_value)
     first_half = options[: split_index + 1]
     second_half = options[split_index + 1 :]
