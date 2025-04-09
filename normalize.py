@@ -1,4 +1,4 @@
-import pandas as pd
+import polars as pl
 import re
 
 
@@ -8,16 +8,17 @@ def normalize_reference(discs_df, reference):
     if match:
         base = match.group(1)
         suffix = match.group(2)
-        corresponding_row = discs_df[discs_df["REFERENCE"].str.startswith(base)]
-        if not corresponding_row.empty:
-            suffix = corresponding_row.iloc[0]["REFERENCE"][len(base) :]
+        corresponding_row = discs_df.filter(pl.col("REFERENCE").str.starts_with(base))
+        if corresponding_row.height > 0:
+            suffix = corresponding_row["REFERENCE"][0][len(base) :]
         return f"{base}{suffix}"
     return reference
 
 
 def main():
-    discs_df = pd.read_csv("./data/discs.csv")
-    orig_df = pd.read_csv("./orig.csv")
+    discs_df = pl.read_csv("./data/discs.csv")
+    orig_df = pl.read_csv("./orig.csv")
+
     normalized_references = []
     for ref in orig_df["REFERENCE"]:
         normalized_ref = normalize_reference(discs_df, ref)
@@ -25,8 +26,8 @@ def main():
         if normalized_ref is None:
             print(f"No match found for: {ref}")
 
-    output_df = pd.DataFrame({"REFERENCE": normalized_references})
-    output_df.to_csv("./normalized.csv", index=False)
+    output_df = pl.DataFrame({"REFERENCE": normalized_references})
+    output_df.write_csv("./normalized.csv")
 
     print("Normalization complete")
 
