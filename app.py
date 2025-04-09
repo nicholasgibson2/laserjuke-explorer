@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as pd
+import polars as pl
 import base64
 from pathlib import Path
 from print_pdf import create_pdf
@@ -29,9 +29,9 @@ def cut_list(options, column):
 def dynamic_dropdown(df, column, dependencies):
     for dep_column, dep_values in dependencies.items():
         if dep_values:
-            df = df[df[dep_column].isin(dep_values)]
+            df = df.filter(pl.col(dep_column).is_in(dep_values))
 
-    options = sorted(df[column].dropna().unique(), key=lambda x: str(x))
+    options = sorted(df[column].drop_nulls().unique().to_list(), key=str)
 
     if column in nicksort:
         options = cut_list(options, column)
@@ -55,9 +55,9 @@ def dynamic_dropdown(df, column, dependencies):
 
 def filter_condition(df, column_name, filter_list):
     if filter_list:
-        return df[column_name].isin(filter_list)
+        return df[column_name].is_in(filter_list)
     else:
-        return pd.Series([True] * len(df), index=df.index)
+        return pl.Series([True] * len(df))
 
 
 def create_filters(df, filter_fields, st_container):
@@ -75,18 +75,16 @@ def create_filters(df, filter_fields, st_container):
 
     st_container.divider()
 
-    conditions = [
-        filter_condition(df, field, selected_values[field]) for field in filter_fields
-    ]
+    mask = pl.lit(True)
+    for field in filter_fields:
+        if selected_values[field]:
+            mask &= pl.col(field).is_in(selected_values[field])
 
-    combined_condition = pd.Series(True, index=df.index)
-    for condition in conditions:
-        combined_condition = combined_condition & condition
-
-    filtered_df = df[combined_condition].sort_values(
-        by=["YEAR", "MONTH", "REFERENCE"], ascending=[False, False, True]
+    filtered_df = df.filter(mask).sort(
+        by=["YEAR", "MONTH", "REFERENCE"],
+        descending=[True, True, False],
+        nulls_last=True,
     )
-
     return filtered_df
 
 
@@ -107,8 +105,7 @@ def custom_list_name_format(filename):
 
 @st.cache_resource
 def read_custom_list_file(file):
-    df = pd.read_csv(file)
-    df.drop_duplicates(subset="REFERENCE", inplace=True)
+    df = pl.read_csv(file).unique(subset=["REFERENCE"])
     return df
 
 
@@ -126,7 +123,7 @@ def load_custom_lists():
             df = read_custom_list_file(f"{custom_list_dir}/{file}")
             custom_lists[pretty_name] = {"filename": file, "df": df}
 
-        df = pd.DataFrame([], columns=["REFERENCE"])
+        df = pl.DataFrame({"REFERENCE": []})
         custom_lists["Custom"] = {"df": df}
         st.session_state.custom_lists = custom_lists
 
@@ -149,18 +146,18 @@ def paste_custom_list(discs_df):
             continue
         normalized = normalize_reference(discs_df, reference)
 
-        if normalized in discs_df["REFERENCE"].values:
+        if normalized in discs_df["REFERENCE"].to_list():
             reference_numbers.add(normalized)
         else:
             st.error(f"No match for {reference}")
 
-    df = pd.DataFrame(reference_numbers, columns=["REFERENCE"])
+    df = pl.DataFrame({"REFERENCE": list(reference_numbers)})
     st.session_state.custom_lists["Custom"] = {"df": df}
 
 
 @st.dialog("Labels", width="large")
 def create_label_pdf(filtered_df):
-    if filtered_df["REFERENCE"].nunique() > 100:
+    if filtered_df["REFERENCE"].n_unique() > 100:
         st.error("max labels 100")
         return
     labels_pdf = create_pdf(filtered_df)
@@ -171,14 +168,17 @@ def create_label_pdf(filtered_df):
 
 @st.cache_resource
 def load_data():
-    discs_df = pd.read_csv("./data/discs.csv")
-    discs_df.drop_duplicates(inplace=True)
+    discs_df = pl.read_csv("./data/discs.csv")
+    discs_df = discs_df.unique()
 
-    titles_df = pd.read_csv("./data/titles.csv")
-    discs_df.drop_duplicates(inplace=True)
+    titles_df = pl.read_csv("./data/titles.csv")
+    titles_df = titles_df.unique()
 
-    df = pd.merge(discs_df, titles_df, on="REFERENCE")
-    # df["ARTIST"] = df["ARTIST"].str.replace(r"^The (.+)", r"\1, The", regex=True)
+    df = discs_df.join(titles_df, on="REFERENCE")
+    # If you need to transform ARTIST column:
+    # df = df.with_columns(
+    #     pl.col("ARTIST").str.replace_all(r"^The (.+)", r"\1, The")
+    # )
 
     return df
 
@@ -195,19 +195,24 @@ def main():
     custom_lists = load_custom_lists()
 
     for custom_name, custom_df in custom_lists.items():
-        df = df.merge(custom_df, on="REFERENCE", how="left", indicator=True)
-        df[custom_name] = df["_merge"] == "both"
-        df.drop(columns=["_merge"], inplace=True)
+        joined_df = df.join(
+            custom_df.with_columns(pl.lit(True).alias(custom_name)),
+            on="REFERENCE",
+            how="left",
+        )
+        df = joined_df.with_columns(
+            pl.col(custom_name).is_not_null().alias(custom_name)
+        )
 
     with st.sidebar:
-        custom_lists_df = pd.DataFrame(list(custom_lists.keys()), columns=["Filter On"])
+        custom_lists_df = pl.DataFrame({"Filter On": list(custom_lists.keys())})
         filtered_lists = dynamic_dropdown(custom_lists_df, "Filter On", {})
 
     if filtered_lists:
-        combined_df = pd.concat(
-            [custom_lists[list_name] for list_name in filtered_lists], ignore_index=True
-        ).drop_duplicates()
-        df = df[df["REFERENCE"].isin(combined_df["REFERENCE"])]
+        filter_cond = pl.lit(False)
+        for list_name in filtered_lists:
+            filter_cond |= pl.col(list_name)
+        df = df.filter(filter_cond)
 
     st.sidebar.text_area(
         "Custom List",
@@ -234,7 +239,11 @@ def main():
         "MONTH",
     ]
     if st.sidebar.toggle("Discs Only"):
-        filtered_df = filtered_df.drop_duplicates(subset=column_order)
+        filtered_df = filtered_df.unique(subset=column_order).sort(
+            by=["YEAR", "MONTH", "REFERENCE"],
+            descending=[True, True, False],
+            nulls_last=True,
+        )
     else:
         column_order += ["POSITION", "ARTIST", "TITLE"]
 
