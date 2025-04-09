@@ -174,7 +174,6 @@ def load_data():
     titles_df = pl.read_csv("./data/titles.csv")
     titles_df = titles_df.unique()
 
-    # Polars join syntax
     df = discs_df.join(titles_df, on="REFERENCE")
     # If you need to transform ARTIST column:
     # df = df.with_columns(

@@ -72,24 +72,19 @@ class PDF(FPDF):
 
 
 def create_pdf(df):
-    """
-    Creates a PDF from the provided DataFrame.
-
-    Parameters:
-        df (DataFrame): The input DataFrame containing label information.
-
-    Returns:
-        BytesIO: A BytesIO stream containing the generated PDF.
-    """
     pdf = PDF()
     pdf.set_left_margin(10)
     pdf.set_right_margin(10)
 
-    grouped = df.sort_values(by="POSITION").groupby("REFERENCE")
+    grouped = df.sort(by="POSITION").group_by("REFERENCE")
 
-    for ref_num, group in grouped:
-        labels = format_labels(group)
-        pdf.add_labels(ref_num, labels)
+    for ref_num, group_df in grouped:
+        ref_num_str = str(ref_num[0])  # Extract reference as a string explicitly
+        labels = [
+            replace_unicode_chars(f"{artist}\n{title.upper()}\n")
+            for artist, title in zip(group_df["ARTIST"], group_df["TITLE"])
+        ]
+        pdf.add_labels(ref_num_str, labels)
 
-    byte_string = pdf.output()
+        byte_string = pdf.output(dest="S")
     return BytesIO(byte_string)
