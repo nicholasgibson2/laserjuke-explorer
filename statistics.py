@@ -49,9 +49,8 @@ def display_statistics(filtered_df, custom_lists, column_config):
         ["YEAR", "COUNTRY"], descending=[True, False], nulls_last=True
     )
 
-    # Display the stats
     st.dataframe(
-        stats_df.to_pandas(),
+        stats_df,
         hide_index=True,
         use_container_width=True,
     )
@@ -59,19 +58,19 @@ def display_statistics(filtered_df, custom_lists, column_config):
     col1, col2, col3 = st.columns(3)
 
     col1.dataframe(
-        country_counts.to_pandas(),
+        country_counts,
         column_config=column_config,
         hide_index=True,
         use_container_width=True,
     )
     col2.dataframe(
-        year_counts.to_pandas(),
+        year_counts,
         column_config=column_config,
         hide_index=True,
         use_container_width=True,
     )
     col3.dataframe(
-        country_year_counts.to_pandas(),
+        country_year_counts,
         column_config=column_config,
         hide_index=True,
         use_container_width=True,
