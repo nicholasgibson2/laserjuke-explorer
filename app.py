@@ -84,8 +84,8 @@ def create_filters(df, filter_fields, st_container):
             mask &= pl.col(field).is_in(selected_values[field])
 
     filtered_df = df.filter(mask).sort(
-        by=["YEAR", "MONTH", "REFERENCE"],
-        descending=[True, True, False],
+        by=["YEAR", "MONTH", "REFERENCE", "POSITION"],
+        descending=[True, True, False, False],
         nulls_last=True,
     )
     return filtered_df
