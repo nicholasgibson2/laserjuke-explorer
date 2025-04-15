@@ -259,9 +259,8 @@ def main():
     if stats_container.toggle("Statistics"):
         display_statistics(filtered_df, custom_lists, column_config)
 
-    st.data_editor(
+    st.dataframe(
         filtered_df,
-        disabled=column_order,
         hide_index=True,
         use_container_width=True,
         column_order=column_order,
