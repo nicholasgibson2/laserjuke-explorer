@@ -84,7 +84,7 @@ def create_filters(df, filter_fields, st_container):
             mask &= pl.col(field).is_in(selected_values[field])
 
     filtered_df = df.filter(mask).sort(
-        by=["YEAR", "MONTH", "REFERENCE", "POSITION"],
+        by=["YEAR", "MONTH", "NAME", "POSITION"],
         descending=[True, True, False, False],
         nulls_last=True,
     )
@@ -224,7 +224,7 @@ def main():
         args=(df,),
     )
 
-    filters = ["SERIES", "COUNTRY", "ARTIST", "TITLE", "REFERENCE"]
+    filters = ["SERIES", "COUNTRY", "ARTIST", "TITLE", "NAME"]
     filtered_df = create_filters(df, filters, st_sidebar)
 
     if st.sidebar.button("Print Labels"):
@@ -237,7 +237,6 @@ def main():
         "SERIES",
         "COUNTRY",
         "NAME",
-        # "REFERENCE",
         "YEAR",
         "MONTH",
     ]
