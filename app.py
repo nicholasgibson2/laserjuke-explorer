@@ -188,7 +188,12 @@ def load_data():
 
 def main():
     im = Image.open("juke_star.png")
-    st.set_page_config(page_title="Laser Juke Explorer", layout="wide", page_icon=im)
+    st.set_page_config(
+        page_title="Laser Juke Explorer",
+        layout="wide",
+        page_icon=im,
+        initial_sidebar_state="expanded",
+    )
     st.image("laserjuke.png")
     load_css("style.css")
 
