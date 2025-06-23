@@ -262,14 +262,14 @@ def main():
 
     if stats_container.toggle("Statistics"):
         display_statistics(filtered_df, custom_lists, column_config)
-
-    st.dataframe(
-        filtered_df,
-        hide_index=True,
-        use_container_width=True,
-        column_order=column_order,
-        column_config=column_config,
-    )
+    else:
+        st.dataframe(
+            filtered_df,
+            hide_index=True,
+            use_container_width=True,
+            column_order=column_order,
+            column_config=column_config,
+        )
 
 
 if __name__ == "__main__":
