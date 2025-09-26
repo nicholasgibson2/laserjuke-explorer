@@ -47,7 +47,7 @@ def display_statistics(filtered_df, custom_lists, column_config):
     st.dataframe(
         stats_df,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
     col1, col2, col3 = st.columns(3)
@@ -55,19 +55,19 @@ def display_statistics(filtered_df, custom_lists, column_config):
         country_counts,
         column_config=column_config,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     col2.dataframe(
         year_counts,
         column_config=column_config,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     col3.dataframe(
         country_year_counts,
         column_config=column_config,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
     st.subheader("Artists/Songs")
@@ -93,7 +93,7 @@ def display_statistics(filtered_df, custom_lists, column_config):
         st.dataframe(
             top_artists,
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
             column_config={
                 "Rank": st.column_config.NumberColumn("Rank", width="small"),
                 "ARTIST": st.column_config.TextColumn("Artist"),
@@ -104,7 +104,7 @@ def display_statistics(filtered_df, custom_lists, column_config):
         st.dataframe(
             all_songs_ranked,
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
             column_config={
                 "Rank": st.column_config.NumberColumn("Rank", width="small"),
                 "ARTIST": st.column_config.TextColumn("Artist"),

@@ -266,7 +266,7 @@ def main():
         st.dataframe(
             filtered_df,
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
             column_order=column_order,
             column_config=column_config,
         )
