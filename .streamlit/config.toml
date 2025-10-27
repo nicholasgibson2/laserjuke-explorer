@@ -1,5 +1,6 @@
 [server]
 disconnectedSessionTTL = 600
+enableCORS = false
 
 [theme]
 base = "dark"
