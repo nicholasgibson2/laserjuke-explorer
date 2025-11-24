@@ -186,6 +186,32 @@ def load_data():
     return df
 
 
+# def validate_csv(file_path):
+#     """Find rows with field count mismatches"""
+#     import csv
+
+#     with open(file_path, "r") as f:
+#         reader = csv.reader(f)
+#         header = next(reader)
+#         expected_fields = len(header)
+
+#         print(f"Expected {expected_fields} fields based on header: {header}")
+
+#         bad_rows = []
+#         for i, row in enumerate(reader, start=2):  # start=2 because row 1 is header
+#             if len(row) != expected_fields:
+#                 bad_rows.append((i, len(row), row))
+
+#         if bad_rows:
+#             print(f"\nFound {len(bad_rows)} problematic rows:")
+#             for line_num, field_count, row in bad_rows[:10]:  # show first 10
+#                 print(f"Line {line_num}: {field_count} fields - {row}")
+#         else:
+#             print("No problematic rows found!")
+
+#         return bad_rows
+
+
 def main():
     im = Image.open("juke_star.png")
     st.set_page_config(
@@ -197,6 +223,7 @@ def main():
     st.image("laserjuke.png")
     load_css("style.css")
 
+    # validate_csv("./data/titles.csv")
     df = load_data()
 
     st_sidebar = st.sidebar.container()

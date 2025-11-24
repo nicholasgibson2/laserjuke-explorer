@@ -657,9 +657,9 @@ Laser Juke,19.95.09.SPAN,9,1999.0,True,Diamond Time,True,19.95.09.SPAN,Spain
 Laser Juke,19.96.10 FREN,10,1999.0,True,Diamond Time,True,19.96.10 FREN,France
 Laser Juke,19.97.11.GER,11,1999.0,True,Diamond Time,True,19.97.11.GER,Germany
 Laser Juke,19.98.02.SPAN,2,2000.0,True,Diamond Time,True,19.98.02.SPAN,Spain
-Laser Juke,11.11.95  [UK11],,1995.0,True,Diamond Time,True,11.11.95  [UK11],United Kingdom
-Laser Juke,10.04.99  [UK10],,1999.0,True,Diamond Time,True,10.04.99  [UK10],United Kingdom
-Laser Juke,15.04.99 AU  [UK15],,1999.0,True,Diamond Time,True,15.04.99 AU  [UK15],United Kingdom
+Laser Juke,11.11.95 [UK11],,1995.0,True,Diamond Time,True,11.11.95 [UK11],United Kingdom
+Laser Juke,10.04.99 [UK10],,1999.0,True,Diamond Time,True,10.04.99 [UK10],United Kingdom
+Laser Juke,15.04.99 AU [UK15],,1999.0,True,Diamond Time,True,15.04.99 AU [UK15],United Kingdom
 Laser Juke,12.05.99 [UK12],,1999.0,True,Diamond Time,True,12.05.99 [UK12],United Kingdom
 Laser Juke,01.00.03 (UK14),3,,True,Pioneer,True,01.00.03 (UK14),United Kingdom
 Laser Juke,01.05.92.AU,5,1992.0,True,Pioneer,True,01.05.92.AU,Australia
@@ -1046,6 +1046,22 @@ The Box,09-157,,,,Pioneer,,Disc 6,United States
 The Box,10-979,,1992.0,,Pioneer,,Disc 91,United States
 The Box,10-983,,1992.0,,Pioneer,,Disc 96,United States
 The Box,09-922,,,,Pioneer,,UK Disc 136,United States
+The Box,10-874,,1992.0,,Pioneer,,Disc 82,United States
+The Box,10-464,,1992.0,,Pioneer,,Disc 76,United States
+The Box,07-353,,1991.0,,Pioneer,,Disc 107,United States
+The Box,07-452,,1991.0,,Pioneer,,Disc 77,United States
+The Box,10-913,,1992.0,,Pioneer,,Disc 84,United States
+The Box,07-463,,1991.0,,Pioneer,,Disc 49,United States
+The Box,15-139,,1998.0,,Pioneer,,Disc 141,United States
+The Box,10-466,,1992.0,,Pioneer,,Disc 74,United States
+The Box,07-459,,1991.0,,Pioneer,,Disc 44,United States
+The Box,03-532,,1989.0,,Pioneer,,Disc 3,United States
+The Box,10-417,,1991.0,,Pioneer,,Disc 52,United States
+The Box,10-449,,1991.0,,Pioneer,,Disc 61,United States
+The Box,10-467,,,,Pioneer,,Disc 73,United States
+The Box,17-870,,,,Pioneer,,Disc 121,United States
+The Box,03-533,,1989.0,,Pioneer,,Disc 6,United States
+The Box,[box-placeholder-7],,1991.0,,Pioneer,,Disc 42,United States
 Promo Lights Clip!,PCLP-00604,,1995.0,,,,Britpop 1,Japan
 Promo Lights Clip!,PCLP-00553,,1995.0,,,,Rock 1,Japan
 Promo Lights Clip!,PCLP-00590,,1996.0,,,,Anniversary,Japan
