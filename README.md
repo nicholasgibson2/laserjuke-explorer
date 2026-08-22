@@ -6,4 +6,4 @@ Application designed for my own personal use for collection [Laser Juke](https:/
 
 - ETV titles sourced from [Remix Services](https://www.remixservices.com/services/service/etvideolink-etv-network)
 
-- The Box and Promo Lights Clip! titles sourced from [LDDB](https://www.lddb.com/)
+- The Box, France-Disques, and Promo Lights Clip! titles sourced from [LDDB](https://www.lddb.com/)
